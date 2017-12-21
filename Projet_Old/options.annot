@@ -1,0 +1,1891 @@
+"options.ml" 4 29 33 "options.ml" 4 29 38
+type(
+  string
+)
+ident(
+  def usage "options.ml" 6 78 78 "options.ml" 1 0 -1
+)
+"options.ml" 4 29 41 "options.ml" 4 29 74
+type(
+  string
+)
+"options.ml" 6 78 82 "options.ml" 6 78 87
+type(
+  int
+)
+ident(
+  def win_w "options.ml" 7 95 95 "options.ml" 1 0 -1
+)
+"options.ml" 6 78 90 "options.ml" 6 78 94
+type(
+  int
+)
+"options.ml" 7 95 99 "options.ml" 7 95 104
+type(
+  int
+)
+ident(
+  def win_h "options.ml" 8 111 111 "options.ml" 1 0 -1
+)
+"options.ml" 7 95 107 "options.ml" 7 95 110
+type(
+  int
+)
+"options.ml" 8 111 115 "options.ml" 8 111 118
+type(
+  int ref
+)
+ident(
+  def fps "options.ml" 9 128 128 "options.ml" 1 0 -1
+)
+"options.ml" 8 111 121 "options.ml" 8 111 124
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 8 111 125 "options.ml" 8 111 127
+type(
+  int
+)
+"options.ml" 8 111 121 "options.ml" 8 111 127
+type(
+  int ref
+)
+"options.ml" 9 128 132 "options.ml" 9 128 134
+type(
+  int ref
+)
+ident(
+  def id "options.ml" 10 143 143 "options.ml" 1 0 -1
+)
+"options.ml" 9 128 137 "options.ml" 9 128 140
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 9 128 141 "options.ml" 9 128 142
+type(
+  int
+)
+"options.ml" 9 128 137 "options.ml" 9 128 142
+type(
+  int ref
+)
+"options.ml" 10 143 147 "options.ml" 10 143 156
+type(
+  bool ref
+)
+ident(
+  def unlimited "options.ml" 11 169 169 "options.ml" 1 0 -1
+)
+"options.ml" 10 143 159 "options.ml" 10 143 162
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 10 143 163 "options.ml" 10 143 168
+type(
+  bool
+)
+"options.ml" 10 143 159 "options.ml" 10 143 168
+type(
+  bool ref
+)
+"options.ml" 11 169 173 "options.ml" 11 169 177
+type(
+  bool ref
+)
+ident(
+  def link "options.ml" 12 190 190 "options.ml" 1 0 -1
+)
+"options.ml" 11 169 180 "options.ml" 11 169 183
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 11 169 184 "options.ml" 11 169 189
+type(
+  bool
+)
+"options.ml" 11 169 180 "options.ml" 11 169 189
+type(
+  bool ref
+)
+"options.ml" 12 190 194 "options.ml" 12 190 197
+type(
+  int ref
+)
+ident(
+  def nbA "options.ml" 14 208 208 "options.ml" 1 0 -1
+)
+"options.ml" 12 190 200 "options.ml" 12 190 203
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 12 190 204 "options.ml" 12 190 206
+type(
+  int
+)
+"options.ml" 12 190 200 "options.ml" 12 190 206
+type(
+  int ref
+)
+"options.ml" 14 208 212 "options.ml" 14 208 217
+type(
+  bool ref
+)
+ident(
+  def pause "options.ml" 15 230 230 "options.ml" 1 0 -1
+)
+"options.ml" 14 208 220 "options.ml" 14 208 223
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 14 208 224 "options.ml" 14 208 229
+type(
+  bool
+)
+"options.ml" 14 208 220 "options.ml" 14 208 229
+type(
+  bool ref
+)
+"options.ml" 15 230 234 "options.ml" 15 230 240
+type(
+  int ref
+)
+ident(
+  def tPause "options.ml" 16 249 249 "options.ml" 1 0 -1
+)
+"options.ml" 15 230 243 "options.ml" 15 230 246
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 15 230 247 "options.ml" 15 230 248
+type(
+  int
+)
+"options.ml" 15 230 243 "options.ml" 15 230 248
+type(
+  int ref
+)
+"options.ml" 16 249 253 "options.ml" 16 249 259
+type(
+  int ref
+)
+ident(
+  def sPause "options.ml" 18 271 271 "options.ml" 1 0 -1
+)
+"options.ml" 16 249 262 "options.ml" 16 249 265
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 16 249 266 "options.ml" 16 249 267
+type(
+  int
+)
+"options.ml" 16 249 262 "options.ml" 16 249 267
+type(
+  int ref
+)
+"options.ml" 18 271 275 "options.ml" 18 271 284
+type(
+  int ref
+)
+ident(
+  def countCalc "options.ml" 21 357 357 "options.ml" 1 0 -1
+)
+"options.ml" 18 271 287 "options.ml" 18 271 290
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 18 271 291 "options.ml" 18 271 292
+type(
+  int
+)
+"options.ml" 18 271 287 "options.ml" 18 271 292
+type(
+  int ref
+)
+"options.ml" 21 357 361 "options.ml" 21 357 378
+type(
+  int ref
+)
+ident(
+  def last_tick_speedup "options.ml" 22 387 387 "options.ml" 1 0 -1
+)
+"options.ml" 21 357 381 "options.ml" 21 357 384
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 21 357 385 "options.ml" 21 357 386
+type(
+  int
+)
+"options.ml" 21 357 381 "options.ml" 21 357 386
+type(
+  int ref
+)
+"options.ml" 22 387 391 "options.ml" 22 387 410
+type(
+  int ref
+)
+ident(
+  def last_tick_speeddown "options.ml" 24 422 422 "options.ml" 1 0 -1
+)
+"options.ml" 22 387 413 "options.ml" 22 387 416
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"options.ml" 22 387 417 "options.ml" 22 387 418
+type(
+  int
+)
+"options.ml" 22 387 413 "options.ml" 22 387 418
+type(
+  int ref
+)
+"options.ml" 24 422 426 "options.ml" 24 422 431
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def specs "options.ml" 30 560 560 "options.ml" 1 0 -1
+)
+"options.ml" 26 439 443 "options.ml" 26 439 450
+type(
+  string
+)
+"options.ml" 26 439 464 "options.ml" 26 439 466
+type(
+  int ref
+)
+ident(
+  int_ref id "options.ml" 9 128 132 "options.ml" 9 128 134
+)
+"options.ml" 26 439 452 "options.ml" 26 439 466
+type(
+  Arg.spec
+)
+"options.ml" 26 439 468 "options.ml" 26 439 486
+type(
+  string
+)
+"options.ml" 26 439 443 "options.ml" 26 439 486
+type(
+  string * Arg.spec * string
+)
+"options.ml" 27 488 492 "options.ml" 27 488 498
+type(
+  string
+)
+"options.ml" 27 488 512 "options.ml" 27 488 515
+type(
+  int ref
+)
+ident(
+  int_ref nbA "options.ml" 12 190 194 "options.ml" 12 190 197
+)
+"options.ml" 27 488 500 "options.ml" 27 488 515
+type(
+  Arg.spec
+)
+"options.ml" 27 488 517 "options.ml" 27 488 554
+type(
+  string
+)
+"options.ml" 27 488 492 "options.ml" 27 488 554
+type(
+  string * Arg.spec * string
+)
+"options.ml" 25 435 437 "options.ml" 28 555 558
+type(
+  (string * Arg.spec * string) list
+)
+"options.ml" 30 560 564 "options.ml" 30 560 571
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def alspecs "options.ml" 32 591 591 "options.ml" 1 0 -1
+)
+"options.ml" 30 560 574 "options.ml" 30 560 583
+type(
+  ?limit:int ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Arg.align
+)
+"options.ml" 30 560 584 "options.ml" 30 560 589
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref specs "options.ml" 24 422 426 "options.ml" 24 422 431
+)
+"options.ml" 30 560 574 "options.ml" 30 560 589
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"options.ml" 32 591 595 "options.ml" 32 591 597
+type(
+  unit
+)
+"options.ml" 33 600 602 "options.ml" 33 600 611
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"options.ml" 33 600 612 "options.ml" 33 600 619
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref alspecs "options.ml" 30 560 564 "options.ml" 30 560 571
+)
+"options.ml" 33 600 625 "options.ml" 33 600 626
+type(
+  string
+)
+ident(
+  def s "options.ml" 33 600 630 "options.ml" 33 600 632
+)
+"options.ml" 33 600 630 "options.ml" 33 600 632
+type(
+  unit
+)
+"options.ml" 33 600 620 "options.ml" 33 600 633
+type(
+  Arg.anon_fun
+)
+"options.ml" 33 600 634 "options.ml" 33 600 639
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "options.ml" 4 29 33 "options.ml" 4 29 38
+)
+"options.ml" 33 600 602 "options.ml" 33 600 639
+call(
+  stack
+)
+type(
+  unit
+)
+"options.ml" 35 641 645 "options.ml" 35 641 647
+type(
+  unit
+)
+"options.ml" 36 650 652 "options.ml" 36 650 668
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Random.self_init
+)
+"options.ml" 36 650 668 "options.ml" 36 650 670
+type(
+  unit
+)
+"options.ml" 36 650 652 "options.ml" 36 650 670
+call(
+  stack
+)
+type(
+  unit
+)
+"options.ml" 37 672 674 "options.ml" 37 672 677
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 37 672 678 "options.ml" 37 672 680
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 37 672 684 "options.ml" 37 672 685
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 37 672 685 "options.ml" 37 672 688
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 37 672 684 "options.ml" 37 672 688
+type(
+  int
+)
+"options.ml" 37 672 689 "options.ml" 37 672 690
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"options.ml" 37 672 691 "options.ml" 37 672 692
+type(
+  int
+)
+"options.ml" 37 672 684 "options.ml" 37 672 692
+type(
+  bool
+)
+"options.ml" 37 672 698 "options.ml" 37 672 699
+type(
+  int
+)
+"options.ml" 37 672 705 "options.ml" 37 672 706
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 37 672 706 "options.ml" 37 672 709
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 37 672 705 "options.ml" 37 672 709
+type(
+  int
+)
+"options.ml" 37 672 681 "options.ml" 37 672 709
+type(
+  int
+)
+"options.ml" 37 672 674 "options.ml" 37 672 709
+type(
+  unit
+)
+"options.ml" 38 711 713 "options.ml" 38 711 716
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 38 711 717 "options.ml" 38 711 719
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 38 711 723 "options.ml" 38 711 724
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 38 711 724 "options.ml" 38 711 727
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 38 711 723 "options.ml" 38 711 727
+type(
+  int
+)
+"options.ml" 38 711 728 "options.ml" 38 711 729
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"options.ml" 38 711 730 "options.ml" 38 711 733
+type(
+  int
+)
+"options.ml" 38 711 723 "options.ml" 38 711 733
+type(
+  bool
+)
+"options.ml" 38 711 740 "options.ml" 38 711 749
+type(
+  bool ref
+)
+ident(
+  int_ref unlimited "options.ml" 10 143 147 "options.ml" 10 143 156
+)
+"options.ml" 38 711 750 "options.ml" 38 711 752
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 38 711 753 "options.ml" 38 711 757
+type(
+  bool
+)
+"options.ml" 38 711 740 "options.ml" 38 711 757
+type(
+  unit
+)
+"options.ml" 38 711 759 "options.ml" 38 711 762
+type(
+  int
+)
+"options.ml" 38 711 739 "options.ml" 38 711 764
+type(
+  int
+)
+"options.ml" 38 711 769 "options.ml" 38 711 770
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 38 711 770 "options.ml" 38 711 773
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 38 711 769 "options.ml" 38 711 773
+type(
+  int
+)
+"options.ml" 38 711 720 "options.ml" 38 711 773
+type(
+  int
+)
+"options.ml" 38 711 713 "options.ml" 38 711 773
+type(
+  unit
+)
+"options.ml" 39 775 777 "options.ml" 39 775 779
+type(
+  int ref
+)
+ident(
+  int_ref id "options.ml" 9 128 132 "options.ml" 9 128 134
+)
+"options.ml" 39 775 781 "options.ml" 39 775 783
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 39 775 787 "options.ml" 39 775 788
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 39 775 788 "options.ml" 39 775 790
+type(
+  int ref
+)
+ident(
+  int_ref id "options.ml" 9 128 132 "options.ml" 9 128 134
+)
+"options.ml" 39 775 787 "options.ml" 39 775 790
+type(
+  int
+)
+"options.ml" 39 775 791 "options.ml" 39 775 792
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"options.ml" 39 775 793 "options.ml" 39 775 794
+type(
+  int
+)
+"options.ml" 39 775 787 "options.ml" 39 775 794
+type(
+  bool
+)
+"options.ml" 39 775 800 "options.ml" 39 775 801
+type(
+  int
+)
+"options.ml" 39 775 807 "options.ml" 39 775 808
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 39 775 808 "options.ml" 39 775 810
+type(
+  int ref
+)
+ident(
+  int_ref id "options.ml" 9 128 132 "options.ml" 9 128 134
+)
+"options.ml" 39 775 807 "options.ml" 39 775 810
+type(
+  int
+)
+"options.ml" 39 775 784 "options.ml" 39 775 810
+type(
+  int
+)
+"options.ml" 39 775 777 "options.ml" 39 775 810
+type(
+  unit
+)
+"options.ml" 40 812 814 "options.ml" 40 812 817
+type(
+  int ref
+)
+ident(
+  int_ref nbA "options.ml" 12 190 194 "options.ml" 12 190 197
+)
+"options.ml" 40 812 818 "options.ml" 40 812 820
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 40 812 824 "options.ml" 40 812 825
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 40 812 825 "options.ml" 40 812 828
+type(
+  int ref
+)
+ident(
+  int_ref nbA "options.ml" 12 190 194 "options.ml" 12 190 197
+)
+"options.ml" 40 812 824 "options.ml" 40 812 828
+type(
+  int
+)
+"options.ml" 40 812 829 "options.ml" 40 812 831
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"options.ml" 40 812 832 "options.ml" 40 812 833
+type(
+  int
+)
+"options.ml" 40 812 824 "options.ml" 40 812 833
+type(
+  bool
+)
+"options.ml" 40 812 839 "options.ml" 40 812 841
+type(
+  int
+)
+"options.ml" 40 812 847 "options.ml" 40 812 848
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 40 812 848 "options.ml" 40 812 851
+type(
+  int ref
+)
+ident(
+  int_ref nbA "options.ml" 12 190 194 "options.ml" 12 190 197
+)
+"options.ml" 40 812 847 "options.ml" 40 812 851
+type(
+  int
+)
+"options.ml" 40 812 821 "options.ml" 40 812 851
+type(
+  int
+)
+"options.ml" 40 812 814 "options.ml" 40 812 851
+type(
+  unit
+)
+"options.ml" 39 775 777 "options.ml" 40 812 851
+type(
+  unit
+)
+"options.ml" 38 711 713 "options.ml" 40 812 851
+type(
+  unit
+)
+"options.ml" 37 672 674 "options.ml" 40 812 851
+type(
+  unit
+)
+"options.ml" 36 650 652 "options.ml" 40 812 851
+type(
+  unit
+)
+"options.ml" 42 853 857 "options.ml" 42 853 860
+type(
+  int
+)
+ident(
+  def nbA "options.ml" 46 974 974 "options.ml" 1 0 -1
+)
+"options.ml" 42 853 863 "options.ml" 42 853 864
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 42 853 864 "options.ml" 42 853 867
+type(
+  int ref
+)
+ident(
+  int_ref nbA "options.ml" 12 190 194 "options.ml" 12 190 197
+)
+"options.ml" 42 853 863 "options.ml" 42 853 867
+type(
+  int
+)
+"options.ml" 46 974 978 "options.ml" 46 974 989
+type(
+  int -> int -> bool
+)
+ident(
+  def toggle_able "options.ml" 49 1069 1069 "options.ml" 1 0 -1
+)
+"options.ml" 46 974 990 "options.ml" 46 974 999
+type(
+  int
+)
+ident(
+  def last_tick "options.ml" 46 974 1000 "options.ml" 47 1006 1063
+)
+"options.ml" 46 974 1000 "options.ml" 46 974 1003
+type(
+  int
+)
+ident(
+  def min "options.ml" 47 1006 1008 "options.ml" 47 1006 1063
+)
+"options.ml" 47 1006 1013 "options.ml" 47 1006 1022
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"options.ml" 47 1006 1022 "options.ml" 47 1006 1024
+type(
+  unit
+)
+"options.ml" 47 1006 1012 "options.ml" 47 1006 1025
+call(
+  stack
+)
+type(
+  int
+)
+"options.ml" 47 1006 1025 "options.ml" 47 1006 1026
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"options.ml" 47 1006 1026 "options.ml" 47 1006 1035
+type(
+  int
+)
+ident(
+  int_ref last_tick "options.ml" 46 974 990 "options.ml" 46 974 999
+)
+"options.ml" 47 1006 1011 "options.ml" 47 1006 1036
+type(
+  int
+)
+"options.ml" 47 1006 1037 "options.ml" 47 1006 1038
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"options.ml" 47 1006 1039 "options.ml" 47 1006 1042
+type(
+  int
+)
+ident(
+  int_ref min "options.ml" 46 974 1000 "options.ml" 46 974 1003
+)
+"options.ml" 47 1006 1011 "options.ml" 47 1006 1042
+type(
+  bool
+)
+"options.ml" 47 1006 1048 "options.ml" 47 1006 1052
+type(
+  bool
+)
+"options.ml" 47 1006 1058 "options.ml" 47 1006 1063
+type(
+  bool
+)
+"options.ml" 47 1006 1008 "options.ml" 47 1006 1063
+type(
+  bool
+)
+"options.ml" 49 1069 1073 "options.ml" 49 1069 1081
+type(
+  unit -> unit
+)
+ident(
+  def speed_up "options.ml" 59 1268 1268 "options.ml" 1 0 -1
+)
+"options.ml" 49 1069 1082 "options.ml" 49 1069 1084
+type(
+  unit
+)
+"options.ml" 50 1088 1094 "options.ml" 50 1088 1105
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref toggle_able "options.ml" 46 974 978 "options.ml" 46 974 989
+)
+"options.ml" 50 1088 1106 "options.ml" 50 1088 1107
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 50 1088 1107 "options.ml" 50 1088 1124
+type(
+  int ref
+)
+ident(
+  int_ref last_tick_speedup "options.ml" 21 357 361 "options.ml" 21 357 378
+)
+"options.ml" 50 1088 1106 "options.ml" 50 1088 1124
+type(
+  int
+)
+"options.ml" 50 1088 1125 "options.ml" 50 1088 1128
+type(
+  int
+)
+"options.ml" 50 1088 1093 "options.ml" 50 1088 1129
+call(
+  stack
+)
+type(
+  bool
+)
+"options.ml" 52 1145 1154 "options.ml" 52 1145 1155
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 52 1145 1155 "options.ml" 52 1145 1158
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 52 1145 1154 "options.ml" 52 1145 1158
+type(
+  int
+)
+"options.ml" 52 1145 1158 "options.ml" 52 1145 1159
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"options.ml" 52 1145 1159 "options.ml" 52 1145 1161
+type(
+  int
+)
+"options.ml" 52 1145 1154 "options.ml" 52 1145 1161
+type(
+  int
+)
+"options.ml" 52 1145 1162 "options.ml" 52 1145 1163
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"options.ml" 52 1145 1164 "options.ml" 52 1145 1167
+type(
+  int
+)
+"options.ml" 52 1145 1154 "options.ml" 52 1145 1167
+type(
+  bool
+)
+"options.ml" 53 1173 1181 "options.ml" 53 1173 1183
+type(
+  unit
+)
+"options.ml" 55 1195 1196 "options.ml" 55 1195 1199
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 55 1195 1200 "options.ml" 55 1195 1202
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 55 1195 1203 "options.ml" 55 1195 1204
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 55 1195 1204 "options.ml" 55 1195 1207
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 55 1195 1203 "options.ml" 55 1195 1207
+type(
+  int
+)
+"options.ml" 55 1195 1208 "options.ml" 55 1195 1209
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"options.ml" 55 1195 1210 "options.ml" 55 1195 1212
+type(
+  int
+)
+"options.ml" 55 1195 1203 "options.ml" 55 1195 1212
+type(
+  int
+)
+"options.ml" 55 1195 1196 "options.ml" 55 1195 1212
+type(
+  unit
+)
+"options.ml" 52 1145 1151 "options.ml" 55 1195 1212
+type(
+  unit
+)
+"options.ml" 56 1214 1220 "options.ml" 56 1214 1237
+type(
+  int ref
+)
+ident(
+  int_ref last_tick_speedup "options.ml" 21 357 361 "options.ml" 21 357 378
+)
+"options.ml" 56 1214 1238 "options.ml" 56 1214 1240
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 56 1214 1241 "options.ml" 56 1214 1250
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"options.ml" 56 1214 1250 "options.ml" 56 1214 1252
+type(
+  unit
+)
+"options.ml" 56 1214 1241 "options.ml" 56 1214 1252
+call(
+  stack
+)
+type(
+  int
+)
+"options.ml" 56 1214 1220 "options.ml" 56 1214 1252
+type(
+  unit
+)
+"options.ml" 51 1135 1139 "options.ml" 57 1253 1260
+type(
+  unit
+)
+"options.ml" 50 1088 1090 "options.ml" 57 1253 1260
+type(
+  unit
+)
+"options.ml" 59 1268 1272 "options.ml" 59 1268 1282
+type(
+  unit -> unit
+)
+ident(
+  def speed_down "options.ml" 69 1464 1464 "options.ml" 1 0 -1
+)
+"options.ml" 59 1268 1283 "options.ml" 59 1268 1285
+type(
+  unit
+)
+"options.ml" 60 1289 1295 "options.ml" 60 1289 1306
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref toggle_able "options.ml" 46 974 978 "options.ml" 46 974 989
+)
+"options.ml" 60 1289 1307 "options.ml" 60 1289 1308
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 60 1289 1308 "options.ml" 60 1289 1327
+type(
+  int ref
+)
+ident(
+  int_ref last_tick_speeddown "options.ml" 22 387 391 "options.ml" 22 387 410
+)
+"options.ml" 60 1289 1307 "options.ml" 60 1289 1327
+type(
+  int
+)
+"options.ml" 60 1289 1328 "options.ml" 60 1289 1331
+type(
+  int
+)
+"options.ml" 60 1289 1294 "options.ml" 60 1289 1332
+call(
+  stack
+)
+type(
+  bool
+)
+"options.ml" 62 1348 1357 "options.ml" 62 1348 1358
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 62 1348 1358 "options.ml" 62 1348 1361
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 62 1348 1357 "options.ml" 62 1348 1361
+type(
+  int
+)
+"options.ml" 62 1348 1361 "options.ml" 62 1348 1362
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"options.ml" 62 1348 1362 "options.ml" 62 1348 1364
+type(
+  int
+)
+"options.ml" 62 1348 1357 "options.ml" 62 1348 1364
+type(
+  int
+)
+"options.ml" 62 1348 1365 "options.ml" 62 1348 1366
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"options.ml" 62 1348 1367 "options.ml" 62 1348 1368
+type(
+  int
+)
+"options.ml" 62 1348 1357 "options.ml" 62 1348 1368
+type(
+  bool
+)
+"options.ml" 63 1374 1375 "options.ml" 63 1374 1378
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 63 1374 1379 "options.ml" 63 1374 1381
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 63 1374 1382 "options.ml" 63 1374 1383
+type(
+  int
+)
+"options.ml" 63 1374 1375 "options.ml" 63 1374 1383
+type(
+  unit
+)
+"options.ml" 65 1395 1396 "options.ml" 65 1395 1399
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 65 1395 1400 "options.ml" 65 1395 1402
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 65 1395 1403 "options.ml" 65 1395 1404
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 65 1395 1404 "options.ml" 65 1395 1407
+type(
+  int ref
+)
+ident(
+  int_ref fps "options.ml" 8 111 115 "options.ml" 8 111 118
+)
+"options.ml" 65 1395 1403 "options.ml" 65 1395 1407
+type(
+  int
+)
+"options.ml" 65 1395 1408 "options.ml" 65 1395 1409
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"options.ml" 65 1395 1410 "options.ml" 65 1395 1412
+type(
+  int
+)
+"options.ml" 65 1395 1403 "options.ml" 65 1395 1412
+type(
+  int
+)
+"options.ml" 65 1395 1396 "options.ml" 65 1395 1412
+type(
+  unit
+)
+"options.ml" 62 1348 1354 "options.ml" 65 1395 1412
+type(
+  unit
+)
+"options.ml" 66 1414 1420 "options.ml" 66 1414 1439
+type(
+  int ref
+)
+ident(
+  int_ref last_tick_speeddown "options.ml" 22 387 391 "options.ml" 22 387 410
+)
+"options.ml" 66 1414 1440 "options.ml" 66 1414 1442
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 66 1414 1443 "options.ml" 66 1414 1452
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"options.ml" 66 1414 1452 "options.ml" 66 1414 1454
+type(
+  unit
+)
+"options.ml" 66 1414 1443 "options.ml" 66 1414 1454
+call(
+  stack
+)
+type(
+  int
+)
+"options.ml" 66 1414 1420 "options.ml" 66 1414 1454
+type(
+  unit
+)
+"options.ml" 61 1338 1342 "options.ml" 67 1455 1462
+type(
+  unit
+)
+"options.ml" 60 1289 1291 "options.ml" 67 1455 1462
+type(
+  unit
+)
+"options.ml" 69 1464 1468 "options.ml" 69 1464 1481
+type(
+  float -> int
+)
+ident(
+  def arrondi_float "options.ml" 73 1579 1579 "options.ml" 1 0 -1
+)
+"options.ml" 69 1464 1482 "options.ml" 69 1464 1483
+type(
+  float
+)
+ident(
+  def f "options.ml" 70 1486 1488 "options.ml" 71 1548 1575
+)
+"options.ml" 70 1486 1492 "options.ml" 70 1486 1500
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.truncate
+)
+"options.ml" 70 1486 1502 "options.ml" 70 1486 1503
+type(
+  float
+)
+ident(
+  int_ref f "options.ml" 69 1464 1482 "options.ml" 69 1464 1483
+)
+"options.ml" 70 1486 1504 "options.ml" 70 1486 1506
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"options.ml" 70 1486 1507 "options.ml" 70 1486 1511
+type(
+  float
+)
+"options.ml" 70 1486 1501 "options.ml" 70 1486 1512
+type(
+  float
+)
+"options.ml" 70 1486 1492 "options.ml" 70 1486 1512
+type(
+  int
+)
+"options.ml" 70 1486 1513 "options.ml" 70 1486 1516
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"options.ml" 70 1486 1517 "options.ml" 70 1486 1519
+type(
+  int
+)
+"options.ml" 70 1486 1491 "options.ml" 70 1486 1520
+type(
+  int
+)
+"options.ml" 70 1486 1521 "options.ml" 70 1486 1522
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"options.ml" 70 1486 1523 "options.ml" 70 1486 1524
+type(
+  int
+)
+"options.ml" 70 1486 1491 "options.ml" 70 1486 1524
+type(
+  bool
+)
+"options.ml" 70 1486 1530 "options.ml" 70 1486 1538
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.truncate
+)
+"options.ml" 70 1486 1540 "options.ml" 70 1486 1544
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.ceil
+)
+"options.ml" 70 1486 1545 "options.ml" 70 1486 1546
+type(
+  float
+)
+ident(
+  int_ref f "options.ml" 69 1464 1482 "options.ml" 69 1464 1483
+)
+"options.ml" 70 1486 1539 "options.ml" 70 1486 1547
+type(
+  float
+)
+"options.ml" 70 1486 1530 "options.ml" 70 1486 1547
+type(
+  int
+)
+"options.ml" 71 1548 1556 "options.ml" 71 1548 1564
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.truncate
+)
+"options.ml" 71 1548 1566 "options.ml" 71 1548 1571
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.floor
+)
+"options.ml" 71 1548 1572 "options.ml" 71 1548 1573
+type(
+  float
+)
+ident(
+  int_ref f "options.ml" 69 1464 1482 "options.ml" 69 1464 1483
+)
+"options.ml" 71 1548 1565 "options.ml" 71 1548 1574
+type(
+  float
+)
+"options.ml" 71 1548 1555 "options.ml" 71 1548 1575
+type(
+  int
+)
+"options.ml" 70 1486 1488 "options.ml" 71 1548 1575
+type(
+  int
+)
+"options.ml" 73 1579 1583 "options.ml" 73 1579 1593
+type(
+  unit -> unit
+)
+ident(
+  def startPause "options.ml" 77 1645 1645 "options.ml" 1 0 -1
+)
+"options.ml" 73 1579 1594 "options.ml" 73 1579 1596
+type(
+  unit
+)
+"options.ml" 74 1599 1601 "options.ml" 74 1599 1607
+type(
+  int ref
+)
+ident(
+  int_ref sPause "options.ml" 16 249 253 "options.ml" 16 249 259
+)
+"options.ml" 74 1599 1608 "options.ml" 74 1599 1610
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 74 1599 1611 "options.ml" 74 1599 1620
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"options.ml" 74 1599 1620 "options.ml" 74 1599 1622
+type(
+  unit
+)
+"options.ml" 74 1599 1611 "options.ml" 74 1599 1622
+call(
+  stack
+)
+type(
+  int
+)
+"options.ml" 74 1599 1601 "options.ml" 74 1599 1622
+type(
+  unit
+)
+"options.ml" 75 1624 1626 "options.ml" 75 1624 1631
+type(
+  bool ref
+)
+ident(
+  int_ref pause "options.ml" 14 208 212 "options.ml" 14 208 217
+)
+"options.ml" 75 1624 1632 "options.ml" 75 1624 1634
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 75 1624 1635 "options.ml" 75 1624 1639
+type(
+  bool
+)
+"options.ml" 75 1624 1626 "options.ml" 75 1624 1639
+type(
+  unit
+)
+"options.ml" 74 1599 1601 "options.ml" 75 1624 1639
+type(
+  unit
+)
+"options.ml" 77 1645 1649 "options.ml" 77 1645 1657
+type(
+  unit -> unit
+)
+ident(
+  def endPause "options.ml" 81 1733 1733 "options.ml" 1 0 -1
+)
+"options.ml" 77 1645 1658 "options.ml" 77 1645 1660
+type(
+  unit
+)
+"options.ml" 78 1663 1665 "options.ml" 78 1663 1671
+type(
+  int ref
+)
+ident(
+  int_ref tPause "options.ml" 15 230 234 "options.ml" 15 230 240
+)
+"options.ml" 78 1663 1672 "options.ml" 78 1663 1674
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 78 1663 1675 "options.ml" 78 1663 1676
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 78 1663 1676 "options.ml" 78 1663 1682
+type(
+  int ref
+)
+ident(
+  int_ref tPause "options.ml" 15 230 234 "options.ml" 15 230 240
+)
+"options.ml" 78 1663 1675 "options.ml" 78 1663 1682
+type(
+  int
+)
+"options.ml" 78 1663 1683 "options.ml" 78 1663 1684
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"options.ml" 78 1663 1686 "options.ml" 78 1663 1695
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"options.ml" 78 1663 1696 "options.ml" 78 1663 1698
+type(
+  unit
+)
+"options.ml" 78 1663 1686 "options.ml" 78 1663 1698
+call(
+  stack
+)
+type(
+  int
+)
+"options.ml" 78 1663 1699 "options.ml" 78 1663 1700
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"options.ml" 78 1663 1701 "options.ml" 78 1663 1702
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 78 1663 1702 "options.ml" 78 1663 1708
+type(
+  int ref
+)
+ident(
+  int_ref sPause "options.ml" 16 249 253 "options.ml" 16 249 259
+)
+"options.ml" 78 1663 1701 "options.ml" 78 1663 1708
+type(
+  int
+)
+"options.ml" 78 1663 1685 "options.ml" 78 1663 1709
+type(
+  int
+)
+"options.ml" 78 1663 1675 "options.ml" 78 1663 1709
+type(
+  int
+)
+"options.ml" 78 1663 1665 "options.ml" 78 1663 1709
+type(
+  unit
+)
+"options.ml" 79 1711 1713 "options.ml" 79 1711 1718
+type(
+  bool ref
+)
+ident(
+  int_ref pause "options.ml" 14 208 212 "options.ml" 14 208 217
+)
+"options.ml" 79 1711 1719 "options.ml" 79 1711 1721
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 79 1711 1722 "options.ml" 79 1711 1727
+type(
+  bool
+)
+"options.ml" 79 1711 1713 "options.ml" 79 1711 1727
+type(
+  unit
+)
+"options.ml" 78 1663 1665 "options.ml" 79 1711 1727
+type(
+  unit
+)
+"options.ml" 81 1733 1737 "options.ml" 81 1733 1745
+type(
+  unit -> float
+)
+ident(
+  def get_time "options.ml" 86 1848 1848 "options.ml" 1 0 -1
+)
+"options.ml" 81 1733 1746 "options.ml" 81 1733 1748
+type(
+  unit
+)
+"options.ml" 82 1751 1757 "options.ml" 82 1751 1761
+type(
+  int
+)
+ident(
+  def curr "options.ml" 83 1779 1781 "options.ml" 84 1811 1842
+)
+"options.ml" 82 1751 1764 "options.ml" 82 1751 1773
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"options.ml" 82 1751 1773 "options.ml" 82 1751 1775
+type(
+  unit
+)
+"options.ml" 82 1751 1764 "options.ml" 82 1751 1775
+call(
+  stack
+)
+type(
+  int
+)
+"options.ml" 83 1779 1785 "options.ml" 83 1779 1790
+type(
+  int
+)
+ident(
+  def temps "options.ml" 84 1811 1813 "options.ml" 84 1811 1842
+)
+"options.ml" 83 1779 1793 "options.ml" 83 1779 1797
+type(
+  int
+)
+ident(
+  int_ref curr "options.ml" 82 1751 1757 "options.ml" 82 1751 1761
+)
+"options.ml" 83 1779 1798 "options.ml" 83 1779 1799
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"options.ml" 83 1779 1800 "options.ml" 83 1779 1801
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"options.ml" 83 1779 1801 "options.ml" 83 1779 1807
+type(
+  int ref
+)
+ident(
+  int_ref tPause "options.ml" 15 230 234 "options.ml" 15 230 240
+)
+"options.ml" 83 1779 1800 "options.ml" 83 1779 1807
+type(
+  int
+)
+"options.ml" 83 1779 1793 "options.ml" 83 1779 1807
+type(
+  int
+)
+"options.ml" 84 1811 1814 "options.ml" 84 1811 1826
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"options.ml" 84 1811 1827 "options.ml" 84 1811 1832
+type(
+  int
+)
+ident(
+  int_ref temps "options.ml" 83 1779 1785 "options.ml" 83 1779 1790
+)
+"options.ml" 84 1811 1813 "options.ml" 84 1811 1833
+type(
+  float
+)
+"options.ml" 84 1811 1833 "options.ml" 84 1811 1835
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"options.ml" 84 1811 1836 "options.ml" 84 1811 1842
+type(
+  float
+)
+"options.ml" 84 1811 1813 "options.ml" 84 1811 1842
+type(
+  float
+)
+"options.ml" 83 1779 1781 "options.ml" 84 1811 1842
+type(
+  float
+)
+"options.ml" 82 1751 1753 "options.ml" 84 1811 1842
+type(
+  float
+)
+"options.ml" 86 1848 1852 "options.ml" 86 1848 1863
+type(
+  unit -> unit
+)
+ident(
+  def reset_timer "options.ml" 90 1927 1942 "options.ml" 1 0 -1
+)
+"options.ml" 86 1848 1864 "options.ml" 86 1848 1866
+type(
+  unit
+)
+"options.ml" 87 1869 1871 "options.ml" 87 1869 1877
+type(
+  int ref
+)
+ident(
+  int_ref tPause "options.ml" 15 230 234 "options.ml" 15 230 240
+)
+"options.ml" 87 1869 1878 "options.ml" 87 1869 1880
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 87 1869 1881 "options.ml" 87 1869 1890
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"options.ml" 87 1869 1890 "options.ml" 87 1869 1892
+type(
+  unit
+)
+"options.ml" 87 1869 1881 "options.ml" 87 1869 1892
+call(
+  stack
+)
+type(
+  int
+)
+"options.ml" 87 1869 1871 "options.ml" 87 1869 1892
+type(
+  unit
+)
+"options.ml" 88 1894 1896 "options.ml" 88 1894 1902
+type(
+  int ref
+)
+ident(
+  int_ref sPause "options.ml" 16 249 253 "options.ml" 16 249 259
+)
+"options.ml" 88 1894 1903 "options.ml" 88 1894 1905
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 88 1894 1906 "options.ml" 88 1894 1907
+type(
+  int
+)
+"options.ml" 88 1894 1896 "options.ml" 88 1894 1907
+type(
+  unit
+)
+"options.ml" 89 1909 1911 "options.ml" 89 1909 1920
+type(
+  int ref
+)
+ident(
+  int_ref countCalc "options.ml" 18 271 275 "options.ml" 18 271 284
+)
+"options.ml" 89 1909 1921 "options.ml" 89 1909 1923
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"options.ml" 89 1909 1924 "options.ml" 89 1909 1925
+type(
+  int
+)
+"options.ml" 89 1909 1911 "options.ml" 89 1909 1925
+type(
+  unit
+)
+"options.ml" 90 1927 1929 "options.ml" 90 1927 1939
+type(
+  unit -> unit
+)
+ident(
+  int_ref startPause "options.ml" 73 1579 1583 "options.ml" 73 1579 1593
+)
+"options.ml" 90 1927 1939 "options.ml" 90 1927 1941
+type(
+  unit
+)
+"options.ml" 90 1927 1929 "options.ml" 90 1927 1942
+call(
+  tail
+)
+type(
+  unit
+)
+"options.ml" 89 1909 1911 "options.ml" 90 1927 1942
+type(
+  unit
+)
+"options.ml" 88 1894 1896 "options.ml" 90 1927 1942
+type(
+  unit
+)
+"options.ml" 87 1869 1871 "options.ml" 90 1927 1942
+type(
+  unit
+)

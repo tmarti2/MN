@@ -1,0 +1,9594 @@
+"types.ml" 28 622 626 "types.ml" 28 622 633
+type(
+  int ref
+)
+ident(
+  def miniNbA "types.ml" 30 643 643 "types.ml" 1 0 -1
+)
+"types.ml" 28 622 636 "types.ml" 28 622 639
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 28 622 640 "types.ml" 28 622 641
+type(
+  int
+)
+"types.ml" 28 622 636 "types.ml" 28 622 641
+type(
+  int ref
+)
+"types.ml" 30 643 647 "types.ml" 30 643 651
+type(
+  algo ref
+)
+ident(
+  def algo "types.ml" 42 888 888 "types.ml" 1 0 -1
+)
+"types.ml" 30 643 654 "types.ml" 30 643 657
+type(
+  algo -> algo ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 31 660 672 "types.ml" 31 660 674
+type(
+  genEntrees list
+)
+"types.ml" 32 676 694 "types.ml" 32 676 696
+type(
+  unit
+)
+"types.ml" 32 676 700 "types.ml" 32 676 702
+type(
+  unit
+)
+"types.ml" 32 676 689 "types.ml" 32 676 703
+type(
+  unit -> unit
+)
+"types.ml" 33 705 720 "types.ml" 33 705 721
+type(
+  genEntrees
+)
+ident(
+  def a "types.ml" 33 705 725 "types.ml" 33 705 729
+)
+"types.ml" 33 705 726 "types.ml" 33 705 729
+type(
+  int
+)
+"types.ml" 33 705 725 "types.ml" 33 705 729
+type(
+  genStates
+)
+"types.ml" 33 705 715 "types.ml" 33 705 730
+type(
+  genEntrees -> genStates
+)
+"types.ml" 34 732 748 "types.ml" 34 732 749
+type(
+  genStates
+)
+ident(
+  def s "types.ml" 34 732 753 "types.ml" 34 732 755
+)
+"types.ml" 34 732 753 "types.ml" 34 732 755
+type(
+  string
+)
+"types.ml" 34 732 743 "types.ml" 34 732 756
+type(
+  genStates -> string
+)
+"types.ml" 35 758 774 "types.ml" 35 758 775
+type(
+  int
+)
+ident(
+  def i "types.ml" 35 758 779 "types.ml" 35 758 782
+)
+"types.ml" 35 758 779 "types.ml" 35 758 780
+type(
+  int
+)
+ident(
+  int_ref i "types.ml" 35 758 774 "types.ml" 35 758 775
+)
+"types.ml" 35 758 781 "types.ml" 35 758 782
+type(
+  int
+)
+ident(
+  int_ref i "types.ml" 35 758 774 "types.ml" 35 758 775
+)
+"types.ml" 35 758 779 "types.ml" 35 758 782
+type(
+  int * int
+)
+"types.ml" 35 758 769 "types.ml" 35 758 783
+type(
+  int -> int * int
+)
+"types.ml" 36 785 796 "types.ml" 36 785 803
+type(
+  render
+)
+"types.ml" 37 805 820 "types.ml" 37 805 821
+type(
+  genStates
+)
+ident(
+  def a "types.ml" 37 805 828 "types.ml" 37 805 831
+)
+"types.ml" 37 805 822 "types.ml" 37 805 823
+type(
+  genStates
+)
+ident(
+  def b "types.ml" 37 805 828 "types.ml" 37 805 831
+)
+"types.ml" 37 805 819 "types.ml" 37 805 824
+type(
+  genStates * genStates
+)
+"types.ml" 37 805 828 "types.ml" 37 805 829
+type(
+  genStates
+)
+ident(
+  int_ref a "types.ml" 37 805 820 "types.ml" 37 805 821
+)
+"types.ml" 37 805 830 "types.ml" 37 805 831
+type(
+  genStates
+)
+ident(
+  int_ref b "types.ml" 37 805 822 "types.ml" 37 805 823
+)
+"types.ml" 37 805 828 "types.ml" 37 805 831
+type(
+  genStates * genStates
+)
+"types.ml" 37 805 814 "types.ml" 37 805 832
+type(
+  genStates * genStates -> genStates * genStates
+)
+"types.ml" 38 834 853 "types.ml" 38 834 855
+type(
+  (genStates * Graphics.color) list
+)
+"types.ml" 39 857 875 "types.ml" 39 857 877
+type(
+  unit
+)
+"types.ml" 39 857 881 "types.ml" 39 857 883
+type(
+  string
+)
+"types.ml" 39 857 870 "types.ml" 39 857 884
+type(
+  unit -> string
+)
+"types.ml" 30 643 658 "types.ml" 40 885 886
+type(
+  algo
+)
+"types.ml" 30 643 654 "types.ml" 40 885 886
+type(
+  algo ref
+)
+"types.ml" 42 888 892 "types.ml" 42 888 896
+type(
+  genStates array ref
+)
+ident(
+  def conf "types.ml" 43 908 908 "types.ml" 1 0 -1
+)
+"types.ml" 42 888 899 "types.ml" 42 888 902
+type(
+  genStates array -> genStates array ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 42 888 903 "types.ml" 42 888 907
+type(
+  genStates array
+)
+"types.ml" 42 888 899 "types.ml" 42 888 907
+type(
+  genStates array ref
+)
+"types.ml" 43 908 912 "types.ml" 43 908 915
+type(
+  (int * int) array ref
+)
+ident(
+  def pos "types.ml" 45 930 930 "types.ml" 1 0 -1
+)
+"types.ml" 43 908 918 "types.ml" 43 908 921
+type(
+  (int * int) array -> (int * int) array ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 43 908 922 "types.ml" 43 908 926
+type(
+  (int * int) array
+)
+"types.ml" 43 908 918 "types.ml" 43 908 926
+type(
+  (int * int) array ref
+)
+"types.ml" 45 930 934 "types.ml" 45 930 938
+type(
+  genStates -> genStates -> bool
+)
+ident(
+  def comp "types.ml" 68 1445 1445 "types.ml" 1 0 -1
+)
+"types.ml" 45 930 939 "types.ml" 45 930 941
+type(
+  genStates
+)
+ident(
+  def s1 "types.ml" 45 930 942 "types.ml" 64 1384 1400
+)
+"types.ml" 45 930 942 "types.ml" 45 930 944
+type(
+  genStates
+)
+ident(
+  def s2 "types.ml" 46 947 949 "types.ml" 64 1384 1400
+)
+"types.ml" 46 947 955 "types.ml" 46 947 957
+type(
+  genStates
+)
+ident(
+  int_ref s1 "types.ml" 45 930 939 "types.ml" 45 930 941
+)
+"types.ml" 46 947 958 "types.ml" 46 947 960
+type(
+  genStates
+)
+ident(
+  int_ref s2 "types.ml" 45 930 942 "types.ml" 45 930 944
+)
+"types.ml" 46 947 955 "types.ml" 46 947 960
+type(
+  genStates * genStates
+)
+"types.ml" 47 966 975 "types.ml" 47 966 976
+type(
+  int
+)
+type(
+  int
+)
+"types.ml" 47 966 970 "types.ml" 47 966 976
+type(
+  genStates
+)
+"types.ml" 47 966 983 "types.ml" 47 966 984
+type(
+  int
+)
+type(
+  int
+)
+"types.ml" 47 966 978 "types.ml" 47 966 984
+type(
+  genStates
+)
+"types.ml" 47 966 970 "types.ml" 47 966 984
+type(
+  genStates * genStates
+)
+"types.ml" 47 966 988 "types.ml" 47 966 992
+type(
+  bool
+)
+"types.ml" 48 993 1003 "types.ml" 48 993 1005
+type(
+  genEntrees
+)
+ident(
+  def s1 "types.ml" 48 993 1031 "types.ml" 48 993 1049
+)
+"types.ml" 48 993 1006 "types.ml" 48 993 1008
+type(
+  bool
+)
+ident(
+  def t1 "types.ml" 48 993 1031 "types.ml" 48 993 1049
+)
+"types.ml" 48 993 1009 "types.ml" 48 993 1010
+type(
+  bool
+)
+"types.ml" 48 993 997 "types.ml" 48 993 1011
+type(
+  genStates
+)
+"types.ml" 48 993 1019 "types.ml" 48 993 1021
+type(
+  genEntrees
+)
+ident(
+  def s2 "types.ml" 48 993 1031 "types.ml" 48 993 1049
+)
+"types.ml" 48 993 1022 "types.ml" 48 993 1024
+type(
+  bool
+)
+ident(
+  def t2 "types.ml" 48 993 1031 "types.ml" 48 993 1049
+)
+"types.ml" 48 993 1025 "types.ml" 48 993 1026
+type(
+  bool
+)
+"types.ml" 48 993 1013 "types.ml" 48 993 1027
+type(
+  genStates
+)
+"types.ml" 48 993 997 "types.ml" 48 993 1027
+type(
+  genStates * genStates
+)
+"types.ml" 48 993 1031 "types.ml" 48 993 1033
+type(
+  genEntrees
+)
+ident(
+  int_ref s1 "types.ml" 48 993 1003 "types.ml" 48 993 1005
+)
+"types.ml" 48 993 1034 "types.ml" 48 993 1035
+type(
+  genEntrees -> genEntrees -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 48 993 1036 "types.ml" 48 993 1038
+type(
+  genEntrees
+)
+ident(
+  int_ref s2 "types.ml" 48 993 1019 "types.ml" 48 993 1021
+)
+"types.ml" 48 993 1031 "types.ml" 48 993 1038
+type(
+  bool
+)
+"types.ml" 48 993 1039 "types.ml" 48 993 1041
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 48 993 1042 "types.ml" 48 993 1044
+type(
+  bool
+)
+ident(
+  int_ref t1 "types.ml" 48 993 1006 "types.ml" 48 993 1008
+)
+"types.ml" 48 993 1045 "types.ml" 48 993 1046
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 48 993 1047 "types.ml" 48 993 1049
+type(
+  bool
+)
+ident(
+  int_ref t2 "types.ml" 48 993 1022 "types.ml" 48 993 1024
+)
+"types.ml" 48 993 1042 "types.ml" 48 993 1049
+type(
+  bool
+)
+"types.ml" 48 993 1031 "types.ml" 48 993 1049
+type(
+  bool
+)
+"types.ml" 49 1050 1063 "types.ml" 49 1050 1065
+type(
+  bool
+)
+ident(
+  def b1 "types.ml" 50 1104 1109 "types.ml" 63 1371 1383
+)
+"types.ml" 49 1050 1066 "types.ml" 49 1050 1068
+type(
+  bool
+)
+ident(
+  def l1 "types.ml" 50 1104 1109 "types.ml" 63 1371 1383
+)
+"types.ml" 49 1050 1069 "types.ml" 49 1050 1070
+type(
+  bool
+)
+"types.ml" 49 1050 1071 "types.ml" 49 1050 1073
+type(
+  bool
+)
+ident(
+  def p1 "types.ml" 50 1104 1109 "types.ml" 63 1371 1383
+)
+"types.ml" 49 1050 1074 "types.ml" 49 1050 1075
+type(
+  bool
+)
+"types.ml" 49 1050 1054 "types.ml" 49 1050 1076
+type(
+  genStates
+)
+"types.ml" 49 1050 1087 "types.ml" 49 1050 1089
+type(
+  bool
+)
+ident(
+  def b2 "types.ml" 50 1104 1109 "types.ml" 63 1371 1383
+)
+"types.ml" 49 1050 1090 "types.ml" 49 1050 1092
+type(
+  bool
+)
+ident(
+  def l2 "types.ml" 50 1104 1109 "types.ml" 63 1371 1383
+)
+"types.ml" 49 1050 1093 "types.ml" 49 1050 1094
+type(
+  bool
+)
+"types.ml" 49 1050 1095 "types.ml" 49 1050 1097
+type(
+  bool
+)
+ident(
+  def p2 "types.ml" 50 1104 1109 "types.ml" 63 1371 1383
+)
+"types.ml" 49 1050 1098 "types.ml" 49 1050 1099
+type(
+  bool
+)
+"types.ml" 49 1050 1078 "types.ml" 49 1050 1100
+type(
+  genStates
+)
+"types.ml" 49 1050 1054 "types.ml" 49 1050 1100
+type(
+  genStates * genStates
+)
+"types.ml" 50 1104 1112 "types.ml" 50 1104 1114
+type(
+  bool
+)
+ident(
+  int_ref l1 "types.ml" 49 1050 1066 "types.ml" 49 1050 1068
+)
+"types.ml" 50 1104 1115 "types.ml" 50 1104 1117
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 50 1104 1118 "types.ml" 50 1104 1120
+type(
+  bool
+)
+ident(
+  int_ref l2 "types.ml" 49 1050 1090 "types.ml" 49 1050 1092
+)
+"types.ml" 50 1104 1112 "types.ml" 50 1104 1120
+type(
+  bool
+)
+"types.ml" 51 1126 1133 "types.ml" 51 1126 1137
+type(
+  bool
+)
+"types.ml" 52 1138 1151 "types.ml" 52 1138 1154
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 52 1138 1155 "types.ml" 52 1138 1157
+type(
+  bool
+)
+ident(
+  int_ref l1 "types.ml" 49 1050 1066 "types.ml" 49 1050 1068
+)
+"types.ml" 52 1138 1151 "types.ml" 52 1138 1157
+type(
+  bool
+)
+"types.ml" 52 1138 1158 "types.ml" 52 1138 1160
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 52 1138 1161 "types.ml" 52 1138 1164
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 52 1138 1165 "types.ml" 52 1138 1167
+type(
+  bool
+)
+ident(
+  int_ref l2 "types.ml" 49 1050 1090 "types.ml" 49 1050 1092
+)
+"types.ml" 52 1138 1161 "types.ml" 52 1138 1167
+type(
+  bool
+)
+"types.ml" 52 1138 1151 "types.ml" 52 1138 1167
+type(
+  bool
+)
+"types.ml" 53 1179 1189 "types.ml" 53 1179 1192
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 53 1179 1193 "types.ml" 53 1179 1195
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 49 1050 1063 "types.ml" 49 1050 1065
+)
+"types.ml" 53 1179 1189 "types.ml" 53 1179 1195
+type(
+  bool
+)
+"types.ml" 53 1179 1196 "types.ml" 53 1179 1198
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 53 1179 1199 "types.ml" 53 1179 1202
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 53 1179 1203 "types.ml" 53 1179 1205
+type(
+  bool
+)
+ident(
+  int_ref b2 "types.ml" 49 1050 1087 "types.ml" 49 1050 1089
+)
+"types.ml" 53 1179 1199 "types.ml" 53 1179 1205
+type(
+  bool
+)
+"types.ml" 53 1179 1206 "types.ml" 53 1179 1208
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 53 1179 1209 "types.ml" 53 1179 1211
+type(
+  bool
+)
+ident(
+  int_ref p1 "types.ml" 49 1050 1071 "types.ml" 49 1050 1073
+)
+"types.ml" 53 1179 1212 "types.ml" 53 1179 1214
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 53 1179 1215 "types.ml" 53 1179 1217
+type(
+  bool
+)
+ident(
+  int_ref p2 "types.ml" 49 1050 1095 "types.ml" 49 1050 1097
+)
+"types.ml" 53 1179 1209 "types.ml" 53 1179 1217
+type(
+  bool
+)
+"types.ml" 53 1179 1199 "types.ml" 53 1179 1217
+type(
+  bool
+)
+"types.ml" 53 1179 1189 "types.ml" 53 1179 1217
+type(
+  bool
+)
+"types.ml" 54 1223 1225 "types.ml" 54 1223 1229
+type(
+  bool
+)
+"types.ml" 55 1230 1245 "types.ml" 55 1230 1247
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 49 1050 1063 "types.ml" 49 1050 1065
+)
+"types.ml" 55 1230 1248 "types.ml" 55 1230 1250
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 55 1230 1251 "types.ml" 55 1230 1253
+type(
+  bool
+)
+ident(
+  int_ref b2 "types.ml" 49 1050 1087 "types.ml" 49 1050 1089
+)
+"types.ml" 55 1230 1254 "types.ml" 55 1230 1256
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 55 1230 1257 "types.ml" 55 1230 1260
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 55 1230 1261 "types.ml" 55 1230 1263
+type(
+  bool
+)
+ident(
+  int_ref p1 "types.ml" 49 1050 1071 "types.ml" 49 1050 1073
+)
+"types.ml" 55 1230 1257 "types.ml" 55 1230 1263
+type(
+  bool
+)
+"types.ml" 55 1230 1264 "types.ml" 55 1230 1266
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 55 1230 1267 "types.ml" 55 1230 1270
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 55 1230 1271 "types.ml" 55 1230 1273
+type(
+  bool
+)
+ident(
+  int_ref p2 "types.ml" 49 1050 1095 "types.ml" 49 1050 1097
+)
+"types.ml" 55 1230 1267 "types.ml" 55 1230 1273
+type(
+  bool
+)
+"types.ml" 55 1230 1257 "types.ml" 55 1230 1273
+type(
+  bool
+)
+"types.ml" 55 1230 1251 "types.ml" 55 1230 1273
+type(
+  bool
+)
+"types.ml" 55 1230 1245 "types.ml" 55 1230 1273
+type(
+  bool
+)
+"types.ml" 56 1279 1281 "types.ml" 56 1279 1285
+type(
+  bool
+)
+"types.ml" 57 1286 1301 "types.ml" 57 1286 1303
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 49 1050 1063 "types.ml" 49 1050 1065
+)
+"types.ml" 57 1286 1304 "types.ml" 57 1286 1305
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 57 1286 1306 "types.ml" 57 1286 1308
+type(
+  bool
+)
+ident(
+  int_ref p1 "types.ml" 49 1050 1071 "types.ml" 49 1050 1073
+)
+"types.ml" 57 1286 1301 "types.ml" 57 1286 1308
+type(
+  bool
+)
+"types.ml" 57 1286 1309 "types.ml" 57 1286 1311
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 57 1286 1312 "types.ml" 57 1286 1314
+type(
+  bool
+)
+ident(
+  int_ref b2 "types.ml" 49 1050 1087 "types.ml" 49 1050 1089
+)
+"types.ml" 57 1286 1315 "types.ml" 57 1286 1316
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 57 1286 1317 "types.ml" 57 1286 1319
+type(
+  bool
+)
+ident(
+  int_ref p2 "types.ml" 49 1050 1095 "types.ml" 49 1050 1097
+)
+"types.ml" 57 1286 1312 "types.ml" 57 1286 1319
+type(
+  bool
+)
+"types.ml" 57 1286 1301 "types.ml" 57 1286 1319
+type(
+  bool
+)
+"types.ml" 58 1325 1327 "types.ml" 58 1325 1331
+type(
+  bool
+)
+"types.ml" 60 1344 1346 "types.ml" 60 1344 1351
+type(
+  bool
+)
+"types.ml" 57 1286 1298 "types.ml" 60 1344 1351
+type(
+  bool
+)
+"types.ml" 55 1230 1242 "types.ml" 60 1344 1351
+type(
+  bool
+)
+"types.ml" 52 1138 1173 "types.ml" 61 1352 1360
+type(
+  bool
+)
+"types.ml" 63 1371 1378 "types.ml" 63 1371 1383
+type(
+  bool
+)
+"types.ml" 52 1138 1148 "types.ml" 63 1371 1383
+type(
+  bool
+)
+"types.ml" 50 1104 1109 "types.ml" 63 1371 1383
+type(
+  bool
+)
+"types.ml" 64 1384 1388 "types.ml" 64 1384 1389
+type(
+  genStates * genStates
+)
+"types.ml" 64 1384 1393 "types.ml" 64 1384 1395
+type(
+  genStates
+)
+ident(
+  int_ref s1 "types.ml" 45 930 939 "types.ml" 45 930 941
+)
+"types.ml" 64 1384 1396 "types.ml" 64 1384 1397
+type(
+  genStates -> genStates -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 64 1384 1398 "types.ml" 64 1384 1400
+type(
+  genStates
+)
+ident(
+  int_ref s2 "types.ml" 45 930 942 "types.ml" 45 930 944
+)
+"types.ml" 64 1384 1393 "types.ml" 64 1384 1400
+type(
+  bool
+)
+"types.ml" 46 947 949 "types.ml" 64 1384 1400
+type(
+  bool
+)
+"types.ml" 68 1445 1453 "types.ml" 68 1445 1462
+type(
+  int -> int -> int
+)
+ident(
+  def randArray "types.ml" 68 1445 1445 "types.ml" 1 0 -1
+)
+"types.ml" 68 1445 1463 "types.ml" 68 1445 1466
+type(
+  int
+)
+ident(
+  def len "types.ml" 68 1445 1467 "types.ml" 73 1529 1548
+)
+"types.ml" 68 1445 1467 "types.ml" 68 1445 1468
+type(
+  int
+)
+ident(
+  def v "types.ml" 69 1471 1473 "types.ml" 73 1529 1548
+)
+"types.ml" 69 1471 1477 "types.ml" 69 1471 1478
+type(
+  int
+)
+ident(
+  def n "types.ml" 70 1499 1501 "types.ml" 73 1529 1548
+)
+"types.ml" 69 1471 1481 "types.ml" 69 1471 1491
+type(
+  int -> int
+)
+ident(
+  ext_ref Random.int
+)
+"types.ml" 69 1471 1492 "types.ml" 69 1471 1495
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 68 1445 1463 "types.ml" 68 1445 1466
+)
+"types.ml" 69 1471 1481 "types.ml" 69 1471 1495
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 70 1499 1504 "types.ml" 70 1499 1505
+type(
+  int
+)
+ident(
+  int_ref n "types.ml" 69 1471 1477 "types.ml" 69 1471 1478
+)
+"types.ml" 70 1499 1506 "types.ml" 70 1499 1508
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"types.ml" 70 1499 1509 "types.ml" 70 1499 1510
+type(
+  int
+)
+ident(
+  int_ref v "types.ml" 68 1445 1467 "types.ml" 68 1445 1468
+)
+"types.ml" 70 1499 1504 "types.ml" 70 1499 1510
+type(
+  bool
+)
+"types.ml" 71 1516 1520 "types.ml" 71 1516 1521
+type(
+  int
+)
+ident(
+  int_ref n "types.ml" 69 1471 1477 "types.ml" 69 1471 1478
+)
+"types.ml" 73 1529 1533 "types.ml" 73 1529 1542
+type(
+  int -> int -> int
+)
+ident(
+  int_ref randArray "types.ml" 68 1445 1453 "types.ml" 68 1445 1462
+)
+"types.ml" 73 1529 1543 "types.ml" 73 1529 1546
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 68 1445 1463 "types.ml" 68 1445 1466
+)
+"types.ml" 73 1529 1547 "types.ml" 73 1529 1548
+type(
+  int
+)
+ident(
+  int_ref v "types.ml" 68 1445 1467 "types.ml" 68 1445 1468
+)
+"types.ml" 73 1529 1533 "types.ml" 73 1529 1548
+call(
+  tail
+)
+type(
+  int
+)
+"types.ml" 70 1499 1501 "types.ml" 73 1529 1548
+type(
+  int
+)
+"types.ml" 69 1471 1473 "types.ml" 73 1529 1548
+type(
+  int
+)
+"types.ml" 75 1550 1554 "types.ml" 75 1550 1564
+type(
+  int -> int * int
+)
+ident(
+  def selectRand "types.ml" 84 1769 1769 "types.ml" 1 0 -1
+)
+"types.ml" 75 1550 1565 "types.ml" 75 1550 1568
+type(
+  int
+)
+ident(
+  def len "types.ml" 76 1571 1573 "types.ml" 78 1635 1642
+)
+"types.ml" 76 1571 1577 "types.ml" 76 1571 1579
+type(
+  int
+)
+ident(
+  def i1 "types.ml" 77 1604 1606 "types.ml" 78 1635 1642
+)
+"types.ml" 76 1571 1582 "types.ml" 76 1571 1591
+type(
+  int -> int -> int
+)
+ident(
+  int_ref randArray "types.ml" 68 1445 1453 "types.ml" 68 1445 1462
+)
+"types.ml" 76 1571 1592 "types.ml" 76 1571 1595
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 75 1550 1565 "types.ml" 75 1550 1568
+)
+"types.ml" 76 1571 1596 "types.ml" 76 1571 1600
+type(
+  int
+)
+"types.ml" 76 1571 1582 "types.ml" 76 1571 1600
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 77 1604 1610 "types.ml" 77 1604 1612
+type(
+  int
+)
+ident(
+  def i2 "types.ml" 78 1635 1637 "types.ml" 78 1635 1642
+)
+"types.ml" 77 1604 1615 "types.ml" 77 1604 1624
+type(
+  int -> int -> int
+)
+ident(
+  int_ref randArray "types.ml" 68 1445 1453 "types.ml" 68 1445 1462
+)
+"types.ml" 77 1604 1625 "types.ml" 77 1604 1628
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 75 1550 1565 "types.ml" 75 1550 1568
+)
+"types.ml" 77 1604 1629 "types.ml" 77 1604 1631
+type(
+  int
+)
+ident(
+  int_ref i1 "types.ml" 76 1571 1577 "types.ml" 76 1571 1579
+)
+"types.ml" 77 1604 1615 "types.ml" 77 1604 1631
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 78 1635 1637 "types.ml" 78 1635 1639
+type(
+  int
+)
+ident(
+  int_ref i1 "types.ml" 76 1571 1577 "types.ml" 76 1571 1579
+)
+"types.ml" 78 1635 1640 "types.ml" 78 1635 1642
+type(
+  int
+)
+ident(
+  int_ref i2 "types.ml" 77 1604 1610 "types.ml" 77 1604 1612
+)
+"types.ml" 78 1635 1637 "types.ml" 78 1635 1642
+type(
+  int * int
+)
+"types.ml" 77 1604 1606 "types.ml" 78 1635 1642
+type(
+  int * int
+)
+"types.ml" 76 1571 1573 "types.ml" 78 1635 1642
+type(
+  int * int
+)
+"types.ml" 84 1769 1773 "types.ml" 84 1769 1777
+type(
+  int ref
+)
+ident(
+  def accL "types.ml" 86 1802 1802 "types.ml" 1 0 -1
+)
+"types.ml" 84 1769 1779 "types.ml" 84 1769 1783
+type(
+  int ref
+)
+ident(
+  def accF "types.ml" 86 1802 1802 "types.ml" 1 0 -1
+)
+"types.ml" 84 1769 1773 "types.ml" 84 1769 1783
+type(
+  int ref * int ref
+)
+"types.ml" 84 1769 1786 "types.ml" 84 1769 1789
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 84 1769 1790 "types.ml" 84 1769 1791
+type(
+  int
+)
+"types.ml" 84 1769 1786 "types.ml" 84 1769 1791
+type(
+  int ref
+)
+"types.ml" 84 1769 1793 "types.ml" 84 1769 1796
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 84 1769 1797 "types.ml" 84 1769 1798
+type(
+  int
+)
+"types.ml" 84 1769 1793 "types.ml" 84 1769 1798
+type(
+  int ref
+)
+"types.ml" 84 1769 1786 "types.ml" 84 1769 1798
+type(
+  int ref * int ref
+)
+"types.ml" 86 1802 1806 "types.ml" 86 1802 1816
+type(
+  unit -> unit
+)
+ident(
+  def initLeader "types.ml" 96 2010 2010 "types.ml" 1 0 -1
+)
+"types.ml" 86 1802 1817 "types.ml" 86 1802 1819
+type(
+  unit
+)
+"types.ml" 87 1822 1824 "types.ml" 87 1822 1828
+type(
+  int ref
+)
+ident(
+  int_ref accL "types.ml" 84 1769 1773 "types.ml" 84 1769 1777
+)
+"types.ml" 87 1822 1829 "types.ml" 87 1822 1831
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 87 1822 1832 "types.ml" 87 1822 1833
+type(
+  int
+)
+"types.ml" 87 1822 1824 "types.ml" 87 1822 1833
+type(
+  unit
+)
+"types.ml" 88 1835 1837 "types.ml" 88 1835 1841
+type(
+  int ref
+)
+ident(
+  int_ref accF "types.ml" 84 1769 1779 "types.ml" 84 1769 1783
+)
+"types.ml" 88 1835 1842 "types.ml" 88 1835 1844
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 88 1835 1845 "types.ml" 88 1835 1846
+type(
+  int
+)
+"types.ml" 88 1835 1837 "types.ml" 88 1835 1846
+type(
+  unit
+)
+"types.ml" 89 1848 1854 "types.ml" 89 1848 1860
+type(
+  'a -> genStates
+)
+ident(
+  def affect "types.ml" 93 1967 1969 "types.ml" 93 1967 2003
+)
+"types.ml" 89 1848 1861 "types.ml" 89 1848 1862
+type(
+  'a
+)
+ident(
+  def x "types.ml" 90 1865 1869 "types.ml" 91 1919 1961
+)
+"types.ml" 90 1865 1873 "types.ml" 90 1865 1874
+type(
+  int
+)
+ident(
+  def n "types.ml" 91 1919 1923 "types.ml" 91 1919 1961
+)
+"types.ml" 90 1865 1877 "types.ml" 90 1865 1887
+type(
+  int -> int
+)
+ident(
+  ext_ref Random.int
+)
+"types.ml" 90 1865 1889 "types.ml" 90 1865 1900
+type(
+  genEntrees list -> int
+)
+ident(
+  ext_ref List.length
+)
+"types.ml" 90 1865 1901 "types.ml" 90 1865 1902
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 90 1865 1902 "types.ml" 90 1865 1906
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 90 1865 1901 "types.ml" 90 1865 1906
+type(
+  algo
+)
+"types.ml" 90 1865 1901 "types.ml" 90 1865 1914
+type(
+  genEntrees list
+)
+"types.ml" 90 1865 1888 "types.ml" 90 1865 1915
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 90 1865 1877 "types.ml" 90 1865 1915
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 91 1919 1923 "types.ml" 91 1919 1924
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 91 1919 1924 "types.ml" 91 1919 1928
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 91 1919 1923 "types.ml" 91 1919 1928
+type(
+  algo
+)
+"types.ml" 91 1919 1923 "types.ml" 91 1919 1934
+type(
+  genEntrees -> genStates
+)
+"types.ml" 91 1919 1936 "types.ml" 91 1919 1944
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 91 1919 1945 "types.ml" 91 1919 1946
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 91 1919 1946 "types.ml" 91 1919 1950
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 91 1919 1945 "types.ml" 91 1919 1950
+type(
+  algo
+)
+"types.ml" 91 1919 1945 "types.ml" 91 1919 1958
+type(
+  genEntrees list
+)
+"types.ml" 91 1919 1959 "types.ml" 91 1919 1960
+type(
+  int
+)
+ident(
+  int_ref n "types.ml" 90 1865 1873 "types.ml" 90 1865 1874
+)
+"types.ml" 91 1919 1935 "types.ml" 91 1919 1961
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 91 1919 1923 "types.ml" 91 1919 1961
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 90 1865 1869 "types.ml" 91 1919 1961
+type(
+  genStates
+)
+"types.ml" 93 1967 1969 "types.ml" 93 1967 1973
+type(
+  genStates array ref
+)
+ident(
+  int_ref conf "types.ml" 42 888 892 "types.ml" 42 888 896
+)
+"types.ml" 93 1967 1974 "types.ml" 93 1967 1976
+type(
+  genStates array ref -> genStates array -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 93 1967 1977 "types.ml" 93 1967 1987
+type(
+  int -> (int -> genStates) -> genStates array
+)
+ident(
+  ext_ref Array.init
+)
+"types.ml" 93 1967 1988 "types.ml" 93 1967 1989
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 93 1967 1989 "types.ml" 93 1967 1996
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 93 1967 1988 "types.ml" 93 1967 1996
+type(
+  int
+)
+"types.ml" 93 1967 1997 "types.ml" 93 1967 2003
+type(
+  int -> genStates
+)
+ident(
+  int_ref affect "types.ml" 89 1848 1854 "types.ml" 89 1848 1860
+)
+"types.ml" 93 1967 1977 "types.ml" 93 1967 2003
+call(
+  stack
+)
+type(
+  genStates array
+)
+"types.ml" 93 1967 1969 "types.ml" 93 1967 2003
+type(
+  unit
+)
+"types.ml" 89 1848 1850 "types.ml" 93 1967 2003
+type(
+  unit
+)
+"types.ml" 88 1835 1837 "types.ml" 93 1967 2003
+type(
+  unit
+)
+"types.ml" 87 1822 1824 "types.ml" 93 1967 2003
+type(
+  unit
+)
+"types.ml" 96 2010 2014 "types.ml" 96 2010 2025
+type(
+  genEntrees -> genStates
+)
+ident(
+  def leaderInput "types.ml" 101 2110 2110 "types.ml" 1 0 -1
+)
+"types.ml" 97 2037 2041 "types.ml" 97 2037 2042
+type(
+  genEntrees
+)
+"types.ml" 97 2037 2046 "types.ml" 97 2037 2050
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"types.ml" 97 2037 2051 "types.ml" 97 2037 2055
+type(
+  int ref
+)
+ident(
+  int_ref accL "types.ml" 84 1769 1773 "types.ml" 84 1769 1777
+)
+"types.ml" 97 2037 2046 "types.ml" 97 2037 2055
+type(
+  unit
+)
+"types.ml" 97 2037 2058 "types.ml" 97 2037 2061
+type(
+  genEntrees
+)
+"types.ml" 97 2037 2057 "types.ml" 97 2037 2061
+type(
+  genStates
+)
+"types.ml" 97 2037 2046 "types.ml" 97 2037 2061
+type(
+  genStates
+)
+"types.ml" 98 2062 2066 "types.ml" 98 2062 2067
+type(
+  genEntrees
+)
+"types.ml" 98 2062 2071 "types.ml" 98 2062 2075
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"types.ml" 98 2062 2076 "types.ml" 98 2062 2080
+type(
+  int ref
+)
+ident(
+  int_ref accF "types.ml" 84 1769 1779 "types.ml" 84 1769 1783
+)
+"types.ml" 98 2062 2071 "types.ml" 98 2062 2080
+type(
+  unit
+)
+"types.ml" 98 2062 2083 "types.ml" 98 2062 2086
+type(
+  genEntrees
+)
+"types.ml" 98 2062 2082 "types.ml" 98 2062 2086
+type(
+  genStates
+)
+"types.ml" 98 2062 2071 "types.ml" 98 2062 2086
+type(
+  genStates
+)
+"types.ml" 99 2087 2091 "types.ml" 99 2087 2092
+type(
+  genEntrees
+)
+"types.ml" 99 2087 2103 "types.ml" 99 2087 2108
+type(
+  bool
+)
+"types.ml" 99 2087 2096 "types.ml" 99 2087 2108
+type(
+  genStates
+)
+"types.ml" 96 2010 2028 "types.ml" 99 2087 2108
+type(
+  genEntrees -> genStates
+)
+"types.ml" 101 2110 2114 "types.ml" 101 2110 2126
+type(
+  genStates -> string
+)
+ident(
+  def leaderOutput "types.ml" 108 2243 2243 "types.ml" 1 0 -1
+)
+"types.ml" 102 2138 2146 "types.ml" 102 2138 2152
+type(
+  bool
+)
+"types.ml" 102 2138 2142 "types.ml" 102 2138 2152
+type(
+  genStates
+)
+"types.ml" 102 2138 2156 "types.ml" 102 2138 2159
+type(
+  string
+)
+"types.ml" 103 2160 2168 "types.ml" 103 2160 2175
+type(
+  bool
+)
+"types.ml" 103 2160 2164 "types.ml" 103 2160 2175
+type(
+  genStates
+)
+"types.ml" 103 2160 2179 "types.ml" 103 2160 2182
+type(
+  string
+)
+"types.ml" 104 2183 2188 "types.ml" 104 2183 2191
+type(
+  genEntrees
+)
+"types.ml" 104 2183 2187 "types.ml" 104 2183 2191
+type(
+  genStates
+)
+"types.ml" 104 2183 2195 "types.ml" 104 2183 2198
+type(
+  string
+)
+"types.ml" 105 2199 2204 "types.ml" 105 2199 2207
+type(
+  genEntrees
+)
+"types.ml" 105 2199 2203 "types.ml" 105 2199 2207
+type(
+  genStates
+)
+"types.ml" 105 2199 2211 "types.ml" 105 2199 2214
+type(
+  string
+)
+"types.ml" 106 2215 2219 "types.ml" 106 2215 2220
+type(
+  genStates
+)
+"types.ml" 106 2215 2231 "types.ml" 106 2215 2236
+type(
+  bool
+)
+"types.ml" 106 2215 2224 "types.ml" 106 2215 2236
+type(
+  string
+)
+"types.ml" 101 2110 2129 "types.ml" 106 2215 2236
+type(
+  genStates -> string
+)
+"types.ml" 108 2243 2247 "types.ml" 108 2243 2257
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  def leaderConv "types.ml" 115 2569 2569 "types.ml" 1 0 -1
+)
+"types.ml" 109 2269 2274 "types.ml" 109 2269 2277
+type(
+  genEntrees
+)
+"types.ml" 109 2269 2273 "types.ml" 109 2269 2277
+type(
+  genStates
+)
+"types.ml" 109 2269 2280 "types.ml" 109 2269 2283
+type(
+  genEntrees
+)
+"types.ml" 109 2269 2279 "types.ml" 109 2269 2283
+type(
+  genStates
+)
+"types.ml" 109 2269 2273 "types.ml" 109 2269 2283
+type(
+  genStates * genStates
+)
+"types.ml" 109 2269 2306 "types.ml" 109 2269 2310
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"types.ml" 109 2269 2311 "types.ml" 109 2269 2315
+type(
+  int ref
+)
+ident(
+  int_ref accL "types.ml" 84 1769 1773 "types.ml" 84 1769 1777
+)
+"types.ml" 109 2269 2306 "types.ml" 109 2269 2315
+type(
+  unit
+)
+"types.ml" 109 2269 2317 "types.ml" 109 2269 2321
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"types.ml" 109 2269 2322 "types.ml" 109 2269 2326
+type(
+  int ref
+)
+ident(
+  int_ref accF "types.ml" 84 1769 1779 "types.ml" 84 1769 1783
+)
+"types.ml" 109 2269 2317 "types.ml" 109 2269 2326
+type(
+  unit
+)
+"types.ml" 109 2269 2332 "types.ml" 109 2269 2339
+type(
+  bool
+)
+"types.ml" 109 2269 2328 "types.ml" 109 2269 2339
+type(
+  genStates
+)
+"types.ml" 109 2269 2345 "types.ml" 109 2269 2352
+type(
+  bool
+)
+"types.ml" 109 2269 2341 "types.ml" 109 2269 2352
+type(
+  genStates
+)
+"types.ml" 109 2269 2328 "types.ml" 109 2269 2352
+type(
+  genStates * genStates
+)
+"types.ml" 109 2269 2317 "types.ml" 109 2269 2352
+type(
+  genStates * genStates
+)
+"types.ml" 109 2269 2306 "types.ml" 109 2269 2352
+type(
+  genStates * genStates
+)
+"types.ml" 110 2353 2358 "types.ml" 110 2353 2361
+type(
+  genEntrees
+)
+"types.ml" 110 2353 2357 "types.ml" 110 2353 2361
+type(
+  genStates
+)
+"types.ml" 110 2353 2367 "types.ml" 110 2353 2374
+type(
+  bool
+)
+"types.ml" 110 2353 2363 "types.ml" 110 2353 2374
+type(
+  genStates
+)
+"types.ml" 110 2353 2357 "types.ml" 110 2353 2374
+type(
+  genStates * genStates
+)
+"types.ml" 110 2353 2391 "types.ml" 110 2353 2394
+type(
+  genEntrees
+)
+"types.ml" 110 2353 2390 "types.ml" 110 2353 2394
+type(
+  genStates
+)
+"types.ml" 110 2353 2400 "types.ml" 110 2353 2406
+type(
+  bool
+)
+"types.ml" 110 2353 2396 "types.ml" 110 2353 2406
+type(
+  genStates
+)
+"types.ml" 110 2353 2390 "types.ml" 110 2353 2406
+type(
+  genStates * genStates
+)
+"types.ml" 111 2407 2412 "types.ml" 111 2407 2415
+type(
+  genEntrees
+)
+"types.ml" 111 2407 2411 "types.ml" 111 2407 2415
+type(
+  genStates
+)
+"types.ml" 111 2407 2421 "types.ml" 111 2407 2427
+type(
+  bool
+)
+"types.ml" 111 2407 2417 "types.ml" 111 2407 2427
+type(
+  genStates
+)
+"types.ml" 111 2407 2411 "types.ml" 111 2407 2427
+type(
+  genStates * genStates
+)
+"types.ml" 111 2407 2445 "types.ml" 111 2407 2448
+type(
+  genEntrees
+)
+"types.ml" 111 2407 2444 "types.ml" 111 2407 2448
+type(
+  genStates
+)
+"types.ml" 111 2407 2454 "types.ml" 111 2407 2461
+type(
+  bool
+)
+"types.ml" 111 2407 2450 "types.ml" 111 2407 2461
+type(
+  genStates
+)
+"types.ml" 111 2407 2444 "types.ml" 111 2407 2461
+type(
+  genStates * genStates
+)
+"types.ml" 112 2462 2470 "types.ml" 112 2462 2477
+type(
+  bool
+)
+"types.ml" 112 2462 2466 "types.ml" 112 2462 2477
+type(
+  genStates
+)
+"types.ml" 112 2462 2483 "types.ml" 112 2462 2489
+type(
+  bool
+)
+"types.ml" 112 2462 2479 "types.ml" 112 2462 2489
+type(
+  genStates
+)
+"types.ml" 112 2462 2466 "types.ml" 112 2462 2489
+type(
+  genStates * genStates
+)
+"types.ml" 112 2462 2503 "types.ml" 112 2462 2510
+type(
+  bool
+)
+"types.ml" 112 2462 2499 "types.ml" 112 2462 2510
+type(
+  genStates
+)
+"types.ml" 112 2462 2516 "types.ml" 112 2462 2523
+type(
+  bool
+)
+"types.ml" 112 2462 2512 "types.ml" 112 2462 2523
+type(
+  genStates
+)
+"types.ml" 112 2462 2499 "types.ml" 112 2462 2523
+type(
+  genStates * genStates
+)
+"types.ml" 113 2524 2528 "types.ml" 113 2524 2530
+type(
+  genStates
+)
+ident(
+  def s1 "types.ml" 113 2524 2561 "types.ml" 113 2524 2567
+)
+"types.ml" 113 2524 2532 "types.ml" 113 2524 2534
+type(
+  genStates
+)
+ident(
+  def s2 "types.ml" 113 2524 2561 "types.ml" 113 2524 2567
+)
+"types.ml" 113 2524 2528 "types.ml" 113 2524 2534
+type(
+  genStates * genStates
+)
+"types.ml" 113 2524 2561 "types.ml" 113 2524 2563
+type(
+  genStates
+)
+ident(
+  int_ref s1 "types.ml" 113 2524 2528 "types.ml" 113 2524 2530
+)
+"types.ml" 113 2524 2565 "types.ml" 113 2524 2567
+type(
+  genStates
+)
+ident(
+  int_ref s2 "types.ml" 113 2524 2532 "types.ml" 113 2524 2534
+)
+"types.ml" 113 2524 2561 "types.ml" 113 2524 2567
+type(
+  genStates * genStates
+)
+"types.ml" 108 2243 2260 "types.ml" 113 2524 2567
+type(
+  genStates * genStates -> genStates * genStates
+)
+"types.ml" 115 2569 2573 "types.ml" 115 2569 2589
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  def leaderStateColor "types.ml" 117 2692 2692 "types.ml" 1 0 -1
+)
+"types.ml" 115 2569 2595 "types.ml" 115 2569 2598
+type(
+  genEntrees
+)
+"types.ml" 115 2569 2594 "types.ml" 115 2569 2598
+type(
+  genStates
+)
+"types.ml" 115 2569 2599 "types.ml" 115 2569 2602
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 115 2569 2603 "types.ml" 115 2569 2604
+type(
+  int
+)
+"types.ml" 115 2569 2605 "types.ml" 115 2569 2608
+type(
+  int
+)
+"types.ml" 115 2569 2609 "types.ml" 115 2569 2610
+type(
+  int
+)
+"types.ml" 115 2569 2599 "types.ml" 115 2569 2610
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 115 2569 2593 "types.ml" 115 2569 2611
+type(
+  genStates * Graphics.color
+)
+"types.ml" 115 2569 2614 "types.ml" 115 2569 2617
+type(
+  genEntrees
+)
+"types.ml" 115 2569 2613 "types.ml" 115 2569 2617
+type(
+  genStates
+)
+"types.ml" 115 2569 2618 "types.ml" 115 2569 2621
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 115 2569 2622 "types.ml" 115 2569 2625
+type(
+  int
+)
+"types.ml" 115 2569 2626 "types.ml" 115 2569 2627
+type(
+  int
+)
+"types.ml" 115 2569 2628 "types.ml" 115 2569 2629
+type(
+  int
+)
+"types.ml" 115 2569 2618 "types.ml" 115 2569 2629
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 115 2569 2612 "types.ml" 115 2569 2630
+type(
+  genStates * Graphics.color
+)
+"types.ml" 115 2569 2636 "types.ml" 115 2569 2642
+type(
+  bool
+)
+"types.ml" 115 2569 2632 "types.ml" 115 2569 2642
+type(
+  genStates
+)
+"types.ml" 115 2569 2643 "types.ml" 115 2569 2646
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 115 2569 2647 "types.ml" 115 2569 2650
+type(
+  int
+)
+"types.ml" 115 2569 2651 "types.ml" 115 2569 2654
+type(
+  int
+)
+"types.ml" 115 2569 2655 "types.ml" 115 2569 2658
+type(
+  int
+)
+"types.ml" 115 2569 2643 "types.ml" 115 2569 2658
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 115 2569 2631 "types.ml" 115 2569 2659
+type(
+  genStates * Graphics.color
+)
+"types.ml" 115 2569 2665 "types.ml" 115 2569 2672
+type(
+  bool
+)
+"types.ml" 115 2569 2661 "types.ml" 115 2569 2672
+type(
+  genStates
+)
+"types.ml" 115 2569 2673 "types.ml" 115 2569 2676
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 115 2569 2677 "types.ml" 115 2569 2680
+type(
+  int
+)
+"types.ml" 115 2569 2681 "types.ml" 115 2569 2684
+type(
+  int
+)
+"types.ml" 115 2569 2685 "types.ml" 115 2569 2688
+type(
+  int
+)
+"types.ml" 115 2569 2673 "types.ml" 115 2569 2688
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 115 2569 2660 "types.ml" 115 2569 2689
+type(
+  genStates * Graphics.color
+)
+"types.ml" 115 2569 2592 "types.ml" 115 2569 2690
+type(
+  (genStates * Graphics.color) list
+)
+"types.ml" 117 2692 2696 "types.ml" 117 2692 2705
+type(
+  unit -> string
+)
+ident(
+  def leaderObj "types.ml" 120 2803 2803 "types.ml" 1 0 -1
+)
+"types.ml" 117 2692 2706 "types.ml" 117 2692 2708
+type(
+  unit
+)
+"types.ml" 118 2711 2714 "types.ml" 118 2711 2738
+type(
+  string
+)
+"types.ml" 118 2711 2739 "types.ml" 118 2711 2740
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 118 2711 2742 "types.ml" 118 2711 2755
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 118 2711 2756 "types.ml" 118 2711 2757
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 118 2711 2757 "types.ml" 118 2711 2761
+type(
+  int ref
+)
+ident(
+  int_ref accL "types.ml" 84 1769 1773 "types.ml" 84 1769 1777
+)
+"types.ml" 118 2711 2756 "types.ml" 118 2711 2761
+type(
+  int
+)
+"types.ml" 118 2711 2741 "types.ml" 118 2711 2762
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 118 2711 2763 "types.ml" 118 2711 2764
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 118 2711 2765 "types.ml" 118 2711 2772
+type(
+  string
+)
+"types.ml" 118 2711 2773 "types.ml" 118 2711 2774
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 118 2711 2776 "types.ml" 118 2711 2789
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 118 2711 2790 "types.ml" 118 2711 2791
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 118 2711 2791 "types.ml" 118 2711 2795
+type(
+  int ref
+)
+ident(
+  int_ref accF "types.ml" 84 1769 1779 "types.ml" 84 1769 1783
+)
+"types.ml" 118 2711 2790 "types.ml" 118 2711 2795
+type(
+  int
+)
+"types.ml" 118 2711 2775 "types.ml" 118 2711 2796
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 118 2711 2765 "types.ml" 118 2711 2796
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 118 2711 2741 "types.ml" 118 2711 2796
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 118 2711 2713 "types.ml" 118 2711 2797
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 120 2803 2807 "types.ml" 120 2803 2817
+type(
+  algo
+)
+ident(
+  def testLeader "types.ml" 137 3165 3165 "types.ml" 1 0 -1
+)
+"types.ml" 121 2822 2835 "types.ml" 121 2822 2836
+type(
+  genEntrees
+)
+"types.ml" 121 2822 2837 "types.ml" 121 2822 2838
+type(
+  genEntrees
+)
+"types.ml" 121 2822 2834 "types.ml" 121 2822 2839
+type(
+  genEntrees list
+)
+"types.ml" 122 2841 2854 "types.ml" 122 2841 2864
+type(
+  unit -> unit
+)
+ident(
+  int_ref initLeader "types.ml" 86 1802 1806 "types.ml" 86 1802 1816
+)
+"types.ml" 123 2866 2876 "types.ml" 123 2866 2887
+type(
+  genEntrees -> genStates
+)
+ident(
+  int_ref leaderInput "types.ml" 96 2010 2014 "types.ml" 96 2010 2025
+)
+"types.ml" 124 2889 2900 "types.ml" 124 2889 2912
+type(
+  genStates -> string
+)
+ident(
+  int_ref leaderOutput "types.ml" 101 2110 2114 "types.ml" 101 2110 2126
+)
+"types.ml" 125 2914 2925 "types.ml" 125 2914 2935
+type(
+  int -> int * int
+)
+ident(
+  int_ref selectRand "types.ml" 75 1550 1554 "types.ml" 75 1550 1564
+)
+"types.ml" 126 2937 2946 "types.ml" 126 2937 2956
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  int_ref leaderConv "types.ml" 108 2243 2247 "types.ml" 108 2243 2257
+)
+"types.ml" 127 2958 2969 "types.ml" 127 2958 2976
+type(
+  render
+)
+"types.ml" 128 2978 2997 "types.ml" 128 2978 3013
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  int_ref leaderStateColor "types.ml" 115 2569 2573 "types.ml" 115 2569 2589
+)
+"types.ml" 129 3015 3028 "types.ml" 129 3015 3037
+type(
+  unit -> string
+)
+ident(
+  int_ref leaderObj "types.ml" 117 2692 2696 "types.ml" 117 2692 2705
+)
+"types.ml" 120 2803 2820 "types.ml" 130 3038 3039
+type(
+  algo
+)
+"types.ml" 137 3165 3169 "types.ml" 137 3165 3173
+type(
+  int ref
+)
+ident(
+  def accC "types.ml" 139 3185 3185 "types.ml" 1 0 -1
+)
+"types.ml" 137 3165 3176 "types.ml" 137 3165 3179
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 137 3165 3180 "types.ml" 137 3165 3181
+type(
+  int
+)
+"types.ml" 137 3165 3176 "types.ml" 137 3165 3181
+type(
+  int ref
+)
+"types.ml" 139 3185 3189 "types.ml" 139 3185 3198
+type(
+  unit -> unit
+)
+ident(
+  def initCount "types.ml" 148 3405 3405 "types.ml" 1 0 -1
+)
+"types.ml" 139 3185 3199 "types.ml" 139 3185 3201
+type(
+  unit
+)
+"types.ml" 140 3204 3206 "types.ml" 140 3204 3210
+type(
+  int ref
+)
+ident(
+  int_ref accC "types.ml" 137 3165 3169 "types.ml" 137 3165 3173
+)
+"types.ml" 140 3204 3211 "types.ml" 140 3204 3213
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 140 3204 3214 "types.ml" 140 3204 3215
+type(
+  int
+)
+"types.ml" 140 3204 3206 "types.ml" 140 3204 3215
+type(
+  unit
+)
+"types.ml" 141 3217 3223 "types.ml" 141 3217 3229
+type(
+  'a -> genStates
+)
+ident(
+  def affect "types.ml" 146 3367 3369 "types.ml" 146 3367 3403
+)
+"types.ml" 141 3217 3230 "types.ml" 141 3217 3231
+type(
+  'a
+)
+ident(
+  def x "types.ml" 142 3234 3238 "types.ml" 144 3319 3361
+)
+"types.ml" 142 3234 3242 "types.ml" 142 3234 3243
+type(
+  int
+)
+ident(
+  def n "types.ml" 143 3288 3292 "types.ml" 144 3319 3361
+)
+"types.ml" 142 3234 3246 "types.ml" 142 3234 3256
+type(
+  int -> int
+)
+ident(
+  ext_ref Random.int
+)
+"types.ml" 142 3234 3258 "types.ml" 142 3234 3269
+type(
+  genEntrees list -> int
+)
+ident(
+  ext_ref List.length
+)
+"types.ml" 142 3234 3270 "types.ml" 142 3234 3271
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 142 3234 3271 "types.ml" 142 3234 3275
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 142 3234 3270 "types.ml" 142 3234 3275
+type(
+  algo
+)
+"types.ml" 142 3234 3270 "types.ml" 142 3234 3283
+type(
+  genEntrees list
+)
+"types.ml" 142 3234 3257 "types.ml" 142 3234 3284
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 142 3234 3246 "types.ml" 142 3234 3284
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 143 3288 3292 "types.ml" 143 3288 3296
+type(
+  int ref
+)
+ident(
+  int_ref accC "types.ml" 137 3165 3169 "types.ml" 137 3165 3173
+)
+"types.ml" 143 3288 3297 "types.ml" 143 3288 3299
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 143 3288 3301 "types.ml" 143 3288 3302
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 143 3288 3302 "types.ml" 143 3288 3306
+type(
+  int ref
+)
+ident(
+  int_ref accC "types.ml" 137 3165 3169 "types.ml" 137 3165 3173
+)
+"types.ml" 143 3288 3301 "types.ml" 143 3288 3306
+type(
+  int
+)
+"types.ml" 143 3288 3307 "types.ml" 143 3288 3308
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 143 3288 3309 "types.ml" 143 3288 3310
+type(
+  int
+)
+ident(
+  int_ref n "types.ml" 142 3234 3242 "types.ml" 142 3234 3243
+)
+"types.ml" 143 3288 3300 "types.ml" 143 3288 3311
+type(
+  int
+)
+"types.ml" 143 3288 3312 "types.ml" 143 3288 3315
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"types.ml" 143 3288 3316 "types.ml" 143 3288 3317
+type(
+  int
+)
+"types.ml" 143 3288 3300 "types.ml" 143 3288 3317
+type(
+  int
+)
+"types.ml" 143 3288 3292 "types.ml" 143 3288 3317
+type(
+  unit
+)
+"types.ml" 144 3319 3323 "types.ml" 144 3319 3324
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 144 3319 3324 "types.ml" 144 3319 3328
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 144 3319 3323 "types.ml" 144 3319 3328
+type(
+  algo
+)
+"types.ml" 144 3319 3323 "types.ml" 144 3319 3334
+type(
+  genEntrees -> genStates
+)
+"types.ml" 144 3319 3336 "types.ml" 144 3319 3344
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 144 3319 3345 "types.ml" 144 3319 3346
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 144 3319 3346 "types.ml" 144 3319 3350
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 144 3319 3345 "types.ml" 144 3319 3350
+type(
+  algo
+)
+"types.ml" 144 3319 3345 "types.ml" 144 3319 3358
+type(
+  genEntrees list
+)
+"types.ml" 144 3319 3359 "types.ml" 144 3319 3360
+type(
+  int
+)
+ident(
+  int_ref n "types.ml" 142 3234 3242 "types.ml" 142 3234 3243
+)
+"types.ml" 144 3319 3335 "types.ml" 144 3319 3361
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 144 3319 3323 "types.ml" 144 3319 3361
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 143 3288 3292 "types.ml" 144 3319 3361
+type(
+  genStates
+)
+"types.ml" 142 3234 3238 "types.ml" 144 3319 3361
+type(
+  genStates
+)
+"types.ml" 146 3367 3369 "types.ml" 146 3367 3373
+type(
+  genStates array ref
+)
+ident(
+  int_ref conf "types.ml" 42 888 892 "types.ml" 42 888 896
+)
+"types.ml" 146 3367 3374 "types.ml" 146 3367 3376
+type(
+  genStates array ref -> genStates array -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 146 3367 3377 "types.ml" 146 3367 3387
+type(
+  int -> (int -> genStates) -> genStates array
+)
+ident(
+  ext_ref Array.init
+)
+"types.ml" 146 3367 3388 "types.ml" 146 3367 3389
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 146 3367 3389 "types.ml" 146 3367 3396
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 146 3367 3388 "types.ml" 146 3367 3396
+type(
+  int
+)
+"types.ml" 146 3367 3397 "types.ml" 146 3367 3403
+type(
+  int -> genStates
+)
+ident(
+  int_ref affect "types.ml" 141 3217 3223 "types.ml" 141 3217 3229
+)
+"types.ml" 146 3367 3377 "types.ml" 146 3367 3403
+call(
+  stack
+)
+type(
+  genStates array
+)
+"types.ml" 146 3367 3369 "types.ml" 146 3367 3403
+type(
+  unit
+)
+"types.ml" 141 3217 3219 "types.ml" 146 3367 3403
+type(
+  unit
+)
+"types.ml" 140 3204 3206 "types.ml" 146 3367 3403
+type(
+  unit
+)
+"types.ml" 148 3405 3409 "types.ml" 148 3405 3420
+type(
+  genEntrees -> genStates
+)
+ident(
+  def count4Input "types.ml" 156 3557 3557 "types.ml" 1 0 -1
+)
+"types.ml" 149 3432 3439 "types.ml" 149 3432 3442
+type(
+  int
+)
+"types.ml" 149 3432 3436 "types.ml" 149 3432 3442
+type(
+  genEntrees
+)
+"types.ml" 149 3432 3451 "types.ml" 149 3432 3454
+type(
+  int
+)
+"types.ml" 149 3432 3447 "types.ml" 149 3432 3455
+type(
+  genEntrees
+)
+"types.ml" 149 3432 3446 "types.ml" 149 3432 3455
+type(
+  genStates
+)
+"types.ml" 150 3456 3463 "types.ml" 150 3456 3466
+type(
+  int
+)
+"types.ml" 150 3456 3460 "types.ml" 150 3456 3466
+type(
+  genEntrees
+)
+"types.ml" 150 3456 3475 "types.ml" 150 3456 3478
+type(
+  int
+)
+"types.ml" 150 3456 3471 "types.ml" 150 3456 3479
+type(
+  genEntrees
+)
+"types.ml" 150 3456 3470 "types.ml" 150 3456 3479
+type(
+  genStates
+)
+"types.ml" 151 3480 3487 "types.ml" 151 3480 3490
+type(
+  int
+)
+"types.ml" 151 3480 3484 "types.ml" 151 3480 3490
+type(
+  genEntrees
+)
+"types.ml" 151 3480 3499 "types.ml" 151 3480 3502
+type(
+  int
+)
+"types.ml" 151 3480 3495 "types.ml" 151 3480 3503
+type(
+  genEntrees
+)
+"types.ml" 151 3480 3494 "types.ml" 151 3480 3503
+type(
+  genStates
+)
+"types.ml" 152 3504 3511 "types.ml" 152 3504 3514
+type(
+  int
+)
+"types.ml" 152 3504 3508 "types.ml" 152 3504 3514
+type(
+  genEntrees
+)
+"types.ml" 152 3504 3523 "types.ml" 152 3504 3526
+type(
+  int
+)
+"types.ml" 152 3504 3519 "types.ml" 152 3504 3527
+type(
+  genEntrees
+)
+"types.ml" 152 3504 3518 "types.ml" 152 3504 3527
+type(
+  genStates
+)
+"types.ml" 153 3528 3532 "types.ml" 153 3528 3533
+type(
+  genEntrees
+)
+"types.ml" 153 3528 3544 "types.ml" 153 3528 3549
+type(
+  bool
+)
+"types.ml" 153 3528 3537 "types.ml" 153 3528 3549
+type(
+  genStates
+)
+"types.ml" 148 3405 3423 "types.ml" 153 3528 3549
+type(
+  genEntrees -> genStates
+)
+"types.ml" 156 3557 3561 "types.ml" 156 3557 3573
+type(
+  genStates -> string
+)
+ident(
+  def count4Output "types.ml" 167 3760 3760 "types.ml" 1 0 -1
+)
+"types.ml" 157 3585 3594 "types.ml" 157 3585 3597
+type(
+  int
+)
+"types.ml" 157 3585 3590 "types.ml" 157 3585 3598
+type(
+  genEntrees
+)
+"types.ml" 157 3585 3589 "types.ml" 157 3585 3598
+type(
+  genStates
+)
+"types.ml" 157 3585 3602 "types.ml" 157 3585 3605
+type(
+  string
+)
+"types.ml" 158 3606 3615 "types.ml" 158 3606 3618
+type(
+  int
+)
+"types.ml" 158 3606 3611 "types.ml" 158 3606 3619
+type(
+  genEntrees
+)
+"types.ml" 158 3606 3610 "types.ml" 158 3606 3619
+type(
+  genStates
+)
+"types.ml" 158 3606 3623 "types.ml" 158 3606 3626
+type(
+  string
+)
+"types.ml" 159 3627 3636 "types.ml" 159 3627 3639
+type(
+  int
+)
+"types.ml" 159 3627 3632 "types.ml" 159 3627 3640
+type(
+  genEntrees
+)
+"types.ml" 159 3627 3631 "types.ml" 159 3627 3640
+type(
+  genStates
+)
+"types.ml" 159 3627 3644 "types.ml" 159 3627 3647
+type(
+  string
+)
+"types.ml" 160 3648 3657 "types.ml" 160 3648 3660
+type(
+  int
+)
+"types.ml" 160 3648 3653 "types.ml" 160 3648 3661
+type(
+  genEntrees
+)
+"types.ml" 160 3648 3652 "types.ml" 160 3648 3661
+type(
+  genStates
+)
+"types.ml" 160 3648 3665 "types.ml" 160 3648 3668
+type(
+  string
+)
+"types.ml" 161 3669 3674 "types.ml" 161 3669 3677
+type(
+  int
+)
+"types.ml" 161 3669 3673 "types.ml" 161 3669 3677
+type(
+  genStates
+)
+"types.ml" 161 3669 3681 "types.ml" 161 3669 3685
+type(
+  string
+)
+"types.ml" 162 3686 3691 "types.ml" 162 3686 3694
+type(
+  int
+)
+"types.ml" 162 3686 3690 "types.ml" 162 3686 3694
+type(
+  genStates
+)
+"types.ml" 162 3686 3698 "types.ml" 162 3686 3702
+type(
+  string
+)
+"types.ml" 163 3703 3708 "types.ml" 163 3703 3711
+type(
+  int
+)
+"types.ml" 163 3703 3707 "types.ml" 163 3703 3711
+type(
+  genStates
+)
+"types.ml" 163 3703 3715 "types.ml" 163 3703 3719
+type(
+  string
+)
+"types.ml" 164 3720 3725 "types.ml" 164 3720 3728
+type(
+  int
+)
+"types.ml" 164 3720 3724 "types.ml" 164 3720 3728
+type(
+  genStates
+)
+"types.ml" 164 3720 3732 "types.ml" 164 3720 3736
+type(
+  string
+)
+"types.ml" 165 3737 3741 "types.ml" 165 3737 3742
+type(
+  genStates
+)
+"types.ml" 165 3737 3753 "types.ml" 165 3737 3758
+type(
+  bool
+)
+"types.ml" 165 3737 3746 "types.ml" 165 3737 3758
+type(
+  string
+)
+"types.ml" 156 3557 3576 "types.ml" 165 3737 3758
+type(
+  genStates -> string
+)
+"types.ml" 167 3760 3764 "types.ml" 167 3760 3774
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  def count4Conv "types.ml" 172 3910 3910 "types.ml" 1 0 -1
+)
+"types.ml" 168 3786 3796 "types.ml" 168 3786 3797
+ident(
+  def x "types.ml" 168 3786 3814 "types.ml" 168 3786 3848
+)
+"types.ml" 168 3786 3795 "types.ml" 168 3786 3798
+type(
+  int
+)
+"types.ml" 168 3786 3791 "types.ml" 168 3786 3799
+type(
+  genEntrees
+)
+"types.ml" 168 3786 3790 "types.ml" 168 3786 3799
+type(
+  genStates
+)
+"types.ml" 168 3786 3807 "types.ml" 168 3786 3808
+ident(
+  def y "types.ml" 168 3786 3814 "types.ml" 168 3786 3848
+)
+"types.ml" 168 3786 3806 "types.ml" 168 3786 3809
+type(
+  int
+)
+"types.ml" 168 3786 3802 "types.ml" 168 3786 3810
+type(
+  genEntrees
+)
+"types.ml" 168 3786 3801 "types.ml" 168 3786 3810
+type(
+  genStates
+)
+"types.ml" 168 3786 3790 "types.ml" 168 3786 3810
+type(
+  genStates * genStates
+)
+"types.ml" 168 3786 3821 "types.ml" 168 3786 3822
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 168 3786 3795 "types.ml" 168 3786 3798
+)
+"types.ml" 168 3786 3822 "types.ml" 168 3786 3823
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 168 3786 3823 "types.ml" 168 3786 3824
+type(
+  int
+)
+ident(
+  int_ref y "types.ml" 168 3786 3806 "types.ml" 168 3786 3809
+)
+"types.ml" 168 3786 3820 "types.ml" 168 3786 3825
+type(
+  int
+)
+"types.ml" 168 3786 3826 "types.ml" 168 3786 3829
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"types.ml" 168 3786 3830 "types.ml" 168 3786 3831
+type(
+  int
+)
+"types.ml" 168 3786 3819 "types.ml" 168 3786 3832
+type(
+  int
+)
+"types.ml" 168 3786 3815 "types.ml" 168 3786 3833
+type(
+  genEntrees
+)
+"types.ml" 168 3786 3814 "types.ml" 168 3786 3833
+type(
+  genStates
+)
+"types.ml" 168 3786 3837 "types.ml" 168 3786 3838
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 168 3786 3795 "types.ml" 168 3786 3798
+)
+"types.ml" 168 3786 3838 "types.ml" 168 3786 3839
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 168 3786 3839 "types.ml" 168 3786 3840
+type(
+  int
+)
+ident(
+  int_ref y "types.ml" 168 3786 3806 "types.ml" 168 3786 3809
+)
+"types.ml" 168 3786 3836 "types.ml" 168 3786 3841
+type(
+  int
+)
+"types.ml" 168 3786 3842 "types.ml" 168 3786 3845
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"types.ml" 168 3786 3846 "types.ml" 168 3786 3847
+type(
+  int
+)
+"types.ml" 168 3786 3835 "types.ml" 168 3786 3848
+type(
+  int
+)
+"types.ml" 168 3786 3834 "types.ml" 168 3786 3848
+type(
+  genStates
+)
+"types.ml" 168 3786 3814 "types.ml" 168 3786 3848
+type(
+  genStates * genStates
+)
+"types.ml" 169 3849 3859 "types.ml" 169 3849 3860
+ident(
+  def x "types.ml" 169 3849 3872 "types.ml" 169 3849 3887
+)
+"types.ml" 169 3849 3858 "types.ml" 169 3849 3861
+type(
+  int
+)
+"types.ml" 169 3849 3854 "types.ml" 169 3849 3862
+type(
+  genEntrees
+)
+"types.ml" 169 3849 3853 "types.ml" 169 3849 3862
+type(
+  genStates
+)
+"types.ml" 169 3849 3866 "types.ml" 169 3849 3867
+ident(
+  def y "types.ml" 169 3849 3872 "types.ml" 169 3849 3887
+)
+"types.ml" 169 3849 3865 "types.ml" 169 3849 3868
+type(
+  int
+)
+"types.ml" 169 3849 3864 "types.ml" 169 3849 3868
+type(
+  genStates
+)
+"types.ml" 169 3849 3853 "types.ml" 169 3849 3868
+type(
+  genStates * genStates
+)
+"types.ml" 169 3849 3877 "types.ml" 169 3849 3880
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 169 3849 3858 "types.ml" 169 3849 3861
+)
+"types.ml" 169 3849 3873 "types.ml" 169 3849 3881
+type(
+  genEntrees
+)
+"types.ml" 169 3849 3872 "types.ml" 169 3849 3881
+type(
+  genStates
+)
+"types.ml" 169 3849 3884 "types.ml" 169 3849 3887
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 169 3849 3858 "types.ml" 169 3849 3861
+)
+"types.ml" 169 3849 3883 "types.ml" 169 3849 3887
+type(
+  genStates
+)
+"types.ml" 169 3849 3872 "types.ml" 169 3849 3887
+type(
+  genStates * genStates
+)
+"types.ml" 170 3888 3892 "types.ml" 170 3888 3894
+type(
+  genStates
+)
+ident(
+  def s1 "types.ml" 170 3888 3902 "types.ml" 170 3888 3908
+)
+"types.ml" 170 3888 3896 "types.ml" 170 3888 3898
+type(
+  genStates
+)
+ident(
+  def s2 "types.ml" 170 3888 3902 "types.ml" 170 3888 3908
+)
+"types.ml" 170 3888 3892 "types.ml" 170 3888 3898
+type(
+  genStates * genStates
+)
+"types.ml" 170 3888 3902 "types.ml" 170 3888 3904
+type(
+  genStates
+)
+ident(
+  int_ref s1 "types.ml" 170 3888 3892 "types.ml" 170 3888 3894
+)
+"types.ml" 170 3888 3906 "types.ml" 170 3888 3908
+type(
+  genStates
+)
+ident(
+  int_ref s2 "types.ml" 170 3888 3896 "types.ml" 170 3888 3898
+)
+"types.ml" 170 3888 3902 "types.ml" 170 3888 3908
+type(
+  genStates * genStates
+)
+"types.ml" 167 3760 3777 "types.ml" 170 3888 3908
+type(
+  genStates * genStates -> genStates * genStates
+)
+"types.ml" 172 3910 3914 "types.ml" 172 3910 3930
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  def count4StateColor "types.ml" 180 4171 4171 "types.ml" 1 0 -1
+)
+"types.ml" 172 3910 3940 "types.ml" 172 3910 3943
+type(
+  int
+)
+"types.ml" 172 3910 3936 "types.ml" 172 3910 3944
+type(
+  genEntrees
+)
+"types.ml" 172 3910 3935 "types.ml" 172 3910 3944
+type(
+  genStates
+)
+"types.ml" 172 3910 3945 "types.ml" 172 3910 3948
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 172 3910 3949 "types.ml" 172 3910 3950
+type(
+  int
+)
+"types.ml" 172 3910 3951 "types.ml" 172 3910 3954
+type(
+  int
+)
+"types.ml" 172 3910 3955 "types.ml" 172 3910 3956
+type(
+  int
+)
+"types.ml" 172 3910 3945 "types.ml" 172 3910 3956
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 172 3910 3934 "types.ml" 172 3910 3957
+type(
+  genStates * Graphics.color
+)
+"types.ml" 173 3959 3975 "types.ml" 173 3959 3978
+type(
+  int
+)
+"types.ml" 173 3959 3971 "types.ml" 173 3959 3979
+type(
+  genEntrees
+)
+"types.ml" 173 3959 3970 "types.ml" 173 3959 3979
+type(
+  genStates
+)
+"types.ml" 173 3959 3980 "types.ml" 173 3959 3983
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 173 3959 3984 "types.ml" 173 3959 3985
+type(
+  int
+)
+"types.ml" 173 3959 3986 "types.ml" 173 3959 3989
+type(
+  int
+)
+"types.ml" 173 3959 3990 "types.ml" 173 3959 3993
+type(
+  int
+)
+"types.ml" 173 3959 3980 "types.ml" 173 3959 3993
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 173 3959 3969 "types.ml" 173 3959 3994
+type(
+  genStates * Graphics.color
+)
+"types.ml" 174 3996 4005 "types.ml" 174 3996 4008
+type(
+  int
+)
+"types.ml" 174 3996 4001 "types.ml" 174 3996 4009
+type(
+  genEntrees
+)
+"types.ml" 174 3996 4000 "types.ml" 174 3996 4009
+type(
+  genStates
+)
+"types.ml" 174 3996 4010 "types.ml" 174 3996 4013
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 174 3996 4014 "types.ml" 174 3996 4017
+type(
+  int
+)
+"types.ml" 174 3996 4018 "types.ml" 174 3996 4021
+type(
+  int
+)
+"types.ml" 174 3996 4022 "types.ml" 174 3996 4023
+type(
+  int
+)
+"types.ml" 174 3996 4010 "types.ml" 174 3996 4023
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 174 3996 3999 "types.ml" 174 3996 4024
+type(
+  genStates * Graphics.color
+)
+"types.ml" 175 4026 4035 "types.ml" 175 4026 4038
+type(
+  int
+)
+"types.ml" 175 4026 4031 "types.ml" 175 4026 4039
+type(
+  genEntrees
+)
+"types.ml" 175 4026 4030 "types.ml" 175 4026 4039
+type(
+  genStates
+)
+"types.ml" 175 4026 4040 "types.ml" 175 4026 4043
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 175 4026 4044 "types.ml" 175 4026 4047
+type(
+  int
+)
+"types.ml" 175 4026 4048 "types.ml" 175 4026 4049
+type(
+  int
+)
+"types.ml" 175 4026 4050 "types.ml" 175 4026 4053
+type(
+  int
+)
+"types.ml" 175 4026 4040 "types.ml" 175 4026 4053
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 175 4026 4029 "types.ml" 175 4026 4054
+type(
+  genStates * Graphics.color
+)
+"types.ml" 176 4056 4061 "types.ml" 176 4056 4064
+type(
+  int
+)
+"types.ml" 176 4056 4060 "types.ml" 176 4056 4064
+type(
+  genStates
+)
+"types.ml" 176 4056 4065 "types.ml" 176 4056 4068
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 176 4056 4069 "types.ml" 176 4056 4072
+type(
+  int
+)
+"types.ml" 176 4056 4073 "types.ml" 176 4056 4076
+type(
+  int
+)
+"types.ml" 176 4056 4077 "types.ml" 176 4056 4080
+type(
+  int
+)
+"types.ml" 176 4056 4065 "types.ml" 176 4056 4080
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 176 4056 4059 "types.ml" 176 4056 4081
+type(
+  genStates * Graphics.color
+)
+"types.ml" 177 4083 4095 "types.ml" 177 4083 4098
+type(
+  int
+)
+"types.ml" 177 4083 4094 "types.ml" 177 4083 4098
+type(
+  genStates
+)
+"types.ml" 177 4083 4099 "types.ml" 177 4083 4102
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 177 4083 4103 "types.ml" 177 4083 4106
+type(
+  int
+)
+"types.ml" 177 4083 4107 "types.ml" 177 4083 4110
+type(
+  int
+)
+"types.ml" 177 4083 4111 "types.ml" 177 4083 4114
+type(
+  int
+)
+"types.ml" 177 4083 4099 "types.ml" 177 4083 4114
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 177 4083 4093 "types.ml" 177 4083 4115
+type(
+  genStates * Graphics.color
+)
+"types.ml" 178 4117 4122 "types.ml" 178 4117 4125
+type(
+  int
+)
+"types.ml" 178 4117 4121 "types.ml" 178 4117 4125
+type(
+  genStates
+)
+"types.ml" 178 4117 4126 "types.ml" 178 4117 4129
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 178 4117 4130 "types.ml" 178 4117 4133
+type(
+  int
+)
+"types.ml" 178 4117 4134 "types.ml" 178 4117 4137
+type(
+  int
+)
+"types.ml" 178 4117 4138 "types.ml" 178 4117 4141
+type(
+  int
+)
+"types.ml" 178 4117 4126 "types.ml" 178 4117 4141
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 178 4117 4120 "types.ml" 178 4117 4142
+type(
+  genStates * Graphics.color
+)
+"types.ml" 179 4144 4149 "types.ml" 179 4144 4152
+type(
+  int
+)
+"types.ml" 179 4144 4148 "types.ml" 179 4144 4152
+type(
+  genStates
+)
+"types.ml" 179 4144 4153 "types.ml" 179 4144 4156
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 179 4144 4157 "types.ml" 179 4144 4160
+type(
+  int
+)
+"types.ml" 179 4144 4161 "types.ml" 179 4144 4164
+type(
+  int
+)
+"types.ml" 179 4144 4165 "types.ml" 179 4144 4168
+type(
+  int
+)
+"types.ml" 179 4144 4153 "types.ml" 179 4144 4168
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 179 4144 4147 "types.ml" 179 4144 4169
+type(
+  genStates * Graphics.color
+)
+"types.ml" 172 3910 3933 "types.ml" 179 4144 4170
+type(
+  (genStates * Graphics.color) list
+)
+"types.ml" 180 4171 4175 "types.ml" 180 4171 4184
+type(
+  unit -> string
+)
+ident(
+  def count4Obj "types.ml" 183 4240 4240 "types.ml" 1 0 -1
+)
+"types.ml" 180 4171 4185 "types.ml" 180 4171 4187
+type(
+  unit
+)
+"types.ml" 181 4190 4193 "types.ml" 181 4190 4209
+type(
+  string
+)
+"types.ml" 181 4190 4210 "types.ml" 181 4190 4211
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 181 4190 4213 "types.ml" 181 4190 4226
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 181 4190 4227 "types.ml" 181 4190 4228
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 181 4190 4228 "types.ml" 181 4190 4232
+type(
+  int ref
+)
+ident(
+  int_ref accC "types.ml" 137 3165 3169 "types.ml" 137 3165 3173
+)
+"types.ml" 181 4190 4227 "types.ml" 181 4190 4232
+type(
+  int
+)
+"types.ml" 181 4190 4212 "types.ml" 181 4190 4233
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 181 4190 4192 "types.ml" 181 4190 4234
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 183 4240 4244 "types.ml" 183 4240 4254
+type(
+  algo
+)
+ident(
+  def testCount4 "types.ml" 199 4622 4622 "types.ml" 1 0 -1
+)
+"types.ml" 184 4259 4275 "types.ml" 184 4259 4278
+type(
+  int
+)
+"types.ml" 184 4259 4272 "types.ml" 184 4259 4278
+type(
+  genEntrees
+)
+"types.ml" 184 4259 4282 "types.ml" 184 4259 4285
+type(
+  int
+)
+"types.ml" 184 4259 4279 "types.ml" 184 4259 4285
+type(
+  genEntrees
+)
+"types.ml" 184 4259 4289 "types.ml" 184 4259 4292
+type(
+  int
+)
+"types.ml" 184 4259 4286 "types.ml" 184 4259 4292
+type(
+  genEntrees
+)
+"types.ml" 184 4259 4296 "types.ml" 184 4259 4299
+type(
+  int
+)
+"types.ml" 184 4259 4293 "types.ml" 184 4259 4299
+type(
+  genEntrees
+)
+"types.ml" 184 4259 4271 "types.ml" 184 4259 4300
+type(
+  genEntrees list
+)
+"types.ml" 185 4302 4315 "types.ml" 185 4302 4324
+type(
+  unit -> unit
+)
+ident(
+  int_ref initCount "types.ml" 139 3185 3189 "types.ml" 139 3185 3198
+)
+"types.ml" 186 4326 4336 "types.ml" 186 4326 4347
+type(
+  genEntrees -> genStates
+)
+ident(
+  int_ref count4Input "types.ml" 148 3405 3409 "types.ml" 148 3405 3420
+)
+"types.ml" 187 4349 4360 "types.ml" 187 4349 4372
+type(
+  genStates -> string
+)
+ident(
+  int_ref count4Output "types.ml" 156 3557 3561 "types.ml" 156 3557 3573
+)
+"types.ml" 188 4374 4385 "types.ml" 188 4374 4395
+type(
+  int -> int * int
+)
+ident(
+  int_ref selectRand "types.ml" 75 1550 1554 "types.ml" 75 1550 1564
+)
+"types.ml" 189 4397 4406 "types.ml" 189 4397 4416
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  int_ref count4Conv "types.ml" 167 3760 3764 "types.ml" 167 3760 3774
+)
+"types.ml" 190 4418 4429 "types.ml" 190 4418 4436
+type(
+  render
+)
+"types.ml" 191 4438 4457 "types.ml" 191 4438 4473
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  int_ref count4StateColor "types.ml" 172 3910 3914 "types.ml" 172 3910 3930
+)
+"types.ml" 192 4475 4488 "types.ml" 192 4475 4497
+type(
+  unit -> string
+)
+ident(
+  int_ref count4Obj "types.ml" 180 4171 4175 "types.ml" 180 4171 4184
+)
+"types.ml" 183 4240 4257 "types.ml" 193 4498 4499
+type(
+  algo
+)
+"types.ml" 199 4622 4626 "types.ml" 199 4622 4629
+type(
+  int ref
+)
+ident(
+  def nbT "types.ml" 201 4639 4639 "types.ml" 1 0 -1
+)
+"types.ml" 199 4622 4632 "types.ml" 199 4622 4635
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 199 4622 4636 "types.ml" 199 4622 4637
+type(
+  int
+)
+"types.ml" 199 4622 4632 "types.ml" 199 4622 4637
+type(
+  int ref
+)
+"types.ml" 201 4639 4643 "types.ml" 201 4639 4650
+type(
+  genEntrees -> genStates
+)
+ident(
+  def orInput "types.ml" 207 4729 4729 "types.ml" 1 0 -1
+)
+"types.ml" 202 4662 4669 "types.ml" 202 4662 4672
+type(
+  int
+)
+"types.ml" 202 4662 4666 "types.ml" 202 4662 4672
+type(
+  genEntrees
+)
+"types.ml" 202 4662 4677 "types.ml" 202 4662 4680
+type(
+  int
+)
+"types.ml" 202 4662 4676 "types.ml" 202 4662 4680
+type(
+  genStates
+)
+"types.ml" 203 4681 4688 "types.ml" 203 4681 4691
+type(
+  int
+)
+"types.ml" 203 4681 4685 "types.ml" 203 4681 4691
+type(
+  genEntrees
+)
+"types.ml" 203 4681 4696 "types.ml" 203 4681 4699
+type(
+  int
+)
+"types.ml" 203 4681 4695 "types.ml" 203 4681 4699
+type(
+  genStates
+)
+"types.ml" 204 4700 4704 "types.ml" 204 4700 4705
+type(
+  genEntrees
+)
+"types.ml" 204 4700 4716 "types.ml" 204 4700 4721
+type(
+  bool
+)
+"types.ml" 204 4700 4709 "types.ml" 204 4700 4721
+type(
+  genStates
+)
+"types.ml" 201 4639 4653 "types.ml" 204 4700 4721
+type(
+  genEntrees -> genStates
+)
+"types.ml" 207 4729 4733 "types.ml" 207 4729 4741
+type(
+  genStates -> string
+)
+ident(
+  def orOutput "types.ml" 212 4810 4810 "types.ml" 1 0 -1
+)
+"types.ml" 208 4753 4758 "types.ml" 208 4753 4761
+type(
+  int
+)
+"types.ml" 208 4753 4757 "types.ml" 208 4753 4761
+type(
+  genStates
+)
+"types.ml" 208 4753 4765 "types.ml" 208 4753 4769
+type(
+  string
+)
+"types.ml" 209 4770 4775 "types.ml" 209 4770 4778
+type(
+  int
+)
+"types.ml" 209 4770 4774 "types.ml" 209 4770 4778
+type(
+  genStates
+)
+"types.ml" 209 4770 4782 "types.ml" 209 4770 4786
+type(
+  string
+)
+"types.ml" 210 4787 4791 "types.ml" 210 4787 4792
+type(
+  genStates
+)
+"types.ml" 210 4787 4803 "types.ml" 210 4787 4808
+type(
+  bool
+)
+"types.ml" 210 4787 4796 "types.ml" 210 4787 4808
+type(
+  string
+)
+"types.ml" 207 4729 4744 "types.ml" 210 4787 4808
+type(
+  genStates -> string
+)
+"types.ml" 212 4810 4814 "types.ml" 212 4810 4820
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  def orConv "types.ml" 216 4930 4930 "types.ml" 1 0 -1
+)
+"types.ml" 213 4832 4838 "types.ml" 213 4832 4839
+ident(
+  def x "types.ml" 213 4832 4851 "types.ml" 213 4832 4908
+)
+"types.ml" 213 4832 4837 "types.ml" 213 4832 4840
+type(
+  int
+)
+"types.ml" 213 4832 4836 "types.ml" 213 4832 4840
+type(
+  genStates
+)
+"types.ml" 213 4832 4843 "types.ml" 213 4832 4844
+ident(
+  def y "types.ml" 213 4832 4851 "types.ml" 213 4832 4908
+)
+"types.ml" 213 4832 4842 "types.ml" 213 4832 4845
+type(
+  int
+)
+"types.ml" 213 4832 4841 "types.ml" 213 4832 4845
+type(
+  genStates
+)
+"types.ml" 213 4832 4836 "types.ml" 213 4832 4845
+type(
+  genStates * genStates
+)
+"types.ml" 213 4832 4851 "types.ml" 213 4832 4852
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 213 4832 4837 "types.ml" 213 4832 4840
+)
+"types.ml" 213 4832 4853 "types.ml" 213 4832 4854
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 213 4832 4855 "types.ml" 213 4832 4856
+type(
+  int
+)
+"types.ml" 213 4832 4851 "types.ml" 213 4832 4856
+type(
+  bool
+)
+"types.ml" 213 4832 4857 "types.ml" 213 4832 4859
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 213 4832 4860 "types.ml" 213 4832 4861
+type(
+  int
+)
+ident(
+  int_ref y "types.ml" 213 4832 4842 "types.ml" 213 4832 4845
+)
+"types.ml" 213 4832 4862 "types.ml" 213 4832 4864
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"types.ml" 213 4832 4865 "types.ml" 213 4832 4866
+type(
+  int
+)
+"types.ml" 213 4832 4860 "types.ml" 213 4832 4866
+type(
+  bool
+)
+"types.ml" 213 4832 4851 "types.ml" 213 4832 4866
+type(
+  bool
+)
+"types.ml" 213 4832 4867 "types.ml" 213 4832 4869
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"types.ml" 213 4832 4870 "types.ml" 213 4832 4871
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 213 4832 4837 "types.ml" 213 4832 4840
+)
+"types.ml" 213 4832 4872 "types.ml" 213 4832 4874
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"types.ml" 213 4832 4875 "types.ml" 213 4832 4876
+type(
+  int
+)
+"types.ml" 213 4832 4870 "types.ml" 213 4832 4876
+type(
+  bool
+)
+"types.ml" 213 4832 4877 "types.ml" 213 4832 4879
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"types.ml" 213 4832 4880 "types.ml" 213 4832 4881
+type(
+  int
+)
+ident(
+  int_ref y "types.ml" 213 4832 4842 "types.ml" 213 4832 4845
+)
+"types.ml" 213 4832 4882 "types.ml" 213 4832 4883
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 213 4832 4884 "types.ml" 213 4832 4885
+type(
+  int
+)
+"types.ml" 213 4832 4880 "types.ml" 213 4832 4885
+type(
+  bool
+)
+"types.ml" 213 4832 4870 "types.ml" 213 4832 4885
+type(
+  bool
+)
+"types.ml" 213 4832 4851 "types.ml" 213 4832 4885
+type(
+  bool
+)
+"types.ml" 213 4832 4889 "types.ml" 213 4832 4893
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"types.ml" 213 4832 4894 "types.ml" 213 4832 4897
+type(
+  int ref
+)
+ident(
+  int_ref nbT "types.ml" 199 4622 4626 "types.ml" 199 4622 4629
+)
+"types.ml" 213 4832 4889 "types.ml" 213 4832 4897
+type(
+  unit
+)
+"types.ml" 213 4832 4900 "types.ml" 213 4832 4903
+type(
+  int
+)
+"types.ml" 213 4832 4899 "types.ml" 213 4832 4903
+type(
+  genStates
+)
+"types.ml" 213 4832 4905 "types.ml" 213 4832 4908
+type(
+  int
+)
+"types.ml" 213 4832 4904 "types.ml" 213 4832 4908
+type(
+  genStates
+)
+"types.ml" 213 4832 4899 "types.ml" 213 4832 4908
+type(
+  genStates * genStates
+)
+"types.ml" 213 4832 4889 "types.ml" 213 4832 4908
+type(
+  genStates * genStates
+)
+"types.ml" 214 4909 4913 "types.ml" 214 4909 4915
+type(
+  genStates
+)
+ident(
+  def s1 "types.ml" 214 4909 4923 "types.ml" 214 4909 4928
+)
+"types.ml" 214 4909 4917 "types.ml" 214 4909 4919
+type(
+  genStates
+)
+ident(
+  def s2 "types.ml" 214 4909 4923 "types.ml" 214 4909 4928
+)
+"types.ml" 214 4909 4913 "types.ml" 214 4909 4919
+type(
+  genStates * genStates
+)
+"types.ml" 214 4909 4923 "types.ml" 214 4909 4925
+type(
+  genStates
+)
+ident(
+  int_ref s1 "types.ml" 214 4909 4913 "types.ml" 214 4909 4915
+)
+"types.ml" 214 4909 4926 "types.ml" 214 4909 4928
+type(
+  genStates
+)
+ident(
+  int_ref s2 "types.ml" 214 4909 4917 "types.ml" 214 4909 4919
+)
+"types.ml" 214 4909 4923 "types.ml" 214 4909 4928
+type(
+  genStates * genStates
+)
+"types.ml" 212 4810 4823 "types.ml" 214 4909 4928
+type(
+  genStates * genStates -> genStates * genStates
+)
+"types.ml" 216 4930 4934 "types.ml" 216 4930 4946
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  def orStateColor "types.ml" 218 4995 4995 "types.ml" 1 0 -1
+)
+"types.ml" 216 4930 4952 "types.ml" 216 4930 4955
+type(
+  int
+)
+"types.ml" 216 4930 4951 "types.ml" 216 4930 4955
+type(
+  genStates
+)
+"types.ml" 216 4930 4956 "types.ml" 216 4930 4959
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 216 4930 4960 "types.ml" 216 4930 4961
+type(
+  int
+)
+"types.ml" 216 4930 4962 "types.ml" 216 4930 4965
+type(
+  int
+)
+"types.ml" 216 4930 4966 "types.ml" 216 4930 4967
+type(
+  int
+)
+"types.ml" 216 4930 4956 "types.ml" 216 4930 4967
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 216 4930 4950 "types.ml" 216 4930 4968
+type(
+  genStates * Graphics.color
+)
+"types.ml" 217 4970 4975 "types.ml" 217 4970 4978
+type(
+  int
+)
+"types.ml" 217 4970 4974 "types.ml" 217 4970 4978
+type(
+  genStates
+)
+"types.ml" 217 4970 4979 "types.ml" 217 4970 4982
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 217 4970 4983 "types.ml" 217 4970 4986
+type(
+  int
+)
+"types.ml" 217 4970 4987 "types.ml" 217 4970 4990
+type(
+  int
+)
+"types.ml" 217 4970 4991 "types.ml" 217 4970 4992
+type(
+  int
+)
+"types.ml" 217 4970 4979 "types.ml" 217 4970 4992
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 217 4970 4973 "types.ml" 217 4970 4993
+type(
+  genStates * Graphics.color
+)
+"types.ml" 216 4930 4949 "types.ml" 217 4970 4994
+type(
+  (genStates * Graphics.color) list
+)
+"types.ml" 218 4995 4999 "types.ml" 218 4995 5004
+type(
+  unit -> string
+)
+ident(
+  def orObj "types.ml" 222 5090 5090 "types.ml" 1 0 -1
+)
+"types.ml" 218 4995 5005 "types.ml" 218 4995 5007
+type(
+  unit
+)
+"types.ml" 219 5010 5013 "types.ml" 219 5010 5028
+type(
+  string
+)
+"types.ml" 219 5010 5029 "types.ml" 219 5010 5030
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 219 5010 5032 "types.ml" 219 5010 5045
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 219 5010 5046 "types.ml" 219 5010 5047
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 219 5010 5047 "types.ml" 219 5010 5050
+type(
+  int ref
+)
+ident(
+  int_ref nbT "types.ml" 199 4622 4626 "types.ml" 199 4622 4629
+)
+"types.ml" 219 5010 5046 "types.ml" 219 5010 5050
+type(
+  int
+)
+"types.ml" 219 5010 5031 "types.ml" 219 5010 5051
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 219 5010 5052 "types.ml" 219 5010 5053
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 219 5010 5054 "types.ml" 219 5010 5059
+type(
+  string
+)
+"types.ml" 219 5010 5060 "types.ml" 219 5010 5061
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 219 5010 5063 "types.ml" 219 5010 5076
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 219 5010 5077 "types.ml" 219 5010 5078
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 219 5010 5078 "types.ml" 219 5010 5085
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 219 5010 5077 "types.ml" 219 5010 5085
+type(
+  int
+)
+"types.ml" 219 5010 5062 "types.ml" 219 5010 5086
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 219 5010 5054 "types.ml" 219 5010 5086
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 219 5010 5031 "types.ml" 219 5010 5086
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 219 5010 5012 "types.ml" 219 5010 5087
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 222 5090 5094 "types.ml" 222 5090 5100
+type(
+  unit -> unit
+)
+ident(
+  def initOr "types.ml" 233 5328 5328 "types.ml" 1 0 -1
+)
+"types.ml" 222 5090 5101 "types.ml" 222 5090 5103
+type(
+  unit
+)
+"types.ml" 223 5106 5108 "types.ml" 223 5106 5111
+type(
+  int ref
+)
+ident(
+  int_ref nbT "types.ml" 199 4622 4626 "types.ml" 199 4622 4629
+)
+"types.ml" 223 5106 5112 "types.ml" 223 5106 5114
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 223 5106 5115 "types.ml" 223 5106 5116
+type(
+  int
+)
+"types.ml" 223 5106 5108 "types.ml" 223 5106 5116
+type(
+  unit
+)
+"types.ml" 224 5118 5124 "types.ml" 224 5118 5125
+type(
+  int
+)
+ident(
+  def n "types.ml" 225 5151 5153 "types.ml" 231 5290 5326
+)
+"types.ml" 224 5118 5128 "types.ml" 224 5118 5138
+type(
+  int -> int
+)
+ident(
+  ext_ref Random.int
+)
+"types.ml" 224 5118 5139 "types.ml" 224 5118 5140
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 224 5118 5140 "types.ml" 224 5118 5147
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 224 5118 5139 "types.ml" 224 5118 5147
+type(
+  int
+)
+"types.ml" 224 5118 5128 "types.ml" 224 5118 5147
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 225 5151 5157 "types.ml" 225 5151 5163
+type(
+  int -> genStates
+)
+ident(
+  def affect "types.ml" 231 5290 5292 "types.ml" 231 5290 5326
+)
+"types.ml" 225 5151 5164 "types.ml" 225 5151 5165
+type(
+  int
+)
+ident(
+  def x "types.ml" 226 5168 5172 "types.ml" 229 5240 5284
+)
+"types.ml" 226 5168 5175 "types.ml" 226 5168 5176
+type(
+  int
+)
+ident(
+  int_ref n "types.ml" 224 5118 5124 "types.ml" 224 5118 5125
+)
+"types.ml" 226 5168 5177 "types.ml" 226 5168 5178
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 226 5168 5179 "types.ml" 226 5168 5180
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 225 5151 5164 "types.ml" 225 5151 5165
+)
+"types.ml" 226 5168 5175 "types.ml" 226 5168 5180
+type(
+  bool
+)
+"types.ml" 227 5186 5192 "types.ml" 227 5186 5193
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 227 5186 5193 "types.ml" 227 5186 5197
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 227 5186 5192 "types.ml" 227 5186 5197
+type(
+  algo
+)
+"types.ml" 227 5186 5192 "types.ml" 227 5186 5203
+type(
+  genEntrees -> genStates
+)
+"types.ml" 227 5186 5205 "types.ml" 227 5186 5213
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 227 5186 5214 "types.ml" 227 5186 5215
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 227 5186 5215 "types.ml" 227 5186 5219
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 227 5186 5214 "types.ml" 227 5186 5219
+type(
+  algo
+)
+"types.ml" 227 5186 5214 "types.ml" 227 5186 5227
+type(
+  genEntrees list
+)
+"types.ml" 227 5186 5228 "types.ml" 227 5186 5229
+type(
+  int
+)
+"types.ml" 227 5186 5204 "types.ml" 227 5186 5230
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 227 5186 5192 "types.ml" 227 5186 5230
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 229 5240 5246 "types.ml" 229 5240 5247
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 229 5240 5247 "types.ml" 229 5240 5251
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 229 5240 5246 "types.ml" 229 5240 5251
+type(
+  algo
+)
+"types.ml" 229 5240 5246 "types.ml" 229 5240 5257
+type(
+  genEntrees -> genStates
+)
+"types.ml" 229 5240 5259 "types.ml" 229 5240 5267
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 229 5240 5268 "types.ml" 229 5240 5269
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 229 5240 5269 "types.ml" 229 5240 5273
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 229 5240 5268 "types.ml" 229 5240 5273
+type(
+  algo
+)
+"types.ml" 229 5240 5268 "types.ml" 229 5240 5281
+type(
+  genEntrees list
+)
+"types.ml" 229 5240 5282 "types.ml" 229 5240 5283
+type(
+  int
+)
+"types.ml" 229 5240 5258 "types.ml" 229 5240 5284
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 229 5240 5246 "types.ml" 229 5240 5284
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 226 5168 5172 "types.ml" 229 5240 5284
+type(
+  genStates
+)
+"types.ml" 231 5290 5292 "types.ml" 231 5290 5296
+type(
+  genStates array ref
+)
+ident(
+  int_ref conf "types.ml" 42 888 892 "types.ml" 42 888 896
+)
+"types.ml" 231 5290 5297 "types.ml" 231 5290 5299
+type(
+  genStates array ref -> genStates array -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 231 5290 5300 "types.ml" 231 5290 5310
+type(
+  int -> (int -> genStates) -> genStates array
+)
+ident(
+  ext_ref Array.init
+)
+"types.ml" 231 5290 5311 "types.ml" 231 5290 5312
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 231 5290 5312 "types.ml" 231 5290 5319
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 231 5290 5311 "types.ml" 231 5290 5319
+type(
+  int
+)
+"types.ml" 231 5290 5320 "types.ml" 231 5290 5326
+type(
+  int -> genStates
+)
+ident(
+  int_ref affect "types.ml" 225 5151 5157 "types.ml" 225 5151 5163
+)
+"types.ml" 231 5290 5300 "types.ml" 231 5290 5326
+call(
+  stack
+)
+type(
+  genStates array
+)
+"types.ml" 231 5290 5292 "types.ml" 231 5290 5326
+type(
+  unit
+)
+"types.ml" 225 5151 5153 "types.ml" 231 5290 5326
+type(
+  unit
+)
+"types.ml" 224 5118 5120 "types.ml" 231 5290 5326
+type(
+  unit
+)
+"types.ml" 223 5106 5108 "types.ml" 231 5290 5326
+type(
+  unit
+)
+"types.ml" 233 5328 5332 "types.ml" 233 5328 5338
+type(
+  algo
+)
+ident(
+  def testOr "types.ml" 249 5708 5708 "types.ml" 1 0 -1
+)
+"types.ml" 234 5343 5359 "types.ml" 234 5343 5362
+type(
+  int
+)
+"types.ml" 234 5343 5356 "types.ml" 234 5343 5362
+type(
+  genEntrees
+)
+"types.ml" 234 5343 5366 "types.ml" 234 5343 5369
+type(
+  int
+)
+"types.ml" 234 5343 5363 "types.ml" 234 5343 5369
+type(
+  genEntrees
+)
+"types.ml" 234 5343 5355 "types.ml" 234 5343 5370
+type(
+  genEntrees list
+)
+"types.ml" 235 5372 5385 "types.ml" 235 5372 5391
+type(
+  unit -> unit
+)
+ident(
+  int_ref initOr "types.ml" 222 5090 5094 "types.ml" 222 5090 5100
+)
+"types.ml" 236 5393 5403 "types.ml" 236 5393 5410
+type(
+  genEntrees -> genStates
+)
+ident(
+  int_ref orInput "types.ml" 201 4639 4643 "types.ml" 201 4639 4650
+)
+"types.ml" 237 5412 5423 "types.ml" 237 5412 5431
+type(
+  genStates -> string
+)
+ident(
+  int_ref orOutput "types.ml" 207 4729 4733 "types.ml" 207 4729 4741
+)
+"types.ml" 238 5433 5444 "types.ml" 238 5433 5454
+type(
+  int -> int * int
+)
+ident(
+  int_ref selectRand "types.ml" 75 1550 1554 "types.ml" 75 1550 1564
+)
+"types.ml" 239 5456 5465 "types.ml" 239 5456 5471
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  int_ref orConv "types.ml" 212 4810 4814 "types.ml" 212 4810 4820
+)
+"types.ml" 240 5473 5484 "types.ml" 240 5473 5491
+type(
+  render
+)
+"types.ml" 241 5493 5512 "types.ml" 241 5493 5524
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  int_ref orStateColor "types.ml" 216 4930 4934 "types.ml" 216 4930 4946
+)
+"types.ml" 242 5526 5539 "types.ml" 242 5526 5544
+type(
+  unit -> string
+)
+ident(
+  int_ref orObj "types.ml" 218 4995 4999 "types.ml" 218 4995 5004
+)
+"types.ml" 233 5328 5341 "types.ml" 243 5545 5546
+type(
+  algo
+)
+"types.ml" 249 5708 5712 "types.ml" 249 5708 5720
+type(
+  genEntrees -> genStates
+)
+ident(
+  def bstInput "types.ml" 256 5818 5818 "types.ml" 1 0 -1
+)
+"types.ml" 250 5732 5739 "types.ml" 250 5732 5742
+type(
+  int
+)
+"types.ml" 250 5732 5736 "types.ml" 250 5732 5742
+type(
+  genEntrees
+)
+"types.ml" 250 5732 5747 "types.ml" 250 5732 5750
+type(
+  int
+)
+"types.ml" 250 5732 5746 "types.ml" 250 5732 5750
+type(
+  genStates
+)
+"types.ml" 251 5751 5758 "types.ml" 251 5751 5761
+type(
+  int
+)
+"types.ml" 251 5751 5755 "types.ml" 251 5751 5761
+type(
+  genEntrees
+)
+"types.ml" 251 5751 5766 "types.ml" 251 5751 5769
+type(
+  int
+)
+"types.ml" 251 5751 5765 "types.ml" 251 5751 5769
+type(
+  genStates
+)
+"types.ml" 252 5770 5774 "types.ml" 252 5770 5775
+type(
+  genEntrees
+)
+"types.ml" 252 5770 5784 "types.ml" 252 5770 5785
+type(
+  int
+)
+"types.ml" 252 5770 5786 "types.ml" 252 5770 5787
+type(
+  int
+)
+"types.ml" 252 5770 5779 "types.ml" 252 5770 5788
+type(
+  genStates
+)
+"types.ml" 253 5789 5793 "types.ml" 253 5789 5794
+type(
+  genEntrees
+)
+"types.ml" 253 5789 5805 "types.ml" 253 5789 5810
+type(
+  bool
+)
+"types.ml" 253 5789 5798 "types.ml" 253 5789 5810
+type(
+  genStates
+)
+"types.ml" 249 5708 5723 "types.ml" 253 5789 5810
+type(
+  genEntrees -> genStates
+)
+"types.ml" 256 5818 5822 "types.ml" 256 5818 5831
+type(
+  genStates -> string
+)
+ident(
+  def bstOutput "types.ml" 262 5923 5923 "types.ml" 1 0 -1
+)
+"types.ml" 257 5843 5848 "types.ml" 257 5843 5851
+type(
+  int
+)
+"types.ml" 257 5843 5847 "types.ml" 257 5843 5851
+type(
+  genStates
+)
+"types.ml" 257 5843 5855 "types.ml" 257 5843 5858
+type(
+  string
+)
+"types.ml" 258 5859 5864 "types.ml" 258 5859 5867
+type(
+  int
+)
+"types.ml" 258 5859 5863 "types.ml" 258 5859 5867
+type(
+  genStates
+)
+"types.ml" 258 5859 5871 "types.ml" 258 5859 5874
+type(
+  string
+)
+"types.ml" 259 5875 5884 "types.ml" 259 5875 5885
+type(
+  int
+)
+type(
+  int
+)
+"types.ml" 259 5875 5879 "types.ml" 259 5875 5885
+type(
+  genStates
+)
+"types.ml" 259 5875 5889 "types.ml" 259 5875 5894
+type(
+  string
+)
+"types.ml" 260 5895 5899 "types.ml" 260 5895 5900
+type(
+  genStates
+)
+"types.ml" 260 5895 5911 "types.ml" 260 5895 5916
+type(
+  bool
+)
+"types.ml" 260 5895 5904 "types.ml" 260 5895 5916
+type(
+  string
+)
+"types.ml" 256 5818 5834 "types.ml" 260 5895 5916
+type(
+  genStates -> string
+)
+"types.ml" 262 5923 5927 "types.ml" 262 5923 5934
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  def bstConv "types.ml" 272 6158 6158 "types.ml" 1 0 -1
+)
+"types.ml" 263 5946 5955 "types.ml" 263 5946 5957
+type(
+  int
+)
+ident(
+  def n0 "types.ml" 264 5971 5976 "types.ml" 265 6016 6039
+)
+"types.ml" 263 5946 5958 "types.ml" 263 5946 5960
+type(
+  int
+)
+ident(
+  def n1 "types.ml" 264 5971 5976 "types.ml" 265 6016 6039
+)
+"types.ml" 263 5946 5950 "types.ml" 263 5946 5961
+type(
+  genStates
+)
+"types.ml" 263 5946 5964 "types.ml" 263 5946 5967
+type(
+  int
+)
+"types.ml" 263 5946 5963 "types.ml" 263 5946 5967
+type(
+  genStates
+)
+"types.ml" 263 5946 5950 "types.ml" 263 5946 5967
+type(
+  genStates * genStates
+)
+"types.ml" 264 5971 5980 "types.ml" 264 5971 5982
+type(
+  int
+)
+ident(
+  def n0 "types.ml" 265 6016 6020 "types.ml" 265 6016 6039
+)
+"types.ml" 264 5971 5988 "types.ml" 264 5971 5990
+type(
+  int
+)
+ident(
+  int_ref n0 "types.ml" 263 5946 5955 "types.ml" 263 5946 5957
+)
+"types.ml" 264 5971 5991 "types.ml" 264 5971 5992
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"types.ml" 264 5971 5993 "types.ml" 264 5971 5994
+type(
+  int
+)
+"types.ml" 264 5971 5988 "types.ml" 264 5971 5994
+type(
+  bool
+)
+"types.ml" 264 5971 6000 "types.ml" 264 5971 6002
+type(
+  int
+)
+ident(
+  int_ref n0 "types.ml" 263 5946 5955 "types.ml" 263 5946 5957
+)
+"types.ml" 264 5971 6002 "types.ml" 264 5971 6003
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"types.ml" 264 5971 6003 "types.ml" 264 5971 6004
+type(
+  int
+)
+"types.ml" 264 5971 6000 "types.ml" 264 5971 6004
+type(
+  int
+)
+"types.ml" 264 5971 6010 "types.ml" 264 5971 6012
+type(
+  int
+)
+ident(
+  int_ref n0 "types.ml" 263 5946 5955 "types.ml" 263 5946 5957
+)
+"types.ml" 264 5971 5985 "types.ml" 264 5971 6012
+type(
+  int
+)
+"types.ml" 265 6016 6025 "types.ml" 265 6016 6027
+type(
+  int
+)
+ident(
+  int_ref n0 "types.ml" 264 5971 5980 "types.ml" 264 5971 5982
+)
+"types.ml" 265 6016 6028 "types.ml" 265 6016 6030
+type(
+  int
+)
+ident(
+  int_ref n1 "types.ml" 263 5946 5958 "types.ml" 263 5946 5960
+)
+"types.ml" 265 6016 6030 "types.ml" 265 6016 6031
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 265 6016 6031 "types.ml" 265 6016 6032
+type(
+  int
+)
+"types.ml" 265 6016 6028 "types.ml" 265 6016 6032
+type(
+  int
+)
+"types.ml" 265 6016 6020 "types.ml" 265 6016 6033
+type(
+  genStates
+)
+"types.ml" 265 6016 6036 "types.ml" 265 6016 6039
+type(
+  int
+)
+"types.ml" 265 6016 6035 "types.ml" 265 6016 6039
+type(
+  genStates
+)
+"types.ml" 265 6016 6020 "types.ml" 265 6016 6039
+type(
+  genStates * genStates
+)
+"types.ml" 264 5971 5976 "types.ml" 265 6016 6039
+type(
+  genStates * genStates
+)
+"types.ml" 266 6040 6049 "types.ml" 266 6040 6051
+type(
+  int
+)
+ident(
+  def n0 "types.ml" 267 6065 6070 "types.ml" 268 6110 6133
+)
+"types.ml" 266 6040 6052 "types.ml" 266 6040 6054
+type(
+  int
+)
+ident(
+  def n1 "types.ml" 267 6065 6070 "types.ml" 268 6110 6133
+)
+"types.ml" 266 6040 6044 "types.ml" 266 6040 6055
+type(
+  genStates
+)
+"types.ml" 266 6040 6058 "types.ml" 266 6040 6061
+type(
+  int
+)
+"types.ml" 266 6040 6057 "types.ml" 266 6040 6061
+type(
+  genStates
+)
+"types.ml" 266 6040 6044 "types.ml" 266 6040 6061
+type(
+  genStates * genStates
+)
+"types.ml" 267 6065 6074 "types.ml" 267 6065 6076
+type(
+  int
+)
+ident(
+  def n1 "types.ml" 268 6110 6114 "types.ml" 268 6110 6133
+)
+"types.ml" 267 6065 6082 "types.ml" 267 6065 6084
+type(
+  int
+)
+ident(
+  int_ref n1 "types.ml" 266 6040 6052 "types.ml" 266 6040 6054
+)
+"types.ml" 267 6065 6085 "types.ml" 267 6065 6086
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"types.ml" 267 6065 6087 "types.ml" 267 6065 6088
+type(
+  int
+)
+"types.ml" 267 6065 6082 "types.ml" 267 6065 6088
+type(
+  bool
+)
+"types.ml" 267 6065 6094 "types.ml" 267 6065 6096
+type(
+  int
+)
+ident(
+  int_ref n1 "types.ml" 266 6040 6052 "types.ml" 266 6040 6054
+)
+"types.ml" 267 6065 6096 "types.ml" 267 6065 6097
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"types.ml" 267 6065 6097 "types.ml" 267 6065 6098
+type(
+  int
+)
+"types.ml" 267 6065 6094 "types.ml" 267 6065 6098
+type(
+  int
+)
+"types.ml" 267 6065 6104 "types.ml" 267 6065 6106
+type(
+  int
+)
+ident(
+  int_ref n1 "types.ml" 266 6040 6052 "types.ml" 266 6040 6054
+)
+"types.ml" 267 6065 6079 "types.ml" 267 6065 6106
+type(
+  int
+)
+"types.ml" 268 6110 6119 "types.ml" 268 6110 6121
+type(
+  int
+)
+ident(
+  int_ref n0 "types.ml" 266 6040 6049 "types.ml" 266 6040 6051
+)
+"types.ml" 268 6110 6121 "types.ml" 268 6110 6122
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 268 6110 6122 "types.ml" 268 6110 6123
+type(
+  int
+)
+"types.ml" 268 6110 6119 "types.ml" 268 6110 6123
+type(
+  int
+)
+"types.ml" 268 6110 6124 "types.ml" 268 6110 6126
+type(
+  int
+)
+ident(
+  int_ref n1 "types.ml" 267 6065 6074 "types.ml" 267 6065 6076
+)
+"types.ml" 268 6110 6114 "types.ml" 268 6110 6127
+type(
+  genStates
+)
+"types.ml" 268 6110 6130 "types.ml" 268 6110 6133
+type(
+  int
+)
+"types.ml" 268 6110 6129 "types.ml" 268 6110 6133
+type(
+  genStates
+)
+"types.ml" 268 6110 6114 "types.ml" 268 6110 6133
+type(
+  genStates * genStates
+)
+"types.ml" 267 6065 6070 "types.ml" 268 6110 6133
+type(
+  genStates * genStates
+)
+"types.ml" 269 6134 6138 "types.ml" 269 6134 6139
+type(
+  genStates * genStates
+)
+"types.ml" 269 6134 6150 "types.ml" 269 6134 6155
+type(
+  bool
+)
+"types.ml" 269 6134 6143 "types.ml" 269 6134 6155
+type(
+  genStates * genStates
+)
+"types.ml" 262 5923 5937 "types.ml" 269 6134 6155
+type(
+  genStates * genStates -> genStates * genStates
+)
+"types.ml" 272 6158 6162 "types.ml" 272 6158 6175
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  def bstStateColor "types.ml" 275 6261 6261 "types.ml" 1 0 -1
+)
+"types.ml" 272 6158 6185 "types.ml" 272 6158 6186
+type(
+  int
+)
+"types.ml" 272 6158 6187 "types.ml" 272 6158 6188
+type(
+  int
+)
+"types.ml" 272 6158 6180 "types.ml" 272 6158 6189
+type(
+  genStates
+)
+"types.ml" 272 6158 6190 "types.ml" 272 6158 6193
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 272 6158 6194 "types.ml" 272 6158 6197
+type(
+  int
+)
+"types.ml" 272 6158 6198 "types.ml" 272 6158 6201
+type(
+  int
+)
+"types.ml" 272 6158 6202 "types.ml" 272 6158 6203
+type(
+  int
+)
+"types.ml" 272 6158 6190 "types.ml" 272 6158 6203
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 272 6158 6179 "types.ml" 272 6158 6204
+type(
+  genStates * Graphics.color
+)
+"types.ml" 273 6206 6215 "types.ml" 273 6206 6218
+type(
+  int
+)
+"types.ml" 273 6206 6214 "types.ml" 273 6206 6218
+type(
+  genStates
+)
+"types.ml" 273 6206 6219 "types.ml" 273 6206 6222
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 273 6206 6223 "types.ml" 273 6206 6224
+type(
+  int
+)
+"types.ml" 273 6206 6225 "types.ml" 273 6206 6228
+type(
+  int
+)
+"types.ml" 273 6206 6229 "types.ml" 273 6206 6230
+type(
+  int
+)
+"types.ml" 273 6206 6219 "types.ml" 273 6206 6230
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 273 6206 6213 "types.ml" 273 6206 6231
+type(
+  genStates * Graphics.color
+)
+"types.ml" 274 6233 6241 "types.ml" 274 6233 6244
+type(
+  int
+)
+"types.ml" 274 6233 6240 "types.ml" 274 6233 6244
+type(
+  genStates
+)
+"types.ml" 274 6233 6245 "types.ml" 274 6233 6248
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 274 6233 6249 "types.ml" 274 6233 6250
+type(
+  int
+)
+"types.ml" 274 6233 6251 "types.ml" 274 6233 6254
+type(
+  int
+)
+"types.ml" 274 6233 6255 "types.ml" 274 6233 6258
+type(
+  int
+)
+"types.ml" 274 6233 6245 "types.ml" 274 6233 6258
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 274 6233 6239 "types.ml" 274 6233 6259
+type(
+  genStates * Graphics.color
+)
+"types.ml" 272 6158 6178 "types.ml" 274 6233 6260
+type(
+  (genStates * Graphics.color) list
+)
+"types.ml" 275 6261 6265 "types.ml" 275 6261 6271
+type(
+  unit -> string
+)
+ident(
+  def bstObj "types.ml" 281 6452 6452 "types.ml" 1 0 -1
+)
+"types.ml" 275 6261 6272 "types.ml" 275 6261 6274
+type(
+  unit
+)
+"types.ml" 276 6277 6285 "types.ml" 276 6277 6294
+type(
+  genStates array -> int -> genStates
+)
+ident(
+  ext_ref Array.get
+)
+"types.ml" 276 6277 6295 "types.ml" 276 6277 6296
+type(
+  genStates array ref -> genStates array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 276 6277 6296 "types.ml" 276 6277 6300
+type(
+  genStates array ref
+)
+ident(
+  int_ref conf "types.ml" 42 888 892 "types.ml" 42 888 896
+)
+"types.ml" 276 6277 6295 "types.ml" 276 6277 6300
+type(
+  genStates array
+)
+"types.ml" 276 6277 6301 "types.ml" 276 6277 6302
+type(
+  int
+)
+"types.ml" 276 6277 6285 "types.ml" 276 6277 6302
+type(
+  genStates
+)
+"types.ml" 277 6308 6318 "types.ml" 277 6308 6320
+type(
+  int
+)
+ident(
+  def n0 "types.ml" 278 6328 6332 "types.ml" 278 6328 6428
+)
+"types.ml" 277 6308 6321 "types.ml" 277 6308 6323
+type(
+  int
+)
+ident(
+  def n1 "types.ml" 278 6328 6332 "types.ml" 278 6328 6428
+)
+"types.ml" 277 6308 6312 "types.ml" 277 6308 6324
+type(
+  genStates
+)
+"types.ml" 278 6328 6333 "types.ml" 278 6328 6360
+type(
+  string
+)
+"types.ml" 278 6328 6361 "types.ml" 278 6328 6362
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 278 6328 6364 "types.ml" 278 6328 6377
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 278 6328 6379 "types.ml" 278 6328 6381
+type(
+  int
+)
+ident(
+  int_ref n0 "types.ml" 277 6308 6318 "types.ml" 277 6308 6320
+)
+"types.ml" 278 6328 6382 "types.ml" 278 6328 6383
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 278 6328 6384 "types.ml" 278 6328 6386
+type(
+  int
+)
+ident(
+  int_ref n1 "types.ml" 277 6308 6321 "types.ml" 277 6308 6323
+)
+"types.ml" 278 6328 6378 "types.ml" 278 6328 6387
+type(
+  int
+)
+"types.ml" 278 6328 6363 "types.ml" 278 6328 6388
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 278 6328 6389 "types.ml" 278 6328 6390
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 278 6328 6391 "types.ml" 278 6328 6396
+type(
+  string
+)
+"types.ml" 278 6328 6397 "types.ml" 278 6328 6398
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 278 6328 6400 "types.ml" 278 6328 6413
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 278 6328 6415 "types.ml" 278 6328 6416
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 278 6328 6416 "types.ml" 278 6328 6423
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 278 6328 6415 "types.ml" 278 6328 6423
+type(
+  int
+)
+"types.ml" 278 6328 6423 "types.ml" 278 6328 6424
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"types.ml" 278 6328 6424 "types.ml" 278 6328 6425
+type(
+  int
+)
+"types.ml" 278 6328 6414 "types.ml" 278 6328 6426
+type(
+  int
+)
+"types.ml" 278 6328 6399 "types.ml" 278 6328 6427
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 278 6328 6391 "types.ml" 278 6328 6427
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 278 6328 6363 "types.ml" 278 6328 6427
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 278 6328 6332 "types.ml" 278 6328 6428
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 279 6429 6433 "types.ml" 279 6429 6434
+type(
+  genStates
+)
+"types.ml" 279 6429 6445 "types.ml" 279 6429 6450
+type(
+  bool
+)
+"types.ml" 279 6429 6438 "types.ml" 279 6429 6450
+type(
+  string
+)
+"types.ml" 276 6277 6279 "types.ml" 279 6429 6450
+type(
+  string
+)
+"types.ml" 281 6452 6456 "types.ml" 281 6452 6463
+type(
+  unit -> unit
+)
+ident(
+  def initBST "types.ml" 291 6711 6711 "types.ml" 1 0 -1
+)
+"types.ml" 281 6452 6464 "types.ml" 281 6452 6466
+type(
+  unit
+)
+"types.ml" 282 6469 6475 "types.ml" 282 6469 6481
+type(
+  int -> genStates
+)
+ident(
+  def affect "types.ml" 289 6673 6675 "types.ml" 289 6673 6709
+)
+"types.ml" 282 6469 6482 "types.ml" 282 6469 6483
+type(
+  int
+)
+ident(
+  def x "types.ml" 283 6486 6490 "types.ml" 287 6623 6667
+)
+"types.ml" 283 6486 6493 "types.ml" 283 6486 6494
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 282 6469 6482 "types.ml" 282 6469 6483
+)
+"types.ml" 283 6486 6495 "types.ml" 283 6486 6496
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 283 6486 6497 "types.ml" 283 6486 6498
+type(
+  int
+)
+"types.ml" 283 6486 6493 "types.ml" 283 6486 6498
+type(
+  bool
+)
+"types.ml" 284 6504 6510 "types.ml" 284 6504 6511
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 284 6504 6511 "types.ml" 284 6504 6515
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 284 6504 6510 "types.ml" 284 6504 6515
+type(
+  algo
+)
+"types.ml" 284 6504 6510 "types.ml" 284 6504 6521
+type(
+  genEntrees -> genStates
+)
+"types.ml" 284 6504 6523 "types.ml" 284 6504 6531
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 284 6504 6532 "types.ml" 284 6504 6533
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 284 6504 6533 "types.ml" 284 6504 6537
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 284 6504 6532 "types.ml" 284 6504 6537
+type(
+  algo
+)
+"types.ml" 284 6504 6532 "types.ml" 284 6504 6545
+type(
+  genEntrees list
+)
+"types.ml" 284 6504 6546 "types.ml" 284 6504 6547
+type(
+  int
+)
+"types.ml" 284 6504 6522 "types.ml" 284 6504 6548
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 284 6504 6510 "types.ml" 284 6504 6548
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 286 6558 6568 "types.ml" 286 6558 6569
+type(
+  int
+)
+ident(
+  def n "types.ml" 287 6623 6629 "types.ml" 287 6623 6667
+)
+"types.ml" 286 6558 6573 "types.ml" 286 6558 6583
+type(
+  int -> int
+)
+ident(
+  ext_ref Random.int
+)
+"types.ml" 286 6558 6586 "types.ml" 286 6558 6597
+type(
+  genEntrees list -> int
+)
+ident(
+  ext_ref List.length
+)
+"types.ml" 286 6558 6598 "types.ml" 286 6558 6599
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 286 6558 6599 "types.ml" 286 6558 6603
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 286 6558 6598 "types.ml" 286 6558 6603
+type(
+  algo
+)
+"types.ml" 286 6558 6598 "types.ml" 286 6558 6611
+type(
+  genEntrees list
+)
+"types.ml" 286 6558 6585 "types.ml" 286 6558 6612
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 286 6558 6612 "types.ml" 286 6558 6613
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"types.ml" 286 6558 6613 "types.ml" 286 6558 6614
+type(
+  int
+)
+"types.ml" 286 6558 6584 "types.ml" 286 6558 6615
+type(
+  int
+)
+"types.ml" 286 6558 6572 "types.ml" 286 6558 6616
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 286 6558 6617 "types.ml" 286 6558 6618
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 286 6558 6618 "types.ml" 286 6558 6619
+type(
+  int
+)
+"types.ml" 286 6558 6572 "types.ml" 286 6558 6619
+type(
+  int
+)
+"types.ml" 287 6623 6629 "types.ml" 287 6623 6630
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 287 6623 6630 "types.ml" 287 6623 6634
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 287 6623 6629 "types.ml" 287 6623 6634
+type(
+  algo
+)
+"types.ml" 287 6623 6629 "types.ml" 287 6623 6640
+type(
+  genEntrees -> genStates
+)
+"types.ml" 287 6623 6642 "types.ml" 287 6623 6650
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 287 6623 6651 "types.ml" 287 6623 6652
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 287 6623 6652 "types.ml" 287 6623 6656
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 287 6623 6651 "types.ml" 287 6623 6656
+type(
+  algo
+)
+"types.ml" 287 6623 6651 "types.ml" 287 6623 6664
+type(
+  genEntrees list
+)
+"types.ml" 287 6623 6665 "types.ml" 287 6623 6666
+type(
+  int
+)
+ident(
+  int_ref n "types.ml" 286 6558 6568 "types.ml" 286 6558 6569
+)
+"types.ml" 287 6623 6641 "types.ml" 287 6623 6667
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 287 6623 6629 "types.ml" 287 6623 6667
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 286 6558 6564 "types.ml" 287 6623 6667
+type(
+  genStates
+)
+"types.ml" 283 6486 6490 "types.ml" 287 6623 6667
+type(
+  genStates
+)
+"types.ml" 289 6673 6675 "types.ml" 289 6673 6679
+type(
+  genStates array ref
+)
+ident(
+  int_ref conf "types.ml" 42 888 892 "types.ml" 42 888 896
+)
+"types.ml" 289 6673 6680 "types.ml" 289 6673 6682
+type(
+  genStates array ref -> genStates array -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 289 6673 6683 "types.ml" 289 6673 6693
+type(
+  int -> (int -> genStates) -> genStates array
+)
+ident(
+  ext_ref Array.init
+)
+"types.ml" 289 6673 6694 "types.ml" 289 6673 6695
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 289 6673 6695 "types.ml" 289 6673 6702
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 289 6673 6694 "types.ml" 289 6673 6702
+type(
+  int
+)
+"types.ml" 289 6673 6703 "types.ml" 289 6673 6709
+type(
+  int -> genStates
+)
+ident(
+  int_ref affect "types.ml" 282 6469 6475 "types.ml" 282 6469 6481
+)
+"types.ml" 289 6673 6683 "types.ml" 289 6673 6709
+call(
+  stack
+)
+type(
+  genStates array
+)
+"types.ml" 289 6673 6675 "types.ml" 289 6673 6709
+type(
+  unit
+)
+"types.ml" 282 6469 6471 "types.ml" 289 6673 6709
+type(
+  unit
+)
+"types.ml" 291 6711 6715 "types.ml" 291 6711 6724
+type(
+  int -> int * int
+)
+ident(
+  def selectBst "types.ml" 295 6780 6780 "types.ml" 1 0 -1
+)
+"types.ml" 291 6711 6725 "types.ml" 291 6711 6728
+type(
+  int
+)
+ident(
+  def len "types.ml" 292 6731 6733 "types.ml" 293 6768 6774
+)
+"types.ml" 292 6731 6737 "types.ml" 292 6731 6739
+type(
+  int
+)
+ident(
+  def i2 "types.ml" 293 6768 6770 "types.ml" 293 6768 6774
+)
+"types.ml" 292 6731 6743 "types.ml" 292 6731 6753
+type(
+  int -> int
+)
+ident(
+  ext_ref Random.int
+)
+"types.ml" 292 6731 6755 "types.ml" 292 6731 6758
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 291 6711 6725 "types.ml" 291 6711 6728
+)
+"types.ml" 292 6731 6758 "types.ml" 292 6731 6759
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"types.ml" 292 6731 6759 "types.ml" 292 6731 6760
+type(
+  int
+)
+"types.ml" 292 6731 6754 "types.ml" 292 6731 6761
+type(
+  int
+)
+"types.ml" 292 6731 6742 "types.ml" 292 6731 6762
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 292 6731 6762 "types.ml" 292 6731 6763
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 292 6731 6763 "types.ml" 292 6731 6764
+type(
+  int
+)
+"types.ml" 292 6731 6742 "types.ml" 292 6731 6764
+type(
+  int
+)
+"types.ml" 293 6768 6770 "types.ml" 293 6768 6771
+type(
+  int
+)
+"types.ml" 293 6768 6772 "types.ml" 293 6768 6774
+type(
+  int
+)
+ident(
+  int_ref i2 "types.ml" 292 6731 6737 "types.ml" 292 6731 6739
+)
+"types.ml" 293 6768 6770 "types.ml" 293 6768 6774
+type(
+  int * int
+)
+"types.ml" 292 6731 6733 "types.ml" 293 6768 6774
+type(
+  int * int
+)
+"types.ml" 295 6780 6784 "types.ml" 295 6780 6791
+type(
+  algo
+)
+ident(
+  def testBST "types.ml" 310 7128 7128 "types.ml" 1 0 -1
+)
+"types.ml" 296 6796 6809 "types.ml" 296 6796 6810
+type(
+  genEntrees
+)
+"types.ml" 296 6796 6814 "types.ml" 296 6796 6817
+type(
+  int
+)
+"types.ml" 296 6796 6811 "types.ml" 296 6796 6817
+type(
+  genEntrees
+)
+"types.ml" 296 6796 6821 "types.ml" 296 6796 6824
+type(
+  int
+)
+"types.ml" 296 6796 6818 "types.ml" 296 6796 6824
+type(
+  genEntrees
+)
+"types.ml" 296 6796 6808 "types.ml" 296 6796 6825
+type(
+  genEntrees list
+)
+"types.ml" 297 6827 6840 "types.ml" 297 6827 6847
+type(
+  unit -> unit
+)
+ident(
+  int_ref initBST "types.ml" 281 6452 6456 "types.ml" 281 6452 6463
+)
+"types.ml" 298 6849 6859 "types.ml" 298 6849 6867
+type(
+  genEntrees -> genStates
+)
+ident(
+  int_ref bstInput "types.ml" 249 5708 5712 "types.ml" 249 5708 5720
+)
+"types.ml" 299 6869 6880 "types.ml" 299 6869 6889
+type(
+  genStates -> string
+)
+ident(
+  int_ref bstOutput "types.ml" 256 5818 5822 "types.ml" 256 5818 5831
+)
+"types.ml" 300 6891 6902 "types.ml" 300 6891 6911
+type(
+  int -> int * int
+)
+ident(
+  int_ref selectBst "types.ml" 291 6711 6715 "types.ml" 291 6711 6724
+)
+"types.ml" 301 6913 6922 "types.ml" 301 6913 6929
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  int_ref bstConv "types.ml" 262 5923 5927 "types.ml" 262 5923 5934
+)
+"types.ml" 302 6931 6942 "types.ml" 302 6931 6949
+type(
+  render
+)
+"types.ml" 303 6951 6970 "types.ml" 303 6951 6983
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  int_ref bstStateColor "types.ml" 272 6158 6162 "types.ml" 272 6158 6175
+)
+"types.ml" 304 6985 6998 "types.ml" 304 6985 7004
+type(
+  unit -> string
+)
+ident(
+  int_ref bstObj "types.ml" 275 6261 6265 "types.ml" 275 6261 6271
+)
+"types.ml" 295 6780 6794 "types.ml" 305 7005 7006
+type(
+  algo
+)
+"types.ml" 310 7128 7132 "types.ml" 310 7128 7142
+type(
+  genEntrees -> genStates
+)
+ident(
+  def tokenInput "types.ml" 316 7281 7281 "types.ml" 1 0 -1
+)
+"types.ml" 311 7154 7158 "types.ml" 311 7154 7159
+type(
+  genEntrees
+)
+"types.ml" 311 7154 7169 "types.ml" 311 7154 7170
+type(
+  genEntrees
+)
+"types.ml" 311 7154 7171 "types.ml" 311 7154 7182
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Random.bool
+)
+"types.ml" 311 7154 7183 "types.ml" 311 7154 7185
+type(
+  unit
+)
+"types.ml" 311 7154 7171 "types.ml" 311 7154 7185
+call(
+  stack
+)
+type(
+  bool
+)
+"types.ml" 311 7154 7187 "types.ml" 311 7154 7198
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Random.bool
+)
+"types.ml" 311 7154 7199 "types.ml" 311 7154 7201
+type(
+  unit
+)
+"types.ml" 311 7154 7187 "types.ml" 311 7154 7201
+call(
+  stack
+)
+type(
+  bool
+)
+"types.ml" 311 7154 7163 "types.ml" 311 7154 7202
+type(
+  genStates
+)
+"types.ml" 312 7203 7207 "types.ml" 312 7203 7208
+type(
+  genEntrees
+)
+"types.ml" 312 7203 7218 "types.ml" 312 7203 7219
+type(
+  genEntrees
+)
+"types.ml" 312 7203 7220 "types.ml" 312 7203 7231
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Random.bool
+)
+"types.ml" 312 7203 7232 "types.ml" 312 7203 7234
+type(
+  unit
+)
+"types.ml" 312 7203 7220 "types.ml" 312 7203 7234
+call(
+  stack
+)
+type(
+  bool
+)
+"types.ml" 312 7203 7236 "types.ml" 312 7203 7247
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Random.bool
+)
+"types.ml" 312 7203 7248 "types.ml" 312 7203 7250
+type(
+  unit
+)
+"types.ml" 312 7203 7236 "types.ml" 312 7203 7250
+call(
+  stack
+)
+type(
+  bool
+)
+"types.ml" 312 7203 7212 "types.ml" 312 7203 7251
+type(
+  genStates
+)
+"types.ml" 313 7252 7256 "types.ml" 313 7252 7257
+type(
+  genEntrees
+)
+"types.ml" 313 7252 7268 "types.ml" 313 7252 7273
+type(
+  bool
+)
+"types.ml" 313 7252 7261 "types.ml" 313 7252 7273
+type(
+  genStates
+)
+"types.ml" 310 7128 7145 "types.ml" 313 7252 7273
+type(
+  genEntrees -> genStates
+)
+"types.ml" 316 7281 7285 "types.ml" 316 7281 7296
+type(
+  genStates -> string
+)
+ident(
+  def tokenOutput "types.ml" 323 7478 7478 "types.ml" 1 0 -1
+)
+"types.ml" 317 7308 7318 "types.ml" 317 7308 7319
+type(
+  genEntrees
+)
+"types.ml" 317 7308 7321 "types.ml" 317 7308 7325
+type(
+  bool
+)
+"types.ml" 317 7308 7327 "types.ml" 317 7308 7328
+type(
+  bool
+)
+"types.ml" 317 7308 7312 "types.ml" 317 7308 7329
+type(
+  genStates
+)
+"types.ml" 317 7308 7333 "types.ml" 317 7308 7342
+type(
+  string
+)
+"types.ml" 318 7343 7353 "types.ml" 318 7343 7354
+type(
+  genEntrees
+)
+"types.ml" 318 7343 7356 "types.ml" 318 7343 7360
+type(
+  bool
+)
+"types.ml" 318 7343 7362 "types.ml" 318 7343 7363
+type(
+  bool
+)
+"types.ml" 318 7343 7347 "types.ml" 318 7343 7364
+type(
+  genStates
+)
+"types.ml" 318 7343 7368 "types.ml" 318 7343 7377
+type(
+  string
+)
+"types.ml" 319 7378 7388 "types.ml" 319 7378 7389
+type(
+  genEntrees
+)
+"types.ml" 319 7378 7391 "types.ml" 319 7378 7396
+type(
+  bool
+)
+"types.ml" 319 7378 7398 "types.ml" 319 7378 7399
+type(
+  bool
+)
+"types.ml" 319 7378 7382 "types.ml" 319 7378 7400
+type(
+  genStates
+)
+"types.ml" 319 7378 7404 "types.ml" 319 7378 7413
+type(
+  string
+)
+"types.ml" 320 7414 7424 "types.ml" 320 7414 7425
+type(
+  genEntrees
+)
+"types.ml" 320 7414 7427 "types.ml" 320 7414 7432
+type(
+  bool
+)
+"types.ml" 320 7414 7434 "types.ml" 320 7414 7435
+type(
+  bool
+)
+"types.ml" 320 7414 7418 "types.ml" 320 7414 7436
+type(
+  genStates
+)
+"types.ml" 320 7414 7440 "types.ml" 320 7414 7449
+type(
+  string
+)
+"types.ml" 321 7450 7454 "types.ml" 321 7450 7455
+type(
+  genStates
+)
+"types.ml" 321 7450 7466 "types.ml" 321 7450 7471
+type(
+  bool
+)
+"types.ml" 321 7450 7459 "types.ml" 321 7450 7471
+type(
+  string
+)
+"types.ml" 316 7281 7299 "types.ml" 321 7450 7471
+type(
+  genStates -> string
+)
+"types.ml" 323 7478 7482 "types.ml" 323 7478 7491
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  def tokenConv "types.ml" 331 7730 7730 "types.ml" 1 0 -1
+)
+"types.ml" 324 7503 7513 "types.ml" 324 7503 7514
+type(
+  genEntrees
+)
+"types.ml" 324 7503 7516 "types.ml" 324 7503 7517
+type(
+  bool
+)
+"types.ml" 324 7503 7519 "types.ml" 324 7503 7521
+type(
+  bool
+)
+ident(
+  def b1 "types.ml" 324 7503 7546 "types.ml" 325 7557 7605
+)
+"types.ml" 324 7503 7507 "types.ml" 324 7503 7522
+type(
+  genStates
+)
+"types.ml" 324 7503 7530 "types.ml" 324 7503 7531
+type(
+  genEntrees
+)
+"types.ml" 324 7503 7534 "types.ml" 324 7503 7535
+type(
+  bool
+)
+"types.ml" 324 7503 7537 "types.ml" 324 7503 7539
+type(
+  bool
+)
+ident(
+  def b2 "types.ml" 324 7503 7546 "types.ml" 325 7557 7605
+)
+"types.ml" 324 7503 7524 "types.ml" 324 7503 7540
+type(
+  genStates
+)
+"types.ml" 324 7503 7507 "types.ml" 324 7503 7540
+type(
+  genStates * genStates
+)
+"types.ml" 324 7503 7546 "types.ml" 324 7503 7548
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 324 7503 7519 "types.ml" 324 7503 7521
+)
+"types.ml" 324 7503 7549 "types.ml" 324 7503 7550
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 324 7503 7551 "types.ml" 324 7503 7553
+type(
+  bool
+)
+ident(
+  int_ref b2 "types.ml" 324 7503 7537 "types.ml" 324 7503 7539
+)
+"types.ml" 324 7503 7546 "types.ml" 324 7503 7553
+type(
+  bool
+)
+"types.ml" 325 7557 7568 "types.ml" 325 7557 7569
+type(
+  genEntrees
+)
+"types.ml" 325 7557 7571 "types.ml" 325 7557 7576
+type(
+  bool
+)
+"types.ml" 325 7557 7578 "types.ml" 325 7557 7580
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 324 7503 7519 "types.ml" 324 7503 7521
+)
+"types.ml" 325 7557 7562 "types.ml" 325 7557 7581
+type(
+  genStates
+)
+"types.ml" 325 7557 7589 "types.ml" 325 7557 7590
+type(
+  genEntrees
+)
+"types.ml" 325 7557 7592 "types.ml" 325 7557 7596
+type(
+  bool
+)
+"types.ml" 325 7557 7598 "types.ml" 325 7557 7601
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 325 7557 7602 "types.ml" 325 7557 7604
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 324 7503 7519 "types.ml" 324 7503 7521
+)
+"types.ml" 325 7557 7598 "types.ml" 325 7557 7604
+type(
+  bool
+)
+"types.ml" 325 7557 7583 "types.ml" 325 7557 7605
+type(
+  genStates
+)
+"types.ml" 325 7557 7562 "types.ml" 325 7557 7605
+type(
+  genStates * genStates
+)
+"types.ml" 326 7606 7616 "types.ml" 326 7606 7618
+type(
+  genEntrees
+)
+ident(
+  def s1 "types.ml" 326 7606 7650 "types.ml" 327 7662 7707
+)
+"types.ml" 326 7606 7620 "types.ml" 326 7606 7621
+type(
+  bool
+)
+"types.ml" 326 7606 7623 "types.ml" 326 7606 7625
+type(
+  bool
+)
+ident(
+  def b1 "types.ml" 326 7606 7650 "types.ml" 327 7662 7707
+)
+"types.ml" 326 7606 7610 "types.ml" 326 7606 7626
+type(
+  genStates
+)
+"types.ml" 326 7606 7634 "types.ml" 326 7606 7635
+type(
+  genEntrees
+)
+"types.ml" 326 7606 7638 "types.ml" 326 7606 7639
+type(
+  bool
+)
+"types.ml" 326 7606 7641 "types.ml" 326 7606 7643
+type(
+  bool
+)
+ident(
+  def b2 "types.ml" 326 7606 7650 "types.ml" 327 7662 7707
+)
+"types.ml" 326 7606 7628 "types.ml" 326 7606 7644
+type(
+  genStates
+)
+"types.ml" 326 7606 7610 "types.ml" 326 7606 7644
+type(
+  genStates * genStates
+)
+"types.ml" 326 7606 7650 "types.ml" 326 7606 7652
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 326 7606 7623 "types.ml" 326 7606 7625
+)
+"types.ml" 326 7606 7653 "types.ml" 326 7606 7655
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"types.ml" 326 7606 7656 "types.ml" 326 7606 7658
+type(
+  bool
+)
+ident(
+  int_ref b2 "types.ml" 326 7606 7641 "types.ml" 326 7606 7643
+)
+"types.ml" 326 7606 7650 "types.ml" 326 7606 7658
+type(
+  bool
+)
+"types.ml" 327 7662 7673 "types.ml" 327 7662 7675
+type(
+  genEntrees
+)
+ident(
+  int_ref s1 "types.ml" 326 7606 7616 "types.ml" 326 7606 7618
+)
+"types.ml" 327 7662 7677 "types.ml" 327 7662 7682
+type(
+  bool
+)
+"types.ml" 327 7662 7684 "types.ml" 327 7662 7686
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 326 7606 7623 "types.ml" 326 7606 7625
+)
+"types.ml" 327 7662 7667 "types.ml" 327 7662 7687
+type(
+  genStates
+)
+"types.ml" 327 7662 7695 "types.ml" 327 7662 7696
+type(
+  genEntrees
+)
+"types.ml" 327 7662 7698 "types.ml" 327 7662 7702
+type(
+  bool
+)
+"types.ml" 327 7662 7704 "types.ml" 327 7662 7706
+type(
+  bool
+)
+ident(
+  int_ref b1 "types.ml" 326 7606 7623 "types.ml" 326 7606 7625
+)
+"types.ml" 327 7662 7689 "types.ml" 327 7662 7707
+type(
+  genStates
+)
+"types.ml" 327 7662 7667 "types.ml" 327 7662 7707
+type(
+  genStates * genStates
+)
+"types.ml" 328 7708 7712 "types.ml" 328 7708 7714
+type(
+  genStates
+)
+ident(
+  def s1 "types.ml" 328 7708 7722 "types.ml" 328 7708 7727
+)
+"types.ml" 328 7708 7716 "types.ml" 328 7708 7718
+type(
+  genStates
+)
+ident(
+  def s2 "types.ml" 328 7708 7722 "types.ml" 328 7708 7727
+)
+"types.ml" 328 7708 7712 "types.ml" 328 7708 7718
+type(
+  genStates * genStates
+)
+"types.ml" 328 7708 7722 "types.ml" 328 7708 7724
+type(
+  genStates
+)
+ident(
+  int_ref s1 "types.ml" 328 7708 7712 "types.ml" 328 7708 7714
+)
+"types.ml" 328 7708 7725 "types.ml" 328 7708 7727
+type(
+  genStates
+)
+ident(
+  int_ref s2 "types.ml" 328 7708 7716 "types.ml" 328 7708 7718
+)
+"types.ml" 328 7708 7722 "types.ml" 328 7708 7727
+type(
+  genStates * genStates
+)
+"types.ml" 323 7478 7494 "types.ml" 328 7708 7727
+type(
+  genStates * genStates -> genStates * genStates
+)
+"types.ml" 331 7730 7734 "types.ml" 331 7730 7749
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  def tokenStateColor "types.ml" 336 7936 7936 "types.ml" 1 0 -1
+)
+"types.ml" 331 7730 7760 "types.ml" 331 7730 7761
+type(
+  genEntrees
+)
+"types.ml" 331 7730 7762 "types.ml" 331 7730 7766
+type(
+  bool
+)
+"types.ml" 331 7730 7767 "types.ml" 331 7730 7771
+type(
+  bool
+)
+"types.ml" 331 7730 7754 "types.ml" 331 7730 7772
+type(
+  genStates
+)
+"types.ml" 331 7730 7773 "types.ml" 331 7730 7776
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 331 7730 7777 "types.ml" 331 7730 7778
+type(
+  int
+)
+"types.ml" 331 7730 7779 "types.ml" 331 7730 7782
+type(
+  int
+)
+"types.ml" 331 7730 7783 "types.ml" 331 7730 7784
+type(
+  int
+)
+"types.ml" 331 7730 7773 "types.ml" 331 7730 7784
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 331 7730 7753 "types.ml" 331 7730 7785
+type(
+  genStates * Graphics.color
+)
+"types.ml" 332 7787 7803 "types.ml" 332 7787 7804
+type(
+  genEntrees
+)
+"types.ml" 332 7787 7805 "types.ml" 332 7787 7809
+type(
+  bool
+)
+"types.ml" 332 7787 7810 "types.ml" 332 7787 7814
+type(
+  bool
+)
+"types.ml" 332 7787 7797 "types.ml" 332 7787 7815
+type(
+  genStates
+)
+"types.ml" 332 7787 7816 "types.ml" 332 7787 7819
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 332 7787 7820 "types.ml" 332 7787 7823
+type(
+  int
+)
+"types.ml" 332 7787 7824 "types.ml" 332 7787 7827
+type(
+  int
+)
+"types.ml" 332 7787 7828 "types.ml" 332 7787 7831
+type(
+  int
+)
+"types.ml" 332 7787 7816 "types.ml" 332 7787 7831
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 332 7787 7796 "types.ml" 332 7787 7832
+type(
+  genStates * Graphics.color
+)
+"types.ml" 333 7834 7850 "types.ml" 333 7834 7851
+type(
+  genEntrees
+)
+"types.ml" 333 7834 7852 "types.ml" 333 7834 7857
+type(
+  bool
+)
+"types.ml" 333 7834 7858 "types.ml" 333 7834 7862
+type(
+  bool
+)
+"types.ml" 333 7834 7844 "types.ml" 333 7834 7863
+type(
+  genStates
+)
+"types.ml" 333 7834 7864 "types.ml" 333 7834 7867
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 333 7834 7868 "types.ml" 333 7834 7871
+type(
+  int
+)
+"types.ml" 333 7834 7872 "types.ml" 333 7834 7873
+type(
+  int
+)
+"types.ml" 333 7834 7874 "types.ml" 333 7834 7875
+type(
+  int
+)
+"types.ml" 333 7834 7864 "types.ml" 333 7834 7875
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 333 7834 7843 "types.ml" 333 7834 7876
+type(
+  genStates * Graphics.color
+)
+"types.ml" 334 7878 7894 "types.ml" 334 7878 7895
+type(
+  genEntrees
+)
+"types.ml" 334 7878 7896 "types.ml" 334 7878 7901
+type(
+  bool
+)
+"types.ml" 334 7878 7902 "types.ml" 334 7878 7906
+type(
+  bool
+)
+"types.ml" 334 7878 7888 "types.ml" 334 7878 7907
+type(
+  genStates
+)
+"types.ml" 334 7878 7908 "types.ml" 334 7878 7911
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 334 7878 7912 "types.ml" 334 7878 7915
+type(
+  int
+)
+"types.ml" 334 7878 7916 "types.ml" 334 7878 7919
+type(
+  int
+)
+"types.ml" 334 7878 7920 "types.ml" 334 7878 7923
+type(
+  int
+)
+"types.ml" 334 7878 7908 "types.ml" 334 7878 7923
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 334 7878 7887 "types.ml" 334 7878 7924
+type(
+  genStates * Graphics.color
+)
+"types.ml" 331 7730 7752 "types.ml" 334 7878 7925
+type(
+  (genStates * Graphics.color) list
+)
+"types.ml" 336 7936 7940 "types.ml" 336 7936 7948
+type(
+  unit -> string
+)
+ident(
+  def tokenObj "types.ml" 339 8008 8008 "types.ml" 1 0 -1
+)
+"types.ml" 336 7936 7949 "types.ml" 336 7936 7951
+type(
+  unit
+)
+"types.ml" 337 7954 7956 "types.ml" 337 7954 7979
+type(
+  string
+)
+"types.ml" 337 7954 7980 "types.ml" 337 7954 7981
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 337 7954 7983 "types.ml" 337 7954 7996
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 337 7954 7997 "types.ml" 337 7954 7998
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 337 7954 7998 "types.ml" 337 7954 8005
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 337 7954 7997 "types.ml" 337 7954 8005
+type(
+  int
+)
+"types.ml" 337 7954 7982 "types.ml" 337 7954 8006
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 337 7954 7956 "types.ml" 337 7954 8006
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 339 8008 8012 "types.ml" 339 8008 8021
+type(
+  unit -> unit
+)
+ident(
+  def initToken "types.ml" 348 8204 8204 "types.ml" 1 0 -1
+)
+"types.ml" 339 8008 8022 "types.ml" 339 8008 8024
+type(
+  unit
+)
+"types.ml" 340 8027 8033 "types.ml" 340 8027 8039
+type(
+  int -> genStates
+)
+ident(
+  def affect "types.ml" 346 8166 8168 "types.ml" 346 8166 8202
+)
+"types.ml" 340 8027 8040 "types.ml" 340 8027 8041
+type(
+  int
+)
+ident(
+  def x "types.ml" 341 8044 8048 "types.ml" 344 8116 8160
+)
+"types.ml" 341 8044 8051 "types.ml" 341 8044 8052
+type(
+  int
+)
+ident(
+  int_ref x "types.ml" 340 8027 8040 "types.ml" 340 8027 8041
+)
+"types.ml" 341 8044 8053 "types.ml" 341 8044 8054
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 341 8044 8055 "types.ml" 341 8044 8056
+type(
+  int
+)
+"types.ml" 341 8044 8051 "types.ml" 341 8044 8056
+type(
+  bool
+)
+"types.ml" 342 8062 8068 "types.ml" 342 8062 8069
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 342 8062 8069 "types.ml" 342 8062 8073
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 342 8062 8068 "types.ml" 342 8062 8073
+type(
+  algo
+)
+"types.ml" 342 8062 8068 "types.ml" 342 8062 8079
+type(
+  genEntrees -> genStates
+)
+"types.ml" 342 8062 8081 "types.ml" 342 8062 8089
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 342 8062 8090 "types.ml" 342 8062 8091
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 342 8062 8091 "types.ml" 342 8062 8095
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 342 8062 8090 "types.ml" 342 8062 8095
+type(
+  algo
+)
+"types.ml" 342 8062 8090 "types.ml" 342 8062 8103
+type(
+  genEntrees list
+)
+"types.ml" 342 8062 8104 "types.ml" 342 8062 8105
+type(
+  int
+)
+"types.ml" 342 8062 8080 "types.ml" 342 8062 8106
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 342 8062 8068 "types.ml" 342 8062 8106
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 344 8116 8122 "types.ml" 344 8116 8123
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 344 8116 8123 "types.ml" 344 8116 8127
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 344 8116 8122 "types.ml" 344 8116 8127
+type(
+  algo
+)
+"types.ml" 344 8116 8122 "types.ml" 344 8116 8133
+type(
+  genEntrees -> genStates
+)
+"types.ml" 344 8116 8135 "types.ml" 344 8116 8143
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 344 8116 8144 "types.ml" 344 8116 8145
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 344 8116 8145 "types.ml" 344 8116 8149
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 344 8116 8144 "types.ml" 344 8116 8149
+type(
+  algo
+)
+"types.ml" 344 8116 8144 "types.ml" 344 8116 8157
+type(
+  genEntrees list
+)
+"types.ml" 344 8116 8158 "types.ml" 344 8116 8159
+type(
+  int
+)
+"types.ml" 344 8116 8134 "types.ml" 344 8116 8160
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 344 8116 8122 "types.ml" 344 8116 8160
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 341 8044 8048 "types.ml" 344 8116 8160
+type(
+  genStates
+)
+"types.ml" 346 8166 8168 "types.ml" 346 8166 8172
+type(
+  genStates array ref
+)
+ident(
+  int_ref conf "types.ml" 42 888 892 "types.ml" 42 888 896
+)
+"types.ml" 346 8166 8173 "types.ml" 346 8166 8175
+type(
+  genStates array ref -> genStates array -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 346 8166 8176 "types.ml" 346 8166 8186
+type(
+  int -> (int -> genStates) -> genStates array
+)
+ident(
+  ext_ref Array.init
+)
+"types.ml" 346 8166 8187 "types.ml" 346 8166 8188
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 346 8166 8188 "types.ml" 346 8166 8195
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 346 8166 8187 "types.ml" 346 8166 8195
+type(
+  int
+)
+"types.ml" 346 8166 8196 "types.ml" 346 8166 8202
+type(
+  int -> genStates
+)
+ident(
+  int_ref affect "types.ml" 340 8027 8033 "types.ml" 340 8027 8039
+)
+"types.ml" 346 8166 8176 "types.ml" 346 8166 8202
+call(
+  stack
+)
+type(
+  genStates array
+)
+"types.ml" 346 8166 8168 "types.ml" 346 8166 8202
+type(
+  unit
+)
+"types.ml" 340 8027 8029 "types.ml" 346 8166 8202
+type(
+  unit
+)
+"types.ml" 348 8204 8208 "types.ml" 348 8204 8219
+type(
+  int -> int * int
+)
+ident(
+  def selectToken "types.ml" 353 8301 8301 "types.ml" 1 0 -1
+)
+"types.ml" 348 8204 8220 "types.ml" 348 8204 8223
+type(
+  int
+)
+ident(
+  def len "types.ml" 349 8226 8228 "types.ml" 351 8288 8295
+)
+"types.ml" 349 8226 8232 "types.ml" 349 8226 8234
+type(
+  int
+)
+ident(
+  def i1 "types.ml" 350 8259 8261 "types.ml" 351 8288 8295
+)
+"types.ml" 349 8226 8237 "types.ml" 349 8226 8246
+type(
+  int -> int -> int
+)
+ident(
+  int_ref randArray "types.ml" 68 1445 1453 "types.ml" 68 1445 1462
+)
+"types.ml" 349 8226 8247 "types.ml" 349 8226 8250
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 348 8204 8220 "types.ml" 348 8204 8223
+)
+"types.ml" 349 8226 8251 "types.ml" 349 8226 8255
+type(
+  int
+)
+"types.ml" 349 8226 8237 "types.ml" 349 8226 8255
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 350 8259 8265 "types.ml" 350 8259 8267
+type(
+  int
+)
+ident(
+  def i2 "types.ml" 351 8288 8290 "types.ml" 351 8288 8295
+)
+"types.ml" 350 8259 8271 "types.ml" 350 8259 8273
+type(
+  int
+)
+ident(
+  int_ref i1 "types.ml" 349 8226 8232 "types.ml" 349 8226 8234
+)
+"types.ml" 350 8259 8273 "types.ml" 350 8259 8274
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 350 8259 8274 "types.ml" 350 8259 8275
+type(
+  int
+)
+"types.ml" 350 8259 8270 "types.ml" 350 8259 8276
+type(
+  int
+)
+"types.ml" 350 8259 8277 "types.ml" 350 8259 8280
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"types.ml" 350 8259 8281 "types.ml" 350 8259 8284
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 348 8204 8220 "types.ml" 348 8204 8223
+)
+"types.ml" 350 8259 8270 "types.ml" 350 8259 8284
+type(
+  int
+)
+"types.ml" 351 8288 8290 "types.ml" 351 8288 8292
+type(
+  int
+)
+ident(
+  int_ref i1 "types.ml" 349 8226 8232 "types.ml" 349 8226 8234
+)
+"types.ml" 351 8288 8293 "types.ml" 351 8288 8295
+type(
+  int
+)
+ident(
+  int_ref i2 "types.ml" 350 8259 8265 "types.ml" 350 8259 8267
+)
+"types.ml" 351 8288 8290 "types.ml" 351 8288 8295
+type(
+  int * int
+)
+"types.ml" 350 8259 8261 "types.ml" 351 8288 8295
+type(
+  int * int
+)
+"types.ml" 349 8226 8228 "types.ml" 351 8288 8295
+type(
+  int * int
+)
+"types.ml" 353 8301 8305 "types.ml" 353 8301 8314
+type(
+  algo
+)
+ident(
+  def testToken "types.ml" 368 8650 8650 "types.ml" 1 0 -1
+)
+"types.ml" 354 8319 8332 "types.ml" 354 8319 8333
+type(
+  genEntrees
+)
+"types.ml" 354 8319 8334 "types.ml" 354 8319 8335
+type(
+  genEntrees
+)
+"types.ml" 354 8319 8331 "types.ml" 354 8319 8336
+type(
+  genEntrees list
+)
+"types.ml" 355 8338 8351 "types.ml" 355 8338 8360
+type(
+  unit -> unit
+)
+ident(
+  int_ref initToken "types.ml" 339 8008 8012 "types.ml" 339 8008 8021
+)
+"types.ml" 356 8362 8372 "types.ml" 356 8362 8382
+type(
+  genEntrees -> genStates
+)
+ident(
+  int_ref tokenInput "types.ml" 310 7128 7132 "types.ml" 310 7128 7142
+)
+"types.ml" 357 8384 8395 "types.ml" 357 8384 8406
+type(
+  genStates -> string
+)
+ident(
+  int_ref tokenOutput "types.ml" 316 7281 7285 "types.ml" 316 7281 7296
+)
+"types.ml" 358 8408 8419 "types.ml" 358 8408 8430
+type(
+  int -> int * int
+)
+ident(
+  int_ref selectToken "types.ml" 348 8204 8208 "types.ml" 348 8204 8219
+)
+"types.ml" 359 8432 8441 "types.ml" 359 8432 8450
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  int_ref tokenConv "types.ml" 323 7478 7482 "types.ml" 323 7478 7491
+)
+"types.ml" 360 8452 8463 "types.ml" 360 8452 8467
+type(
+  render
+)
+"types.ml" 361 8469 8488 "types.ml" 361 8469 8503
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  int_ref tokenStateColor "types.ml" 331 7730 7734 "types.ml" 331 7730 7749
+)
+"types.ml" 362 8505 8518 "types.ml" 362 8505 8526
+type(
+  unit -> string
+)
+ident(
+  int_ref tokenObj "types.ml" 336 7936 7940 "types.ml" 336 7936 7948
+)
+"types.ml" 353 8301 8317 "types.ml" 363 8527 8528
+type(
+  algo
+)
+"types.ml" 368 8650 8654 "types.ml" 368 8650 8667
+type(
+  genEntrees -> genStates
+)
+ident(
+  def electionInput "types.ml" 373 8778 8778 "types.ml" 1 0 -1
+)
+"types.ml" 369 8679 8683 "types.ml" 369 8679 8684
+type(
+  genEntrees
+)
+"types.ml" 369 8679 8697 "types.ml" 369 8679 8702
+type(
+  bool
+)
+"types.ml" 369 8679 8704 "types.ml" 369 8679 8715
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Random.bool
+)
+"types.ml" 369 8679 8716 "types.ml" 369 8679 8718
+type(
+  unit
+)
+"types.ml" 369 8679 8704 "types.ml" 369 8679 8718
+call(
+  stack
+)
+type(
+  bool
+)
+"types.ml" 369 8679 8720 "types.ml" 369 8679 8731
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Random.bool
+)
+"types.ml" 369 8679 8732 "types.ml" 369 8679 8734
+type(
+  unit
+)
+"types.ml" 369 8679 8720 "types.ml" 369 8679 8734
+call(
+  stack
+)
+type(
+  bool
+)
+"types.ml" 369 8679 8735 "types.ml" 369 8679 8740
+type(
+  bool
+)
+"types.ml" 369 8679 8742 "types.ml" 369 8679 8747
+type(
+  bool
+)
+"types.ml" 369 8679 8688 "types.ml" 369 8679 8748
+type(
+  genStates
+)
+"types.ml" 370 8749 8753 "types.ml" 370 8749 8754
+type(
+  genEntrees
+)
+"types.ml" 370 8749 8765 "types.ml" 370 8749 8770
+type(
+  bool
+)
+"types.ml" 370 8749 8758 "types.ml" 370 8749 8770
+type(
+  genStates
+)
+"types.ml" 368 8650 8670 "types.ml" 370 8749 8770
+type(
+  genEntrees -> genStates
+)
+"types.ml" 373 8778 8782 "types.ml" 373 8778 8796
+type(
+  genStates -> string
+)
+ident(
+  def electionOutput "types.ml" 379 8968 8968 "types.ml" 1 0 -1
+)
+"types.ml" 374 8808 8821 "types.ml" 374 8808 8822
+type(
+  bool
+)
+"types.ml" 374 8808 8824 "types.ml" 374 8808 8828
+type(
+  bool
+)
+"types.ml" 374 8808 8830 "types.ml" 374 8808 8831
+type(
+  bool
+)
+"types.ml" 374 8808 8833 "types.ml" 374 8808 8834
+type(
+  bool
+)
+"types.ml" 374 8808 8836 "types.ml" 374 8808 8837
+type(
+  bool
+)
+"types.ml" 374 8808 8812 "types.ml" 374 8808 8838
+type(
+  genStates
+)
+"types.ml" 374 8808 8842 "types.ml" 374 8808 8850
+type(
+  string
+)
+"types.ml" 375 8851 8864 "types.ml" 375 8851 8868
+type(
+  bool
+)
+"types.ml" 375 8851 8870 "types.ml" 375 8851 8871
+type(
+  bool
+)
+"types.ml" 375 8851 8873 "types.ml" 375 8851 8874
+type(
+  bool
+)
+"types.ml" 375 8851 8876 "types.ml" 375 8851 8877
+type(
+  bool
+)
+"types.ml" 375 8851 8879 "types.ml" 375 8851 8880
+type(
+  bool
+)
+"types.ml" 375 8851 8855 "types.ml" 375 8851 8881
+type(
+  genStates
+)
+"types.ml" 375 8851 8885 "types.ml" 375 8851 8896
+type(
+  string
+)
+"types.ml" 376 8897 8910 "types.ml" 376 8897 8911
+type(
+  bool
+)
+"types.ml" 376 8897 8913 "types.ml" 376 8897 8914
+type(
+  bool
+)
+"types.ml" 376 8897 8916 "types.ml" 376 8897 8917
+type(
+  bool
+)
+"types.ml" 376 8897 8919 "types.ml" 376 8897 8923
+type(
+  bool
+)
+"types.ml" 376 8897 8925 "types.ml" 376 8897 8926
+type(
+  bool
+)
+"types.ml" 376 8897 8901 "types.ml" 376 8897 8927
+type(
+  genStates
+)
+"types.ml" 376 8897 8931 "types.ml" 376 8897 8941
+type(
+  string
+)
+"types.ml" 377 8942 8946 "types.ml" 377 8942 8947
+type(
+  genStates
+)
+"types.ml" 377 8942 8951 "types.ml" 377 8942 8961
+type(
+  string
+)
+"types.ml" 373 8778 8799 "types.ml" 377 8942 8961
+type(
+  genStates -> string
+)
+"types.ml" 379 8968 8972 "types.ml" 379 8968 8984
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  def electionConv "types.ml" 421 9982 9982 "types.ml" 1 0 -1
+)
+"types.ml" 380 8996 9009 "types.ml" 380 8996 9016
+type(
+  bool
+)
+ident(
+  def bulletU "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9018 "types.ml" 380 8996 9025
+type(
+  bool
+)
+ident(
+  def leaderU "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9027 "types.ml" 380 8996 9033
+type(
+  bool
+)
+ident(
+  def labelU "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9035 "types.ml" 380 8996 9041
+type(
+  bool
+)
+ident(
+  def probeU "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9043 "types.ml" 380 8996 9049
+type(
+  bool
+)
+ident(
+  def phaseU "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9000 "types.ml" 380 8996 9050
+type(
+  genStates
+)
+"types.ml" 380 8996 9061 "types.ml" 380 8996 9068
+type(
+  bool
+)
+ident(
+  def bulletV "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9070 "types.ml" 380 8996 9077
+type(
+  bool
+)
+ident(
+  def leaderV "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9079 "types.ml" 380 8996 9085
+type(
+  bool
+)
+ident(
+  def labelV "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9087 "types.ml" 380 8996 9093
+type(
+  bool
+)
+ident(
+  def probeV "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9095 "types.ml" 380 8996 9101
+type(
+  bool
+)
+ident(
+  def phaseV "types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+)
+"types.ml" 380 8996 9052 "types.ml" 380 8996 9102
+type(
+  genStates
+)
+"types.ml" 380 8996 9000 "types.ml" 380 8996 9102
+type(
+  genStates * genStates
+)
+"types.ml" 381 9106 9114 "types.ml" 381 9106 9117
+type(
+  bool ref
+)
+ident(
+  def nbU "types.ml" 382 9206 9210 "types.ml" 417 9870 9956
+)
+"types.ml" 381 9106 9119 "types.ml" 381 9106 9122
+type(
+  bool ref
+)
+ident(
+  def nlU "types.ml" 382 9206 9210 "types.ml" 417 9870 9956
+)
+"types.ml" 381 9106 9124 "types.ml" 381 9106 9128
+type(
+  bool ref
+)
+ident(
+  def nllU "types.ml" 382 9206 9210 "types.ml" 417 9870 9956
+)
+"types.ml" 381 9106 9130 "types.ml" 381 9106 9133
+type(
+  bool ref
+)
+ident(
+  def npU "types.ml" 382 9206 9210 "types.ml" 417 9870 9956
+)
+"types.ml" 381 9106 9135 "types.ml" 381 9106 9139
+type(
+  bool ref
+)
+ident(
+  def nphU "types.ml" 382 9206 9210 "types.ml" 417 9870 9956
+)
+"types.ml" 381 9106 9114 "types.ml" 381 9106 9139
+type(
+  bool ref * bool ref * bool ref * bool ref * bool ref
+)
+"types.ml" 381 9106 9142 "types.ml" 381 9106 9145
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 381 9106 9146 "types.ml" 381 9106 9153
+type(
+  bool
+)
+ident(
+  int_ref bulletU "types.ml" 380 8996 9009 "types.ml" 380 8996 9016
+)
+"types.ml" 381 9106 9142 "types.ml" 381 9106 9153
+type(
+  bool ref
+)
+"types.ml" 381 9106 9155 "types.ml" 381 9106 9158
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 381 9106 9159 "types.ml" 381 9106 9166
+type(
+  bool
+)
+ident(
+  int_ref leaderU "types.ml" 380 8996 9018 "types.ml" 380 8996 9025
+)
+"types.ml" 381 9106 9155 "types.ml" 381 9106 9166
+type(
+  bool ref
+)
+"types.ml" 381 9106 9168 "types.ml" 381 9106 9171
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 381 9106 9172 "types.ml" 381 9106 9178
+type(
+  bool
+)
+ident(
+  int_ref labelU "types.ml" 380 8996 9027 "types.ml" 380 8996 9033
+)
+"types.ml" 381 9106 9168 "types.ml" 381 9106 9178
+type(
+  bool ref
+)
+"types.ml" 381 9106 9180 "types.ml" 381 9106 9183
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 381 9106 9184 "types.ml" 381 9106 9190
+type(
+  bool
+)
+ident(
+  int_ref probeU "types.ml" 380 8996 9035 "types.ml" 380 8996 9041
+)
+"types.ml" 381 9106 9180 "types.ml" 381 9106 9190
+type(
+  bool ref
+)
+"types.ml" 381 9106 9192 "types.ml" 381 9106 9195
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 381 9106 9196 "types.ml" 381 9106 9202
+type(
+  bool
+)
+ident(
+  int_ref phaseU "types.ml" 380 8996 9043 "types.ml" 380 8996 9049
+)
+"types.ml" 381 9106 9192 "types.ml" 381 9106 9202
+type(
+  bool ref
+)
+"types.ml" 381 9106 9142 "types.ml" 381 9106 9202
+type(
+  bool ref * bool ref * bool ref * bool ref * bool ref
+)
+"types.ml" 382 9206 9214 "types.ml" 382 9206 9217
+type(
+  bool ref
+)
+ident(
+  def nbV "types.ml" 383 9306 9310 "types.ml" 417 9870 9956
+)
+"types.ml" 382 9206 9219 "types.ml" 382 9206 9222
+type(
+  bool ref
+)
+ident(
+  def nlV "types.ml" 383 9306 9310 "types.ml" 417 9870 9956
+)
+"types.ml" 382 9206 9224 "types.ml" 382 9206 9228
+type(
+  bool ref
+)
+ident(
+  def nllV "types.ml" 383 9306 9310 "types.ml" 417 9870 9956
+)
+"types.ml" 382 9206 9230 "types.ml" 382 9206 9233
+type(
+  bool ref
+)
+ident(
+  def npV "types.ml" 383 9306 9310 "types.ml" 417 9870 9956
+)
+"types.ml" 382 9206 9235 "types.ml" 382 9206 9239
+type(
+  bool ref
+)
+ident(
+  def nphV "types.ml" 383 9306 9310 "types.ml" 417 9870 9956
+)
+"types.ml" 382 9206 9214 "types.ml" 382 9206 9239
+type(
+  bool ref * bool ref * bool ref * bool ref * bool ref
+)
+"types.ml" 382 9206 9242 "types.ml" 382 9206 9245
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 382 9206 9246 "types.ml" 382 9206 9253
+type(
+  bool
+)
+ident(
+  int_ref bulletV "types.ml" 380 8996 9061 "types.ml" 380 8996 9068
+)
+"types.ml" 382 9206 9242 "types.ml" 382 9206 9253
+type(
+  bool ref
+)
+"types.ml" 382 9206 9255 "types.ml" 382 9206 9258
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 382 9206 9259 "types.ml" 382 9206 9266
+type(
+  bool
+)
+ident(
+  int_ref leaderV "types.ml" 380 8996 9070 "types.ml" 380 8996 9077
+)
+"types.ml" 382 9206 9255 "types.ml" 382 9206 9266
+type(
+  bool ref
+)
+"types.ml" 382 9206 9268 "types.ml" 382 9206 9271
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 382 9206 9272 "types.ml" 382 9206 9278
+type(
+  bool
+)
+ident(
+  int_ref labelV "types.ml" 380 8996 9079 "types.ml" 380 8996 9085
+)
+"types.ml" 382 9206 9268 "types.ml" 382 9206 9278
+type(
+  bool ref
+)
+"types.ml" 382 9206 9280 "types.ml" 382 9206 9283
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 382 9206 9284 "types.ml" 382 9206 9290
+type(
+  bool
+)
+ident(
+  int_ref probeV "types.ml" 380 8996 9087 "types.ml" 380 8996 9093
+)
+"types.ml" 382 9206 9280 "types.ml" 382 9206 9290
+type(
+  bool ref
+)
+"types.ml" 382 9206 9292 "types.ml" 382 9206 9295
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"types.ml" 382 9206 9296 "types.ml" 382 9206 9302
+type(
+  bool
+)
+ident(
+  int_ref phaseV "types.ml" 380 8996 9095 "types.ml" 380 8996 9101
+)
+"types.ml" 382 9206 9292 "types.ml" 382 9206 9302
+type(
+  bool ref
+)
+"types.ml" 382 9206 9242 "types.ml" 382 9206 9302
+type(
+  bool ref * bool ref * bool ref * bool ref * bool ref
+)
+"types.ml" 383 9306 9313 "types.ml" 383 9306 9314
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 383 9306 9314 "types.ml" 383 9306 9318
+type(
+  bool ref
+)
+ident(
+  int_ref nllU "types.ml" 381 9106 9124 "types.ml" 381 9106 9128
+)
+"types.ml" 383 9306 9313 "types.ml" 383 9306 9318
+type(
+  bool
+)
+"types.ml" 383 9306 9319 "types.ml" 383 9306 9320
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 383 9306 9321 "types.ml" 383 9306 9322
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 383 9306 9322 "types.ml" 383 9306 9326
+type(
+  bool ref
+)
+ident(
+  int_ref nllV "types.ml" 382 9206 9224 "types.ml" 382 9206 9228
+)
+"types.ml" 383 9306 9321 "types.ml" 383 9306 9326
+type(
+  bool
+)
+"types.ml" 383 9306 9313 "types.ml" 383 9306 9326
+type(
+  bool
+)
+"types.ml" 384 9338 9347 "types.ml" 384 9338 9348
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 384 9338 9348 "types.ml" 384 9338 9351
+type(
+  bool ref
+)
+ident(
+  int_ref npU "types.ml" 381 9106 9130 "types.ml" 381 9106 9133
+)
+"types.ml" 384 9338 9347 "types.ml" 384 9338 9351
+type(
+  bool
+)
+"types.ml" 385 9363 9364 "types.ml" 385 9363 9367
+type(
+  bool ref
+)
+ident(
+  int_ref nlU "types.ml" 381 9106 9119 "types.ml" 381 9106 9122
+)
+"types.ml" 385 9363 9368 "types.ml" 385 9363 9370
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 385 9363 9371 "types.ml" 385 9363 9375
+type(
+  bool
+)
+"types.ml" 385 9363 9364 "types.ml" 385 9363 9375
+type(
+  unit
+)
+"types.ml" 386 9377 9378 "types.ml" 386 9377 9381
+type(
+  bool ref
+)
+ident(
+  int_ref npU "types.ml" 381 9106 9130 "types.ml" 381 9106 9133
+)
+"types.ml" 386 9377 9382 "types.ml" 386 9377 9384
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 386 9377 9385 "types.ml" 386 9377 9390
+type(
+  bool
+)
+"types.ml" 386 9377 9378 "types.ml" 386 9377 9391
+type(
+  unit
+)
+"types.ml" 384 9338 9357 "types.ml" 387 9392 9401
+type(
+  unit
+)
+"types.ml" 384 9338 9344 "types.ml" 387 9392 9401
+type(
+  unit
+)
+"types.ml" 388 9403 9412 "types.ml" 388 9403 9415
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 388 9403 9416 "types.ml" 388 9403 9417
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 388 9403 9417 "types.ml" 388 9403 9421
+type(
+  bool ref
+)
+ident(
+  int_ref nphU "types.ml" 381 9106 9135 "types.ml" 381 9106 9139
+)
+"types.ml" 388 9403 9416 "types.ml" 388 9403 9421
+type(
+  bool
+)
+"types.ml" 388 9403 9412 "types.ml" 388 9403 9421
+type(
+  bool
+)
+"types.ml" 389 9433 9434 "types.ml" 389 9433 9438
+type(
+  bool ref
+)
+ident(
+  int_ref nphU "types.ml" 381 9106 9135 "types.ml" 381 9106 9139
+)
+"types.ml" 389 9433 9439 "types.ml" 389 9433 9441
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 389 9433 9442 "types.ml" 389 9433 9446
+type(
+  bool
+)
+"types.ml" 389 9433 9434 "types.ml" 389 9433 9446
+type(
+  unit
+)
+"types.ml" 390 9448 9452 "types.ml" 390 9448 9455
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 390 9448 9456 "types.ml" 390 9448 9457
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 390 9448 9457 "types.ml" 390 9448 9460
+type(
+  bool ref
+)
+ident(
+  int_ref nlV "types.ml" 382 9206 9219 "types.ml" 382 9206 9222
+)
+"types.ml" 390 9448 9456 "types.ml" 390 9448 9460
+type(
+  bool
+)
+"types.ml" 390 9448 9452 "types.ml" 390 9448 9460
+type(
+  bool
+)
+"types.ml" 391 9466 9469 "types.ml" 391 9466 9472
+type(
+  bool ref
+)
+ident(
+  int_ref npV "types.ml" 382 9206 9230 "types.ml" 382 9206 9233
+)
+"types.ml" 391 9466 9473 "types.ml" 391 9466 9475
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 391 9466 9476 "types.ml" 391 9466 9480
+type(
+  bool
+)
+"types.ml" 391 9466 9469 "types.ml" 391 9466 9480
+type(
+  unit
+)
+"types.ml" 390 9448 9449 "types.ml" 391 9466 9481
+type(
+  unit
+)
+"types.ml" 388 9403 9427 "types.ml" 392 9482 9491
+type(
+  unit
+)
+"types.ml" 393 9492 9506 "types.ml" 393 9492 9509
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 393 9492 9510 "types.ml" 393 9492 9511
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 393 9492 9511 "types.ml" 393 9492 9514
+type(
+  bool ref
+)
+ident(
+  int_ref npV "types.ml" 382 9206 9230 "types.ml" 382 9206 9233
+)
+"types.ml" 393 9492 9510 "types.ml" 393 9492 9514
+type(
+  bool
+)
+"types.ml" 393 9492 9506 "types.ml" 393 9492 9514
+type(
+  bool
+)
+"types.ml" 394 9526 9527 "types.ml" 394 9526 9531
+type(
+  bool ref
+)
+ident(
+  int_ref nllV "types.ml" 382 9206 9224 "types.ml" 382 9206 9228
+)
+"types.ml" 394 9526 9532 "types.ml" 394 9526 9534
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 394 9526 9535 "types.ml" 394 9526 9538
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"types.ml" 394 9526 9539 "types.ml" 394 9526 9540
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 394 9526 9540 "types.ml" 394 9526 9544
+type(
+  bool ref
+)
+ident(
+  int_ref nllV "types.ml" 382 9206 9224 "types.ml" 382 9206 9228
+)
+"types.ml" 394 9526 9539 "types.ml" 394 9526 9544
+type(
+  bool
+)
+"types.ml" 394 9526 9535 "types.ml" 394 9526 9544
+type(
+  bool
+)
+"types.ml" 394 9526 9527 "types.ml" 394 9526 9544
+type(
+  unit
+)
+"types.ml" 395 9546 9547 "types.ml" 395 9546 9551
+type(
+  bool ref
+)
+ident(
+  int_ref nphV "types.ml" 382 9206 9235 "types.ml" 382 9206 9239
+)
+"types.ml" 395 9546 9552 "types.ml" 395 9546 9554
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 395 9546 9555 "types.ml" 395 9546 9560
+type(
+  bool
+)
+"types.ml" 395 9546 9547 "types.ml" 395 9546 9560
+type(
+  unit
+)
+"types.ml" 396 9562 9563 "types.ml" 396 9562 9566
+type(
+  bool ref
+)
+ident(
+  int_ref nbV "types.ml" 382 9206 9214 "types.ml" 382 9206 9217
+)
+"types.ml" 396 9562 9567 "types.ml" 396 9562 9569
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 396 9562 9570 "types.ml" 396 9562 9575
+type(
+  bool
+)
+"types.ml" 396 9562 9563 "types.ml" 396 9562 9576
+type(
+  unit
+)
+"types.ml" 395 9546 9547 "types.ml" 396 9562 9576
+type(
+  unit
+)
+"types.ml" 393 9492 9520 "types.ml" 397 9577 9586
+type(
+  unit
+)
+"types.ml" 393 9492 9503 "types.ml" 397 9577 9586
+type(
+  unit
+)
+"types.ml" 388 9403 9409 "types.ml" 397 9577 9586
+type(
+  unit
+)
+"types.ml" 383 9306 9332 "types.ml" 398 9587 9594
+type(
+  unit
+)
+"types.ml" 399 9595 9607 "types.ml" 399 9595 9608
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 399 9595 9608 "types.ml" 399 9595 9611
+type(
+  bool ref
+)
+ident(
+  int_ref nlV "types.ml" 382 9206 9219 "types.ml" 382 9206 9222
+)
+"types.ml" 399 9595 9607 "types.ml" 399 9595 9611
+type(
+  bool
+)
+"types.ml" 400 9623 9632 "types.ml" 400 9623 9633
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 400 9623 9633 "types.ml" 400 9623 9636
+type(
+  bool ref
+)
+ident(
+  int_ref nbV "types.ml" 382 9206 9214 "types.ml" 382 9206 9217
+)
+"types.ml" 400 9623 9632 "types.ml" 400 9623 9636
+type(
+  bool
+)
+"types.ml" 401 9642 9643 "types.ml" 401 9642 9646
+type(
+  bool ref
+)
+ident(
+  int_ref nlV "types.ml" 382 9206 9219 "types.ml" 382 9206 9222
+)
+"types.ml" 401 9642 9647 "types.ml" 401 9642 9649
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 401 9642 9650 "types.ml" 401 9642 9655
+type(
+  bool
+)
+"types.ml" 401 9642 9643 "types.ml" 401 9642 9655
+type(
+  unit
+)
+"types.ml" 403 9673 9674 "types.ml" 403 9673 9677
+type(
+  bool ref
+)
+ident(
+  int_ref nbU "types.ml" 381 9106 9114 "types.ml" 381 9106 9117
+)
+"types.ml" 403 9673 9678 "types.ml" 403 9673 9680
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 403 9673 9681 "types.ml" 403 9673 9685
+type(
+  bool
+)
+"types.ml" 403 9673 9674 "types.ml" 403 9673 9685
+type(
+  unit
+)
+"types.ml" 404 9687 9688 "types.ml" 404 9687 9691
+type(
+  bool ref
+)
+ident(
+  int_ref npU "types.ml" 381 9106 9130 "types.ml" 381 9106 9133
+)
+"types.ml" 404 9687 9692 "types.ml" 404 9687 9694
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 404 9687 9695 "types.ml" 404 9687 9700
+type(
+  bool
+)
+"types.ml" 404 9687 9688 "types.ml" 404 9687 9700
+type(
+  unit
+)
+"types.ml" 402 9656 9667 "types.ml" 405 9701 9710
+type(
+  unit
+)
+"types.ml" 399 9595 9617 "types.ml" 406 9711 9718
+type(
+  unit
+)
+"types.ml" 408 9734 9743 "types.ml" 408 9734 9744
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 408 9734 9744 "types.ml" 408 9734 9747
+type(
+  bool ref
+)
+ident(
+  int_ref nbV "types.ml" 382 9206 9214 "types.ml" 382 9206 9217
+)
+"types.ml" 408 9734 9743 "types.ml" 408 9734 9747
+type(
+  bool
+)
+"types.ml" 409 9759 9760 "types.ml" 409 9759 9763
+type(
+  bool ref
+)
+ident(
+  int_ref nbV "types.ml" 382 9206 9214 "types.ml" 382 9206 9217
+)
+"types.ml" 409 9759 9764 "types.ml" 409 9759 9766
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 409 9759 9767 "types.ml" 409 9759 9772
+type(
+  bool
+)
+"types.ml" 409 9759 9760 "types.ml" 409 9759 9772
+type(
+  unit
+)
+"types.ml" 410 9774 9775 "types.ml" 410 9774 9778
+type(
+  bool ref
+)
+ident(
+  int_ref nbU "types.ml" 381 9106 9114 "types.ml" 381 9106 9117
+)
+"types.ml" 410 9774 9779 "types.ml" 410 9774 9781
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 410 9774 9782 "types.ml" 410 9774 9786
+type(
+  bool
+)
+"types.ml" 410 9774 9775 "types.ml" 410 9774 9786
+type(
+  unit
+)
+"types.ml" 408 9734 9753 "types.ml" 411 9787 9796
+type(
+  unit
+)
+"types.ml" 408 9734 9740 "types.ml" 411 9787 9796
+type(
+  unit
+)
+"types.ml" 412 9798 9807 "types.ml" 412 9798 9808
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 412 9798 9808 "types.ml" 412 9798 9811
+type(
+  bool ref
+)
+ident(
+  int_ref npU "types.ml" 381 9106 9130 "types.ml" 381 9106 9133
+)
+"types.ml" 412 9798 9807 "types.ml" 412 9798 9811
+type(
+  bool
+)
+"types.ml" 413 9823 9824 "types.ml" 413 9823 9827
+type(
+  bool ref
+)
+ident(
+  int_ref npU "types.ml" 381 9106 9130 "types.ml" 381 9106 9133
+)
+"types.ml" 413 9823 9828 "types.ml" 413 9823 9830
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 413 9823 9831 "types.ml" 413 9823 9836
+type(
+  bool
+)
+"types.ml" 413 9823 9824 "types.ml" 413 9823 9836
+type(
+  unit
+)
+"types.ml" 414 9838 9839 "types.ml" 414 9838 9842
+type(
+  bool ref
+)
+ident(
+  int_ref npV "types.ml" 382 9206 9230 "types.ml" 382 9206 9233
+)
+"types.ml" 414 9838 9843 "types.ml" 414 9838 9845
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 414 9838 9846 "types.ml" 414 9838 9850
+type(
+  bool
+)
+"types.ml" 414 9838 9839 "types.ml" 414 9838 9850
+type(
+  unit
+)
+"types.ml" 412 9798 9817 "types.ml" 415 9851 9860
+type(
+  unit
+)
+"types.ml" 412 9798 9804 "types.ml" 415 9851 9860
+type(
+  unit
+)
+"types.ml" 407 9719 9728 "types.ml" 416 9861 9868
+type(
+  unit
+)
+"types.ml" 399 9595 9604 "types.ml" 416 9861 9868
+type(
+  unit
+)
+"types.ml" 383 9306 9310 "types.ml" 416 9861 9868
+type(
+  unit
+)
+"types.ml" 417 9870 9883 "types.ml" 417 9870 9884
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9884 "types.ml" 417 9870 9887
+type(
+  bool ref
+)
+ident(
+  int_ref nbU "types.ml" 381 9106 9114 "types.ml" 381 9106 9117
+)
+"types.ml" 417 9870 9883 "types.ml" 417 9870 9887
+type(
+  bool
+)
+"types.ml" 417 9870 9889 "types.ml" 417 9870 9890
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9890 "types.ml" 417 9870 9893
+type(
+  bool ref
+)
+ident(
+  int_ref nlU "types.ml" 381 9106 9119 "types.ml" 381 9106 9122
+)
+"types.ml" 417 9870 9889 "types.ml" 417 9870 9893
+type(
+  bool
+)
+"types.ml" 417 9870 9895 "types.ml" 417 9870 9896
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9896 "types.ml" 417 9870 9900
+type(
+  bool ref
+)
+ident(
+  int_ref nllU "types.ml" 381 9106 9124 "types.ml" 381 9106 9128
+)
+"types.ml" 417 9870 9895 "types.ml" 417 9870 9900
+type(
+  bool
+)
+"types.ml" 417 9870 9902 "types.ml" 417 9870 9903
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9903 "types.ml" 417 9870 9906
+type(
+  bool ref
+)
+ident(
+  int_ref npU "types.ml" 381 9106 9130 "types.ml" 381 9106 9133
+)
+"types.ml" 417 9870 9902 "types.ml" 417 9870 9906
+type(
+  bool
+)
+"types.ml" 417 9870 9908 "types.ml" 417 9870 9909
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9909 "types.ml" 417 9870 9913
+type(
+  bool ref
+)
+ident(
+  int_ref nphU "types.ml" 381 9106 9135 "types.ml" 381 9106 9139
+)
+"types.ml" 417 9870 9908 "types.ml" 417 9870 9913
+type(
+  bool
+)
+"types.ml" 417 9870 9874 "types.ml" 417 9870 9914
+type(
+  genStates
+)
+"types.ml" 417 9870 9925 "types.ml" 417 9870 9926
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9926 "types.ml" 417 9870 9929
+type(
+  bool ref
+)
+ident(
+  int_ref nbV "types.ml" 382 9206 9214 "types.ml" 382 9206 9217
+)
+"types.ml" 417 9870 9925 "types.ml" 417 9870 9929
+type(
+  bool
+)
+"types.ml" 417 9870 9931 "types.ml" 417 9870 9932
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9932 "types.ml" 417 9870 9935
+type(
+  bool ref
+)
+ident(
+  int_ref nlV "types.ml" 382 9206 9219 "types.ml" 382 9206 9222
+)
+"types.ml" 417 9870 9931 "types.ml" 417 9870 9935
+type(
+  bool
+)
+"types.ml" 417 9870 9937 "types.ml" 417 9870 9938
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9938 "types.ml" 417 9870 9942
+type(
+  bool ref
+)
+ident(
+  int_ref nllV "types.ml" 382 9206 9224 "types.ml" 382 9206 9228
+)
+"types.ml" 417 9870 9937 "types.ml" 417 9870 9942
+type(
+  bool
+)
+"types.ml" 417 9870 9944 "types.ml" 417 9870 9945
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9945 "types.ml" 417 9870 9948
+type(
+  bool ref
+)
+ident(
+  int_ref npV "types.ml" 382 9206 9230 "types.ml" 382 9206 9233
+)
+"types.ml" 417 9870 9944 "types.ml" 417 9870 9948
+type(
+  bool
+)
+"types.ml" 417 9870 9950 "types.ml" 417 9870 9951
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 417 9870 9951 "types.ml" 417 9870 9955
+type(
+  bool ref
+)
+ident(
+  int_ref nphV "types.ml" 382 9206 9235 "types.ml" 382 9206 9239
+)
+"types.ml" 417 9870 9950 "types.ml" 417 9870 9955
+type(
+  bool
+)
+"types.ml" 417 9870 9916 "types.ml" 417 9870 9956
+type(
+  genStates
+)
+"types.ml" 417 9870 9874 "types.ml" 417 9870 9956
+type(
+  genStates * genStates
+)
+"types.ml" 383 9306 9310 "types.ml" 417 9870 9956
+type(
+  genStates * genStates
+)
+"types.ml" 382 9206 9210 "types.ml" 417 9870 9956
+type(
+  genStates * genStates
+)
+"types.ml" 381 9106 9110 "types.ml" 417 9870 9956
+type(
+  genStates * genStates
+)
+"types.ml" 418 9957 9961 "types.ml" 418 9957 9962
+type(
+  genStates * genStates
+)
+"types.ml" 418 9957 9973 "types.ml" 418 9957 9978
+type(
+  bool
+)
+"types.ml" 418 9957 9966 "types.ml" 418 9957 9978
+type(
+  genStates * genStates
+)
+"types.ml" 379 8968 8987 "types.ml" 418 9957 9978
+type(
+  genStates * genStates -> genStates * genStates
+)
+"types.ml" 421 9982 9986 "types.ml" 421 9982 10004
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  def electionStateColor "types.ml" 427 10268 10268 "types.ml" 1 0 -1
+)
+"types.ml" 422 10007 10020 "types.ml" 422 10007 10025
+type(
+  bool
+)
+"types.ml" 422 10007 10027 "types.ml" 422 10007 10031
+type(
+  bool
+)
+"types.ml" 422 10007 10033 "types.ml" 422 10007 10038
+type(
+  bool
+)
+"types.ml" 422 10007 10040 "types.ml" 422 10007 10045
+type(
+  bool
+)
+"types.ml" 422 10007 10047 "types.ml" 422 10007 10052
+type(
+  bool
+)
+"types.ml" 422 10007 10011 "types.ml" 422 10007 10053
+type(
+  genStates
+)
+"types.ml" 422 10007 10054 "types.ml" 422 10007 10057
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 422 10007 10058 "types.ml" 422 10007 10059
+type(
+  int
+)
+"types.ml" 422 10007 10060 "types.ml" 422 10007 10063
+type(
+  int
+)
+"types.ml" 422 10007 10064 "types.ml" 422 10007 10065
+type(
+  int
+)
+"types.ml" 422 10007 10054 "types.ml" 422 10007 10065
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 422 10007 10010 "types.ml" 422 10007 10066
+type(
+  genStates * Graphics.color
+)
+"types.ml" 423 10068 10081 "types.ml" 423 10068 10086
+type(
+  bool
+)
+"types.ml" 423 10068 10088 "types.ml" 423 10068 10093
+type(
+  bool
+)
+"types.ml" 423 10068 10095 "types.ml" 423 10068 10100
+type(
+  bool
+)
+"types.ml" 423 10068 10102 "types.ml" 423 10068 10106
+type(
+  bool
+)
+"types.ml" 423 10068 10108 "types.ml" 423 10068 10113
+type(
+  bool
+)
+"types.ml" 423 10068 10072 "types.ml" 423 10068 10114
+type(
+  genStates
+)
+"types.ml" 423 10068 10115 "types.ml" 423 10068 10118
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 423 10068 10119 "types.ml" 423 10068 10120
+type(
+  int
+)
+"types.ml" 423 10068 10121 "types.ml" 423 10068 10124
+type(
+  int
+)
+"types.ml" 423 10068 10125 "types.ml" 423 10068 10128
+type(
+  int
+)
+"types.ml" 423 10068 10115 "types.ml" 423 10068 10128
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 423 10068 10071 "types.ml" 423 10068 10129
+type(
+  genStates * Graphics.color
+)
+"types.ml" 424 10131 10144 "types.ml" 424 10131 10148
+type(
+  bool
+)
+"types.ml" 424 10131 10150 "types.ml" 424 10131 10155
+type(
+  bool
+)
+"types.ml" 424 10131 10157 "types.ml" 424 10131 10162
+type(
+  bool
+)
+"types.ml" 424 10131 10164 "types.ml" 424 10131 10169
+type(
+  bool
+)
+"types.ml" 424 10131 10171 "types.ml" 424 10131 10176
+type(
+  bool
+)
+"types.ml" 424 10131 10135 "types.ml" 424 10131 10177
+type(
+  genStates
+)
+"types.ml" 424 10131 10178 "types.ml" 424 10131 10181
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 424 10131 10182 "types.ml" 424 10131 10185
+type(
+  int
+)
+"types.ml" 424 10131 10186 "types.ml" 424 10131 10187
+type(
+  int
+)
+"types.ml" 424 10131 10188 "types.ml" 424 10131 10189
+type(
+  int
+)
+"types.ml" 424 10131 10178 "types.ml" 424 10131 10189
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 424 10131 10134 "types.ml" 424 10131 10190
+type(
+  genStates * Graphics.color
+)
+"types.ml" 425 10192 10205 "types.ml" 425 10192 10210
+type(
+  bool
+)
+"types.ml" 425 10192 10212 "types.ml" 425 10192 10217
+type(
+  bool
+)
+"types.ml" 425 10192 10219 "types.ml" 425 10192 10224
+type(
+  bool
+)
+"types.ml" 425 10192 10226 "types.ml" 425 10192 10231
+type(
+  bool
+)
+"types.ml" 425 10192 10233 "types.ml" 425 10192 10238
+type(
+  bool
+)
+"types.ml" 425 10192 10196 "types.ml" 425 10192 10239
+type(
+  genStates
+)
+"types.ml" 425 10192 10240 "types.ml" 425 10192 10243
+type(
+  int -> int -> int -> Graphics.color
+)
+ident(
+  ext_ref Graphics.rgb
+)
+"types.ml" 425 10192 10244 "types.ml" 425 10192 10247
+type(
+  int
+)
+"types.ml" 425 10192 10248 "types.ml" 425 10192 10251
+type(
+  int
+)
+"types.ml" 425 10192 10252 "types.ml" 425 10192 10255
+type(
+  int
+)
+"types.ml" 425 10192 10240 "types.ml" 425 10192 10255
+call(
+  stack
+)
+type(
+  Graphics.color
+)
+"types.ml" 425 10192 10195 "types.ml" 425 10192 10256
+type(
+  genStates * Graphics.color
+)
+"types.ml" 422 10007 10009 "types.ml" 425 10192 10257
+type(
+  (genStates * Graphics.color) list
+)
+"types.ml" 427 10268 10272 "types.ml" 427 10268 10283
+type(
+  unit -> string
+)
+ident(
+  def electionObj "types.ml" 430 10366 10366 "types.ml" 1 0 -1
+)
+"types.ml" 427 10268 10284 "types.ml" 427 10268 10286
+type(
+  unit
+)
+"types.ml" 428 10289 10291 "types.ml" 428 10289 10331
+type(
+  string
+)
+"types.ml" 428 10289 10332 "types.ml" 428 10289 10333
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 428 10289 10335 "types.ml" 428 10289 10348
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"types.ml" 428 10289 10349 "types.ml" 428 10289 10350
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 428 10289 10350 "types.ml" 428 10289 10357
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 428 10289 10349 "types.ml" 428 10289 10357
+type(
+  int
+)
+"types.ml" 428 10289 10334 "types.ml" 428 10289 10358
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 428 10289 10359 "types.ml" 428 10289 10360
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"types.ml" 428 10289 10361 "types.ml" 428 10289 10364
+type(
+  string
+)
+"types.ml" 428 10289 10334 "types.ml" 428 10289 10364
+call(
+  stack
+)
+type(
+  string
+)
+"types.ml" 428 10289 10291 "types.ml" 428 10289 10364
+call(
+  tail
+)
+type(
+  string
+)
+"types.ml" 430 10366 10370 "types.ml" 430 10366 10382
+type(
+  unit -> unit
+)
+ident(
+  def initElection "types.ml" 436 10491 10491 "types.ml" 1 0 -1
+)
+"types.ml" 430 10366 10383 "types.ml" 430 10366 10385
+type(
+  unit
+)
+"types.ml" 431 10388 10394 "types.ml" 431 10388 10400
+type(
+  'a -> genStates
+)
+ident(
+  def affect "types.ml" 434 10453 10455 "types.ml" 434 10453 10489
+)
+"types.ml" 431 10388 10401 "types.ml" 431 10388 10402
+type(
+  'a
+)
+ident(
+  def x "types.ml" 432 10405 10409 "types.ml" 432 10405 10447
+)
+"types.ml" 432 10405 10409 "types.ml" 432 10405 10410
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 432 10405 10410 "types.ml" 432 10405 10414
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 432 10405 10409 "types.ml" 432 10405 10414
+type(
+  algo
+)
+"types.ml" 432 10405 10409 "types.ml" 432 10405 10420
+type(
+  genEntrees -> genStates
+)
+"types.ml" 432 10405 10422 "types.ml" 432 10405 10430
+type(
+  genEntrees list -> int -> genEntrees
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 432 10405 10431 "types.ml" 432 10405 10432
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 432 10405 10432 "types.ml" 432 10405 10436
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 432 10405 10431 "types.ml" 432 10405 10436
+type(
+  algo
+)
+"types.ml" 432 10405 10431 "types.ml" 432 10405 10444
+type(
+  genEntrees list
+)
+"types.ml" 432 10405 10445 "types.ml" 432 10405 10446
+type(
+  int
+)
+"types.ml" 432 10405 10421 "types.ml" 432 10405 10447
+call(
+  stack
+)
+type(
+  genEntrees
+)
+"types.ml" 432 10405 10409 "types.ml" 432 10405 10447
+call(
+  tail
+)
+type(
+  genStates
+)
+"types.ml" 434 10453 10455 "types.ml" 434 10453 10459
+type(
+  genStates array ref
+)
+ident(
+  int_ref conf "types.ml" 42 888 892 "types.ml" 42 888 896
+)
+"types.ml" 434 10453 10460 "types.ml" 434 10453 10462
+type(
+  genStates array ref -> genStates array -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 434 10453 10463 "types.ml" 434 10453 10473
+type(
+  int -> (int -> genStates) -> genStates array
+)
+ident(
+  ext_ref Array.init
+)
+"types.ml" 434 10453 10474 "types.ml" 434 10453 10475
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 434 10453 10475 "types.ml" 434 10453 10482
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 434 10453 10474 "types.ml" 434 10453 10482
+type(
+  int
+)
+"types.ml" 434 10453 10483 "types.ml" 434 10453 10489
+type(
+  int -> genStates
+)
+ident(
+  int_ref affect "types.ml" 431 10388 10394 "types.ml" 431 10388 10400
+)
+"types.ml" 434 10453 10463 "types.ml" 434 10453 10489
+call(
+  stack
+)
+type(
+  genStates array
+)
+"types.ml" 434 10453 10455 "types.ml" 434 10453 10489
+type(
+  unit
+)
+"types.ml" 431 10388 10390 "types.ml" 434 10453 10489
+type(
+  unit
+)
+"types.ml" 436 10491 10495 "types.ml" 436 10491 10509
+type(
+  int -> int * int
+)
+ident(
+  def selectElection "types.ml" 441 10591 10591 "types.ml" 1 0 -1
+)
+"types.ml" 436 10491 10510 "types.ml" 436 10491 10513
+type(
+  int
+)
+ident(
+  def len "types.ml" 437 10516 10518 "types.ml" 439 10578 10585
+)
+"types.ml" 437 10516 10522 "types.ml" 437 10516 10524
+type(
+  int
+)
+ident(
+  def i1 "types.ml" 438 10549 10551 "types.ml" 439 10578 10585
+)
+"types.ml" 437 10516 10527 "types.ml" 437 10516 10536
+type(
+  int -> int -> int
+)
+ident(
+  int_ref randArray "types.ml" 68 1445 1453 "types.ml" 68 1445 1462
+)
+"types.ml" 437 10516 10537 "types.ml" 437 10516 10540
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 436 10491 10510 "types.ml" 436 10491 10513
+)
+"types.ml" 437 10516 10541 "types.ml" 437 10516 10545
+type(
+  int
+)
+"types.ml" 437 10516 10527 "types.ml" 437 10516 10545
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 438 10549 10555 "types.ml" 438 10549 10557
+type(
+  int
+)
+ident(
+  def i2 "types.ml" 439 10578 10580 "types.ml" 439 10578 10585
+)
+"types.ml" 438 10549 10561 "types.ml" 438 10549 10563
+type(
+  int
+)
+ident(
+  int_ref i1 "types.ml" 437 10516 10522 "types.ml" 437 10516 10524
+)
+"types.ml" 438 10549 10563 "types.ml" 438 10549 10564
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"types.ml" 438 10549 10564 "types.ml" 438 10549 10565
+type(
+  int
+)
+"types.ml" 438 10549 10560 "types.ml" 438 10549 10566
+type(
+  int
+)
+"types.ml" 438 10549 10567 "types.ml" 438 10549 10570
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"types.ml" 438 10549 10571 "types.ml" 438 10549 10574
+type(
+  int
+)
+ident(
+  int_ref len "types.ml" 436 10491 10510 "types.ml" 436 10491 10513
+)
+"types.ml" 438 10549 10560 "types.ml" 438 10549 10574
+type(
+  int
+)
+"types.ml" 439 10578 10580 "types.ml" 439 10578 10582
+type(
+  int
+)
+ident(
+  int_ref i1 "types.ml" 437 10516 10522 "types.ml" 437 10516 10524
+)
+"types.ml" 439 10578 10583 "types.ml" 439 10578 10585
+type(
+  int
+)
+ident(
+  int_ref i2 "types.ml" 438 10549 10555 "types.ml" 438 10549 10557
+)
+"types.ml" 439 10578 10580 "types.ml" 439 10578 10585
+type(
+  int * int
+)
+"types.ml" 438 10549 10551 "types.ml" 439 10578 10585
+type(
+  int * int
+)
+"types.ml" 437 10516 10518 "types.ml" 439 10578 10585
+type(
+  int * int
+)
+"types.ml" 441 10591 10595 "types.ml" 441 10591 10607
+type(
+  algo
+)
+ident(
+  def testElection "types.ml" 457 10952 10952 "types.ml" 1 0 -1
+)
+"types.ml" 442 10612 10625 "types.ml" 442 10612 10626
+type(
+  genEntrees
+)
+"types.ml" 442 10612 10624 "types.ml" 442 10612 10627
+type(
+  genEntrees list
+)
+"types.ml" 443 10629 10642 "types.ml" 443 10629 10654
+type(
+  unit -> unit
+)
+ident(
+  int_ref initElection "types.ml" 430 10366 10370 "types.ml" 430 10366 10382
+)
+"types.ml" 444 10656 10666 "types.ml" 444 10656 10679
+type(
+  genEntrees -> genStates
+)
+ident(
+  int_ref electionInput "types.ml" 368 8650 8654 "types.ml" 368 8650 8667
+)
+"types.ml" 445 10681 10692 "types.ml" 445 10681 10706
+type(
+  genStates -> string
+)
+ident(
+  int_ref electionOutput "types.ml" 373 8778 8782 "types.ml" 373 8778 8796
+)
+"types.ml" 446 10708 10719 "types.ml" 446 10708 10733
+type(
+  int -> int * int
+)
+ident(
+  int_ref selectElection "types.ml" 436 10491 10495 "types.ml" 436 10491 10509
+)
+"types.ml" 447 10735 10744 "types.ml" 447 10735 10756
+type(
+  genStates * genStates -> genStates * genStates
+)
+ident(
+  int_ref electionConv "types.ml" 379 8968 8972 "types.ml" 379 8968 8984
+)
+"types.ml" 448 10758 10769 "types.ml" 448 10758 10773
+type(
+  render
+)
+"types.ml" 449 10775 10794 "types.ml" 449 10775 10812
+type(
+  (genStates * Graphics.color) list
+)
+ident(
+  int_ref electionStateColor "types.ml" 421 9982 9986 "types.ml" 421 9982 10004
+)
+"types.ml" 450 10814 10827 "types.ml" 450 10814 10838
+type(
+  unit -> string
+)
+ident(
+  int_ref electionObj "types.ml" 427 10268 10272 "types.ml" 427 10268 10283
+)
+"types.ml" 441 10591 10610 "types.ml" 451 10839 10840
+type(
+  algo
+)
+"types.ml" 457 10952 10956 "types.ml" 457 10952 10964
+type(
+  int -> unit
+)
+ident(
+  def minimize "types.ml" 469 11189 11189 "types.ml" 1 0 -1
+)
+"types.ml" 457 10952 10965 "types.ml" 457 10952 10967
+type(
+  int
+)
+ident(
+  def id "types.ml" 458 10970 10972 "types.ml" 467 11178 11183
+)
+"types.ml" 458 10970 10972 "types.ml" 458 10970 10979
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 458 10970 10980 "types.ml" 458 10970 10982
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 459 10983 10993 "types.ml" 459 10983 10994
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 459 10983 10994 "types.ml" 459 10983 10998
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 459 10983 10993 "types.ml" 459 10983 10998
+type(
+  algo
+)
+"types.ml" 459 10983 10993 "types.ml" 459 10983 11005
+type(
+  render
+)
+"types.ml" 460 11011 11017 "types.ml" 460 11011 11024
+type(
+  render
+)
+"types.ml" 460 11011 11028 "types.ml" 460 11011 11031
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"types.ml" 460 11011 11032 "types.ml" 460 11011 11035
+type(
+  int
+)
+ident(
+  ext_ref Options.nbA
+)
+"types.ml" 460 11011 11036 "types.ml" 460 11011 11040
+type(
+  int
+)
+"types.ml" 460 11011 11028 "types.ml" 460 11011 11040
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 461 11041 11047 "types.ml" 461 11041 11051
+type(
+  render
+)
+"types.ml" 462 11055 11066 "types.ml" 462 11055 11069
+type(
+  int
+)
+ident(
+  def tmp "types.ml" 463 11086 11093 "types.ml" 467 11178 11183
+)
+"types.ml" 462 11055 11072 "types.ml" 462 11055 11075
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"types.ml" 462 11055 11076 "types.ml" 462 11055 11079
+type(
+  int
+)
+ident(
+  ext_ref Options.nbA
+)
+"types.ml" 462 11055 11080 "types.ml" 462 11055 11082
+type(
+  int
+)
+"types.ml" 462 11055 11072 "types.ml" 462 11055 11082
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 463 11086 11096 "types.ml" 463 11086 11098
+type(
+  int
+)
+ident(
+  int_ref id "types.ml" 457 10952 10965 "types.ml" 457 10952 10967
+)
+"types.ml" 463 11086 11099 "types.ml" 463 11086 11100
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 463 11086 11101 "types.ml" 463 11086 11102
+type(
+  int
+)
+"types.ml" 463 11086 11096 "types.ml" 463 11086 11102
+type(
+  bool
+)
+"types.ml" 464 11114 11119 "types.ml" 464 11114 11122
+type(
+  int
+)
+ident(
+  int_ref tmp "types.ml" 462 11055 11066 "types.ml" 462 11055 11069
+)
+"types.ml" 464 11114 11123 "types.ml" 464 11114 11126
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"types.ml" 464 11114 11127 "types.ml" 464 11114 11128
+type(
+  int
+)
+"types.ml" 464 11114 11119 "types.ml" 464 11114 11128
+type(
+  int
+)
+"types.ml" 464 11114 11129 "types.ml" 464 11114 11130
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"types.ml" 464 11114 11131 "types.ml" 464 11114 11132
+type(
+  int
+)
+"types.ml" 464 11114 11119 "types.ml" 464 11114 11132
+type(
+  bool
+)
+"types.ml" 464 11114 11138 "types.ml" 464 11114 11141
+type(
+  int
+)
+ident(
+  int_ref tmp "types.ml" 462 11055 11066 "types.ml" 462 11055 11069
+)
+"types.ml" 464 11114 11142 "types.ml" 464 11114 11143
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"types.ml" 464 11114 11144 "types.ml" 464 11114 11145
+type(
+  int
+)
+"types.ml" 464 11114 11138 "types.ml" 464 11114 11145
+type(
+  int
+)
+"types.ml" 464 11114 11151 "types.ml" 464 11114 11154
+type(
+  int
+)
+ident(
+  int_ref tmp "types.ml" 462 11055 11066 "types.ml" 462 11055 11069
+)
+"types.ml" 463 11086 11108 "types.ml" 465 11155 11165
+type(
+  int
+)
+"types.ml" 467 11178 11180 "types.ml" 467 11178 11183
+type(
+  int
+)
+ident(
+  int_ref tmp "types.ml" 462 11055 11066 "types.ml" 462 11055 11069
+)
+"types.ml" 463 11086 11093 "types.ml" 467 11178 11183
+type(
+  int
+)
+"types.ml" 462 11055 11062 "types.ml" 467 11178 11183
+type(
+  int
+)
+"types.ml" 459 10983 10987 "types.ml" 467 11178 11183
+type(
+  int
+)
+"types.ml" 458 10970 10972 "types.ml" 467 11178 11183
+type(
+  unit
+)
+"types.ml" 469 11189 11193 "types.ml" 469 11189 11201
+type(
+  algo list
+)
+ident(
+  def algoList "types.ml" 471 11284 11284 "types.ml" 1 0 -1
+)
+"types.ml" 469 11189 11217 "types.ml" 469 11189 11227
+type(
+  algo
+)
+ident(
+  int_ref testLeader "types.ml" 120 2803 2807 "types.ml" 120 2803 2817
+)
+"types.ml" 469 11189 11229 "types.ml" 469 11189 11239
+type(
+  algo
+)
+ident(
+  int_ref testCount4 "types.ml" 183 4240 4244 "types.ml" 183 4240 4254
+)
+"types.ml" 469 11189 11241 "types.ml" 469 11189 11247
+type(
+  algo
+)
+ident(
+  int_ref testOr "types.ml" 233 5328 5332 "types.ml" 233 5328 5338
+)
+"types.ml" 469 11189 11249 "types.ml" 469 11189 11256
+type(
+  algo
+)
+ident(
+  int_ref testBST "types.ml" 295 6780 6784 "types.ml" 295 6780 6791
+)
+"types.ml" 469 11189 11258 "types.ml" 469 11189 11267
+type(
+  algo
+)
+ident(
+  int_ref testToken "types.ml" 353 8301 8305 "types.ml" 353 8301 8314
+)
+"types.ml" 469 11189 11269 "types.ml" 469 11189 11281
+type(
+  algo
+)
+ident(
+  int_ref testElection "types.ml" 441 10591 10595 "types.ml" 441 10591 10607
+)
+"types.ml" 469 11189 11216 "types.ml" 469 11189 11282
+type(
+  algo list
+)
+type(
+  algo list
+)
+"types.ml" 471 11284 11288 "types.ml" 471 11284 11290
+type(
+  unit
+)
+"types.ml" 472 11293 11295 "types.ml" 472 11293 11297
+type(
+  int ref
+)
+ident(
+  ext_ref Options.id
+)
+"types.ml" 472 11293 11298 "types.ml" 472 11293 11300
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 472 11293 11304 "types.ml" 472 11293 11305
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 472 11293 11305 "types.ml" 472 11293 11307
+type(
+  int ref
+)
+ident(
+  ext_ref Options.id
+)
+"types.ml" 472 11293 11304 "types.ml" 472 11293 11307
+type(
+  int
+)
+"types.ml" 472 11293 11308 "types.ml" 472 11293 11310
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"types.ml" 472 11293 11311 "types.ml" 472 11293 11322
+type(
+  algo list -> int
+)
+ident(
+  ext_ref List.length
+)
+"types.ml" 472 11293 11323 "types.ml" 472 11293 11331
+type(
+  algo list
+)
+ident(
+  int_ref algoList "types.ml" 469 11189 11193 "types.ml" 469 11189 11201
+)
+"types.ml" 472 11293 11311 "types.ml" 472 11293 11331
+call(
+  stack
+)
+type(
+  int
+)
+"types.ml" 472 11293 11304 "types.ml" 472 11293 11331
+type(
+  bool
+)
+"types.ml" 472 11293 11337 "types.ml" 472 11293 11338
+type(
+  int
+)
+"types.ml" 472 11293 11344 "types.ml" 472 11293 11345
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 472 11293 11345 "types.ml" 472 11293 11347
+type(
+  int ref
+)
+ident(
+  ext_ref Options.id
+)
+"types.ml" 472 11293 11344 "types.ml" 472 11293 11347
+type(
+  int
+)
+"types.ml" 472 11293 11301 "types.ml" 472 11293 11347
+type(
+  int
+)
+"types.ml" 472 11293 11295 "types.ml" 472 11293 11347
+type(
+  unit
+)
+"types.ml" 473 11349 11351 "types.ml" 473 11349 11355
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 473 11349 11356 "types.ml" 473 11349 11358
+type(
+  algo ref -> algo -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 473 11349 11360 "types.ml" 473 11349 11368
+type(
+  algo list -> int -> algo
+)
+ident(
+  ext_ref List.nth
+)
+"types.ml" 473 11349 11369 "types.ml" 473 11349 11377
+type(
+  algo list
+)
+ident(
+  int_ref algoList "types.ml" 469 11189 11193 "types.ml" 469 11189 11201
+)
+"types.ml" 473 11349 11378 "types.ml" 473 11349 11379
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 473 11349 11379 "types.ml" 473 11349 11381
+type(
+  int ref
+)
+ident(
+  ext_ref Options.id
+)
+"types.ml" 473 11349 11378 "types.ml" 473 11349 11381
+type(
+  int
+)
+"types.ml" 473 11349 11360 "types.ml" 473 11349 11381
+call(
+  stack
+)
+type(
+  algo
+)
+"types.ml" 473 11349 11351 "types.ml" 473 11349 11381
+type(
+  unit
+)
+"types.ml" 474 11383 11385 "types.ml" 474 11383 11393
+type(
+  int -> unit
+)
+ident(
+  int_ref minimize "types.ml" 457 10952 10956 "types.ml" 457 10952 10964
+)
+"types.ml" 474 11383 11394 "types.ml" 474 11383 11395
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 474 11383 11395 "types.ml" 474 11383 11397
+type(
+  int ref
+)
+ident(
+  ext_ref Options.id
+)
+"types.ml" 474 11383 11394 "types.ml" 474 11383 11397
+type(
+  int
+)
+"types.ml" 474 11383 11385 "types.ml" 474 11383 11397
+call(
+  stack
+)
+type(
+  unit
+)
+"types.ml" 475 11399 11401 "types.ml" 475 11399 11402
+type(
+  algo ref -> algo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 475 11399 11402 "types.ml" 475 11399 11406
+type(
+  algo ref
+)
+ident(
+  int_ref algo "types.ml" 30 643 647 "types.ml" 30 643 651
+)
+"types.ml" 475 11399 11401 "types.ml" 475 11399 11406
+type(
+  algo
+)
+"types.ml" 475 11399 11401 "types.ml" 475 11399 11415
+type(
+  unit -> unit
+)
+"types.ml" 475 11399 11416 "types.ml" 475 11399 11418
+type(
+  unit
+)
+"types.ml" 475 11399 11401 "types.ml" 475 11399 11418
+call(
+  stack
+)
+type(
+  unit
+)
+"types.ml" 476 11420 11422 "types.ml" 476 11420 11425
+type(
+  (int * int) array ref
+)
+ident(
+  int_ref pos "types.ml" 43 908 912 "types.ml" 43 908 915
+)
+"types.ml" 476 11420 11426 "types.ml" 476 11420 11428
+type(
+  (int * int) array ref -> (int * int) array -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"types.ml" 476 11420 11429 "types.ml" 476 11420 11439
+type(
+  int -> int * int -> (int * int) array
+)
+ident(
+  ext_ref Array.make
+)
+"types.ml" 476 11420 11440 "types.ml" 476 11420 11441
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"types.ml" 476 11420 11441 "types.ml" 476 11420 11448
+type(
+  int ref
+)
+ident(
+  int_ref miniNbA "types.ml" 28 622 626 "types.ml" 28 622 633
+)
+"types.ml" 476 11420 11440 "types.ml" 476 11420 11448
+type(
+  int
+)
+"types.ml" 476 11420 11450 "types.ml" 476 11420 11452
+type(
+  int
+)
+"types.ml" 476 11420 11453 "types.ml" 476 11420 11455
+type(
+  int
+)
+"types.ml" 476 11420 11449 "types.ml" 476 11420 11456
+type(
+  int * int
+)
+"types.ml" 476 11420 11429 "types.ml" 476 11420 11456
+type(
+  (int * int) array
+)
+"types.ml" 476 11420 11422 "types.ml" 476 11420 11457
+type(
+  unit
+)
+"types.ml" 475 11399 11401 "types.ml" 476 11420 11457
+type(
+  unit
+)
+"types.ml" 474 11383 11385 "types.ml" 476 11420 11457
+type(
+  unit
+)
+"types.ml" 473 11349 11351 "types.ml" 476 11420 11457
+type(
+  unit
+)
+"types.ml" 472 11293 11295 "types.ml" 476 11420 11457
+type(
+  unit
+)
