@@ -5,10 +5,9 @@ OCAMLFIND = ocamlfind
 
 OPTIONS = -g -annot
 
-PACKAGES = sdl
 
-COMPILE = $(OCAMLFIND) $(OCAMLC) -package $(PACKAGES)
-COMPILEOPT = $(OCAMLFIND) $(OCAMLOPT) -package $(PACKAGES)
+COMPILE = $(OCAMLFIND) $(OCAMLC)
+COMPILEOPT = $(OCAMLFIND) $(OCAMLOPT)
 
 LIBS = str.cma graphics.cma bigarray.cma unix.cma threads.cma
 LIBOPTS = $(LIBS:.cma=.cmxa)

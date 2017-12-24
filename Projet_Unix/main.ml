@@ -26,8 +26,7 @@ let dist sx sy x y =
   | Ring ->
      let d = sqrt ((x-.sx) *. (x-.sx) +. (y-.sy) *. (y-.sy)) in
      d <= r
-     
-    
+
 let rec select (sx,sy) =
   try
     match !selected with
@@ -45,6 +44,79 @@ let rec select (sx,sy) =
       select (sx,sy)
   with
   | Found -> ()
+
+let switch t =
+  let id =
+    match t with
+    | '0' -> 0
+    | '1' -> 1
+    | '2' -> 2
+    | '3' -> 3
+    | '4' -> 4
+    | '5' -> 5
+    | _ -> assert false
+  in
+  algo := List.nth algoList id;
+  minimize id;
+  !algo.initConf ();
+  pos := Array.make !miniNbA (-1,-1);
+  reset_timer ();
+  selected := None;
+  display_init ()
+
+let modif = function
+  | '&' -> (* Token / Leader *)
+     begin
+       match !algo.render, !selected with
+       | Ring, Some(i) ->
+	  begin
+	    match Array.get !conf i with
+	    | Election(b,l,ll,p,ph) ->
+	       Array.set !conf i (Election(b,not l,ll,p,ph));
+	      draw_agent i
+	    | Token (l,b,v) ->
+	       Array.set !conf i (Token(l,not b,v));
+	      draw_agent i
+	    | _ -> ()
+	  end
+       | Classic, Some(i) -> ()
+       | _ -> ()
+     end
+  | 'é' -> (* Value / Bullet *)
+     begin
+       match !algo.render, !selected with
+       | Ring, Some(i) ->
+	  begin
+	    match Array.get !conf i with
+	    | Election(b,l,ll,p,ph) ->
+	       Array.set !conf i (Election(not b,l,ll,p,ph));
+	      draw_agent i
+	    | Token (l,b,v) ->
+	       Array.set !conf i (Token(l,b,not v));
+	      draw_agent i
+	    | _ -> ()
+	  end
+       | Classic, Some(i) -> ()
+       | _ -> ()
+     end
+  | '"' -> (* LF / Probe *)
+     begin
+       match !algo.render, !selected with
+       | Ring, Some(i) ->
+	  begin
+	    match Array.get !conf i with
+	    | Election(b,l,ll,p,ph) ->
+	       Array.set !conf i (Election(b,l,ll,not p,ph));
+	      draw_agent i
+	    | Token (l,b,v) ->
+	       Array.set !conf i (Token((if l = L then F else L),b,v));
+	      draw_agent i
+	    | _ -> ()
+	  end
+       | Classic, Some(i) -> ()
+       | _ -> ()
+     end
+  | _ -> ()
 
 let rec action () =
   let e = wait_next_event [Key_pressed; Button_down] in
@@ -71,26 +143,10 @@ let rec action () =
 	reset_timer ();
 	display_init ();
       | t when t = echap ->
-	if !pause then endPause();
+	 if !pause then endPause();
         Thread.exit ()
       | t when t = '0' || t = '1' || t = '2' || t = '3' ||  t = '4' || t = '5' ->
-	 let id =
-	   match t with
-	   | '0' -> 0
-	   | '1' -> 1
-	   | '2' -> 2
-	   | '3' -> 3
-	   | '4' -> 4
-	   | '5' -> 5
-	   | _ -> assert false
-	 in
-	 algo := List.nth algoList id;
-	 minimize id;
-	 !algo.initConf ();
-	 pos := Array.make !miniNbA (-1,-1);
-	 reset_timer ();
-	 selected := None;
-	 display_init ();
+	 switch t
       | 'q' ->
 	 begin
 	   match !selected with
@@ -111,77 +167,25 @@ let rec action () =
 	      draw_select ni;
 	      draw_unselect i
 	 end
-      | '&' -> (* Token / Leader *)
-	 begin
-	   match !algo.render, !selected with
-	   | Ring, Some(i) ->
-	      begin
-		match Array.get !conf i with
-		| Election(b,l,ll,p,ph) -> 
-		   Array.set !conf i (Election(b,not l,ll,p,ph));
-		  draw_agent i
-		| Token (l,b,v) ->
-		   Array.set !conf i (Token(l,not b,v));
-		  draw_agent i
-		| _ -> ()
-	      end
-	   | Classic, Some(i) -> ()
-	   | _ -> ()
-	 end
-      | 'é' -> (* Value / Bullet *)
-	 begin
-	   match !algo.render, !selected with
-	   | Ring, Some(i) ->
-	      begin
-		match Array.get !conf i with
-		| Election(b,l,ll,p,ph) ->
-		   Array.set !conf i (Election(not b,l,ll,p,ph));
-		  draw_agent i
-		| Token (l,b,v) ->
-		   Array.set !conf i (Token(l,b,not v));
-		  draw_agent i
-		| _ -> ()
-	      end
-	   | Classic, Some(i) -> ()
-	   | _ -> ()
-	 end
-      | '"' -> (* LF / Probe *)
-	 begin
-	   match !algo.render, !selected with
-	   | Ring, Some(i) ->
-	      begin
-		match Array.get !conf i with
-		| Election(b,l,ll,p,ph) -> 
-		   Array.set !conf i (Election(b,l,ll,not p,ph));
-		  draw_agent i
-		| Token (l,b,v) ->
-		   Array.set !conf i (Token((if l = L then F else L),b,v));
-		  draw_agent i
-		| _ -> ()
-	      end
-	   | Classic, Some(i) -> ()
-	   | _ -> ()
-	 end
-      | _ -> ()
+      | _ -> modif key
     end
   end
   else
-    if e.button then begin
+    if e.button then
       select (e.mouse_x,e.mouse_y);
-    end;
   synchronize();
   Thread.yield ();
   action ()
-    
-let rec main last_tick =    
+
+let rec main last_tick =
     if not !pause then
       begin
 	let i1,i2 = calc () in
 	display_conf (Some(i1,i2));
 	display_text ();
-	display_stats ()
+	display_stats ();
+	synchronize()
       end;
-    synchronize();
     if not !unlimited then
       begin
 	let frametime = 1000./.(float_of_int !fps) in
@@ -191,12 +195,11 @@ let rec main last_tick =
     else
       Thread.yield (); (* Dans l'autre cas, delay passe la main aux autres thread en attendant *)
     main (Unix.gettimeofday())
-  
+
 let () =
   open_graph (Printf.sprintf " %dx%d" win_w win_h);
   set_font "9x15bold";
   auto_synchronize false;
-  
   startPause();
   display_init ();
   synchronize();
