@@ -1,7 +1,13 @@
 	       
 val win_w : int
 val win_h : int
-val fps : int ref
+  
+val ups : int ref
+val frametime : float
+val utime : float ref
+val offset : float ref
+val maju : unit -> unit
+  
 val id : int ref
 val unlimited : bool ref
 val link : bool ref

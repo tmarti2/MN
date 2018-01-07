@@ -1,34 +1,29 @@
 open Types
 open Graphics
 open Options
-
-let add_if_uniq v l = List.mem v l
-    
-let remove_dup l =
-  let res = ref [] in
-  List.iter (fun e -> if List.mem e !res then () else res := !res@[e]) l;
-  !res
     
 let displayA v =
-  try
-    let s = !algo.output v in
-    s,snd (List.find (fun (st,c) ->
-      comp v st
-    ) !algo.listStateColor)
+  try    
+    let _, c, s =
+      (List.find (fun (st,_,_) ->
+	!algo.comp v st
+       ) !algo.listStateColor)
+    in
+    s,c
   with
     Not_found -> assert false
       
 let legR = ref 40
 let legMargin = ref 90
 let space = 4
-let bot = 150
+let bot = 130
 
 let init_stats () =
   (* séparation légende *)
   set_color black;
   set_line_width 5;
   moveto 0 bot;
-  lineto 277 bot;
+  lineto 247 bot;
   set_line_width 1;
   moveto 10 (bot-30);
   draw_string"Stats :";
@@ -45,11 +40,9 @@ let init_stats () =
   moveto 10 (bot-100);
   draw_string ts
     
-
-  
 let display_stats () =
   set_color white;
-  fill_rect  143 0 120 (bot-10);
+  fill_rect  143 0 100 (bot-10);
   set_color black;
   let ts = get_time() in
   let time = Printf.sprintf "                %.3fs"  ts  in
@@ -69,13 +62,13 @@ let display_leg () =
   (* séparation légende *)
   set_color black;
   set_line_width 5;
-  moveto 277 768;
-  lineto 277 0;
+  moveto 247 768;
+  lineto 247 0;
   set_line_width 1;
   moveto 10 740;
   draw_string "Légendes :";
   
-  let listLeg = List.map (fun (s,c) -> (!algo.output s),c) !algo.listStateColor in
+  let listLeg = List.map (fun (st,c,s) -> s,c) !algo.listStateColor in
   let n = ref (2 * !legMargin + ((List.length listLeg)-1) * (!legR*2 + space) + !legR*2) in
   while !n > (win_h-bot) do
     legR := !legR - 1;
@@ -96,8 +89,8 @@ let display_leg () =
 let print_obj () =
   let s = "Objectif  : " ^ (!algo.objectif ()) in
   set_color white;
-  fill_rect 290 745 500 20;
-  moveto 290 750;
+  fill_rect 260 735 500 20;
+  moveto 260 740;
   set_color black;
   draw_string s
     
@@ -105,7 +98,7 @@ let getDim len =
   truncate (ceil (sqrt (float len)))
        
 let sizeAR = ref 80
-let margeOffset = 70
+let margeOffset = 62
 let margeW = 80
 let margeH = 20
   
@@ -125,7 +118,7 @@ let calc_pos i =
   | Classic ->
      let col = i mod !n in
      let lig = i / !n in
-     let x = 282 + !offsetW + col * (!sizeAR + space) + margeW in
+     let x = 262 + !offsetW + col * (!sizeAR + space) + margeW in
      let y = win_h - !offsetH - lig * (!sizeAR + space) - margeH - margeOffset - !sizeAR in
      Array.set !pos i (x,y)
   | Ring ->
@@ -169,30 +162,55 @@ let draw_info_ring st i =
     | Token(_,_,v) ->
        v
     | Election(_, _, v, _, _) ->
-     let i2 = (i+1) mod !miniNbA in
-     let i3 = (if i-1 = -1 then !miniNbA-1 else (i-1 mod !miniNbA)) in
-     let i2 =
-       match Array.get !conf i2, Array.get !conf i3 with
-       | Election(_,_,v2,_,_), Election(_,_,v3,_,_) ->
-	  if v = v2 then
-	    i2
-	  else begin
-	    if v = v3 then
-	      i3
-	    else
-	      -1
-	  end
-       | _ -> assert false
-     in
-     if i2 != -1 then begin
-       let x2,y2 = Array.get !pos i2 in
-       let sr  = min ((!sizeAR/4)+1) 4 in
-       set_line_width sr;
-       draw_circle x y  (!sizeAR-(sr/2));
-       draw_circle x2 y2  (!sizeAR-(sr/2));
-       set_line_width 1;
-     end;
-     v
+       let i2 = (i+1) mod !miniNbA in
+       let i3 = (if i-1 = -1 then !miniNbA-1 else (i-1 mod !miniNbA)) in
+       let i2 =
+	 match Array.get !conf i2, Array.get !conf i3 with
+	 | Election(_,_,v2,_,_), Election(_,_,v3,_,_) ->
+	    if v = v2 then
+	      i2
+	    else begin
+	      if v = v3 then
+		i3
+	      else
+		-1
+	    end
+	 | _ -> assert false
+       in
+       if i2 != -1 then begin
+	 let x2,y2 = Array.get !pos i2 in
+	 let sr  = min ((!sizeAR/4)+1) 4 in
+	 set_line_width sr;
+	 draw_circle x y  (!sizeAR-(sr/2));
+	 draw_circle x2 y2  (!sizeAR-(sr/2));
+	 set_line_width 1;
+       end;
+       v
+    | ET(_, ll, _, _, v, _, _) ->
+       let i2 = (i+1) mod !miniNbA in
+       let i3 = (if i-1 = -1 then !miniNbA-1 else (i-1 mod !miniNbA)) in
+       let i2 =
+	 match Array.get !conf i2, Array.get !conf i3 with
+	 | ET(_, _, _, _, v2, _, _), ET(_, _, _, _, v3, _, _) ->
+	    if v = v2 then
+	      i2
+	    else begin
+	      if v = v3 then
+		i3
+	      else
+		-1
+	    end
+	 | _ -> assert false
+       in
+       if i2 != -1 then begin
+	 let x2,y2 = Array.get !pos i2 in
+	 let sr  = min ((!sizeAR/4)+1) 4 in
+	 set_line_width sr;
+	 draw_circle x y  (!sizeAR-(sr/2));
+	 draw_circle x2 y2  (!sizeAR-(sr/2));
+	 set_line_width 1;
+       end;
+       ll
     | _ -> assert false
   in
   let sv = if v then "1" else "0" in
@@ -205,13 +223,13 @@ let draw_select i =
   match !algo.render with
   | Classic ->
      set_line_width 2;
-     let x,y = Array.get !pos i in
-     let r = !sizeAR in
-     moveto (x+1) (y+1);
-     lineto (x-1+r) (y+r-1);
-     moveto (x+1) (y-1+r);
-     lineto (x+r-1) (y+1);
-     set_line_width 1
+    let x,y = Array.get !pos i in
+    let r = !sizeAR in
+    moveto (x+1) (y+1);
+    lineto (x-1+r) (y+r-1);
+    moveto (x+1) (y-1+r);
+    lineto (x+r-1) (y+1);
+    set_line_width 1
   | Ring ->
      let ra = (ra -. (float_of_int (!sizeAR)))-.4. in
      let a = (!angle *. (float_of_int i) +. 180.0) *. pi /. 180.0 in
@@ -262,119 +280,60 @@ let draw_unselect i =
      moveto cx cy;
      lineto x y;
      set_line_width 1
-       
-let draw_link i1 i2 =
-  set_color black;
-  let r = !sizeAR/3 in
-  let x1,y1 = Array.get !pos i1 in
-  let x2,y2 = Array.get !pos i2 in
-  match !algo.render with
-  | Classic ->
-     fill_rect (x1+r) (y1+r) r r;
-    draw_rect (x2+r) (y2+r) r r
-  | Ring ->
-     fill_circle x1 y1 (!sizeAR/3);
-    draw_circle x2 y2 (!sizeAR/3)
   
-let display_conf v =
+let display_conf () =
   begin
-    match v with
-    | None ->
-       set_color white;
-      fill_rect (282 + margeW) (margeH) (win_w - 2 * margeW - 282) (win_h - margeOffset - 2 * margeH);
-      set_color black;
-      if !algo.render = Ring then begin
-	let x = truncate(float_of_int (win_w-(win_h/2))) in
-	let y = truncate(float_of_int (win_h/2)) - margeOffset/2  in
-	fill_circle x y 10;
-      end;
-      Array.iteri (fun i s -> draw_agent i) !conf;
-      prev1 := -1;
-      prev2 := -1;
-    | Some(-1,i) ->
-       draw_agent i
-    | Some(i1,i2) ->
-       draw_agent i1;
-      draw_agent i2;
-      if !link then
-	begin
-	  if !prev1 != -1 && !prev2 != -1 then
-	    begin
-	      draw_agent !prev1;
-	      draw_agent !prev2
-	    end;
-	  prev1 := i1;
-	  prev2 := i2;
-	  draw_link i1 i2
-	end;
+    set_color white;
+    fill_rect (262 + margeW) (margeH) (win_w - 2 * margeW - 262) (win_h - margeOffset - 2 * margeH);
+    set_color black;
+    if !algo.render = Ring then begin
+      let x = truncate(float_of_int (win_w-(win_h/2))) in
+      let y = truncate(float_of_int (win_h/2)) - margeOffset/2  in
+      fill_circle x y 10;
+    end;
+    Array.iteri (fun i s -> draw_agent i) !conf;
+    prev1 := -1;
+    prev2 := -1;
+    
   end;
   print_obj ()
        
 let print_pause () =
   set_color white;
-  fill_rect 290 725 300 20;
-  moveto 290 730;
+  fill_rect 260 715 300 20;
+  moveto 260 720;
   set_color black;
   if not !pause then
     draw_string ("Pause     : OFF")
   else
     draw_string ("Pause     : ON")
 
-let print_stats () =
-  let ts = get_time() in
-  Printf.printf "Temps (sec) : %f\n" ts;
-  Printf.printf "Nombre de transitions : %d\n" !countCalc;
-  let ts =
-    if ts <> 0.0 then
-      (float_of_int !countCalc)/.ts
-    else
-      0.0
-  in
-  Printf.printf "Nombre de transitions/sec : %.3f\n" ts
-
-let print_link () =
+let print_ups () =
   set_color white;
-  fill_rect 290 705 325 25;
-  moveto 290 710;
-  set_color black;
-  if not !link then
-    draw_string ("Link      : OFF")
-  else
-    draw_string ("Link      : ON")
-
-let print_fps () =
-  set_color white;
-  fill_rect (win_w - 235) 750 235 15;
-  moveto (win_w - 235) 750;
+  fill_rect (win_w - 235) 720 235 15;
+  moveto (win_w - 235) 720;
   set_color black;
   if not !unlimited then
-    draw_string ("Transitions/sec : " ^ (string_of_int !fps))
+    draw_string ("Transitions/sec : " ^ (string_of_int !ups))
   else
     draw_string "Transitions/sec : nolimit"
 
-let print_algo () =
-  moveto 290 690;
-  draw_string ("0|1|2|3|4 : changer d'algorithme")
-      
-let print_unlim () =
-  moveto (win_w - 235) 750;
+let print_nbA () =
+  set_color white;
+  fill_rect (win_w - 235) 740 235 15;
+  moveto (win_w - 235) 740;
   set_color black;
-  draw_string "U pour ON/OFF nolimit";
-  moveto (win_w - 235) 730;
-  draw_string "+/- pour changer les fps"
+  draw_string ("Nombre d'agents : "^ (string_of_int !miniNbA))
 
 let display_text () =
   set_line_width 5;
-  moveto 280 (win_h - margeOffset);
+  moveto 250 (win_h - margeOffset);
   lineto win_w (win_h - margeOffset);
   set_line_width 1;
-    
   print_obj ();
   print_pause ();
-  print_fps ();
-  print_link()
-  (*print_unlim ();
-    print_algo ()*)
+  print_ups ();
+  print_nbA ()
     
 let display_init () =
   clear_graph ();
@@ -382,4 +341,4 @@ let display_init () =
   display_text ();
   init_stats ();
   init_render ();
-  display_conf None
+  display_conf ()

@@ -1,7 +1,6 @@
 open Graphics
 open Sdl
 open Sdltimer
-
 open Options
 open Render
 open Types
@@ -49,10 +48,9 @@ let rec select (sx,sy) =
   with
   | Found -> ()
 
-let rec action () =
-  let e = wait_next_event [Key_pressed; Button_down] in
-  if e.keypressed then begin
-    let key = e.key in
+let action () =
+  if key_pressed () then begin
+    let key = read_key() in
     begin
       let echap = Char.chr 27 in
       match key with
@@ -168,19 +166,14 @@ let rec action () =
 	 end
       | _ -> ()
     end
-  end
-  else
-    if e.button then begin
-      select (e.mouse_x,e.mouse_y);
-    end;
-  synchronize();
-  Thread.yield ();
-  action ()
+  end;
+  if button_down () then
+    select (mouse_pos())
     
 let rec main  =
   (*Boucle principale du programme*)
   fun last_tick ->
-    
+    action ();
     if not !pause then
       begin
 	let i1,i2 = calc () in
@@ -207,7 +200,4 @@ let () =
   startPause();
   display_init ();
   synchronize();
-  endPause ();
-  let thread_action = Thread.create action () in
-  let thread_main = Thread.create main (get_ticks()) in
-  Thread.join thread_action
+  main (get_ticks())

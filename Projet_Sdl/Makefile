@@ -10,7 +10,7 @@ PACKAGES = sdl
 COMPILE = $(OCAMLFIND) $(OCAMLC) -package $(PACKAGES)
 COMPILEOPT = $(OCAMLFIND) $(OCAMLOPT) -package $(PACKAGES)
 
-LIBS = str.cma graphics.cma bigarray.cma sdl.cma sdlmixer.cma unix.cma threads.cma
+LIBS = str.cma graphics.cma bigarray.cma sdl.cma sdlmixer.cma
 LIBOPTS = $(LIBS:.cma=.cmxa)
 
 EXEC = simu

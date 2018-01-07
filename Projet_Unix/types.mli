@@ -1,25 +1,25 @@
 open Graphics
   
 type algo = {
-  entrees : genEntrees list;
   initConf : unit -> unit;
-  input : genEntrees -> genStates;
-  output : genStates -> string;
-  select : int -> (int*int);
+  comp : genStates -> genStates -> bool;
+  select : unit -> (int*int);
   render : render;
   step : genStates*genStates -> genStates*genStates;
-  listStateColor : (genStates*color) list;
+  listStateColor : (genStates*color*string) list;
   objectif : unit -> string
 }
   
-and genEntrees = Int of int | L | F
 and genStates =
-    E of genEntrees
+    E of int
   | Q of int
+  | L | F
   | Bool of bool
   | Base of int*int
-  | Token of genEntrees * bool * bool
+  | Token of bool * bool * bool
   | Election of bool*bool*bool*bool*bool
+  (* Token - Bit - bullet - leader - label - probe - phaseU *)
+  | ET of bool*bool*bool*bool*bool*bool*bool
 and render = Classic | Ring
     
 val algo : algo ref

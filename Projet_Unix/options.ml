@@ -5,7 +5,11 @@ let usage = "usage: ./simu [-nbA x][-algo y]"
 let tPause = ref (Unix.gettimeofday())
 let win_w = 1050
 let win_h = 768
-let fps = ref 25
+  
+let frametime = 1000. /. 60.
+let ups = ref 100
+let utime = ref (1000. /. (float_of_int !ups))
+let offset = ref 5.0
 let id = ref 0
 let unlimited = ref false
 let link = ref false
@@ -33,8 +37,8 @@ let () =
 
 let () =
   Random.self_init();
-  fps := if !fps < 1 then 5 else !fps;
-  fps := if !fps > 350 then (unlimited := true; 144 )else !fps;
+  ups := if !ups < 1 then 5 else !ups;
+  ups := if !ups > 200 then 200 else !ups;
   id  := if !id < 0 then 0 else !id;
   nbA := if !nbA <= 2 then 16 else !nbA
 
@@ -45,36 +49,55 @@ let nbA = !nbA
 let toggle_able last_tick min =
   if (Unix.gettimeofday() -. last_tick) > min then true else false
     
-let speed_up () = 
-  if (toggle_able !last_tick_speedup 0.3) then
-    begin
-      let f = !fps in
-      if 1 <= f && f < 5  then
-	fps := !fps + 1
-      else if 5 <= f && f < 25 then
-	fps := !fps + 5
-      else if 25 <= f && f < 100 then
-	fps := !fps + 25
-      else if f < 400 then
-	fps := !fps + 50;
-      last_tick_speedup := Unix.gettimeofday()
-    end
       
 let speed_down () = 
-  if (toggle_able !last_tick_speeddown 0.300) then
-    begin
-      let f = !fps in
-      if 1 < f && f <= 5  then
-	fps := !fps - 1
-      else if 5 < f && f <= 25 then
-	fps := !fps - 5
-      else if 25 < f && f <= 100 then
-	fps := !fps - 25
-      else if f <= 400 && f != 1 then
-	fps := !fps - 50;
-      last_tick_speeddown := Unix.gettimeofday()
+  if (toggle_able !last_tick_speeddown 0.300) then begin
+    let f = !ups in
+    if 1 < f && f <= 5  then
+      ups := !ups - 1
+    else if 5 < f && f <= 25 then
+      ups := !ups - 5
+    else if 25 < f && f <= 100 then
+      ups := !ups - 25
+    else if 100 < f && f <= 400 then
+      ups := !ups - 50
+    else if f = 800  then
+      ups := 400;
+    last_tick_speeddown := Unix.gettimeofday()
+  end
+    
+let speed_up () = 
+  if (toggle_able !last_tick_speedup 0.3) then begin
+      let f = !ups in
+      if 1 <= f && f < 5  then
+	ups := !ups + 1
+      else if 5 <= f && f < 25 then
+	ups := !ups + 5
+      else if 25 <= f && f < 100 then
+	ups := !ups + 25
+      else if 100 <= f && f < 400 then
+	ups := !ups + 50
+      else if 400 = f then
+	ups := 800;
+      last_tick_speedup := Unix.gettimeofday()
     end
 
+let maju () =
+  utime := (1000. /. (float_of_int !ups));
+  offset :=
+    match !ups with
+    | 1 | 2 | 3 | 4 | 5 -> 0.0
+    | 10 | 15 | 20 | 25 -> 5.0
+    | 100 -> 7.0
+    | 150 -> 5.5
+    | 200 -> 7.0
+    | 250 -> 7.0
+    | 300 -> 7.0
+    | 350 -> 7.0
+    | 400 -> 5.0
+    | 800 -> 20.0
+    | _ -> 5.0
+      
 let arrondi_float f =
   if (truncate (f *. 10.0) mod 10) > 5 then truncate (ceil f)
   else (truncate (floor f))
@@ -98,4 +121,4 @@ let reset_timer () =
   countCalc := 0;
   startPause()
 
-let selected = ref None
+let selected = ref (Some(0))
