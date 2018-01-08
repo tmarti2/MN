@@ -45,19 +45,20 @@ let rec select (sx,sy) =
   | Found -> ()
 
 let switch t =
-  let id =
-    match t with
-    | '0' -> 0
-    | '1' -> 1
-    | '2' -> 2
-    | '3' -> 3
-    | '4' -> 4
-    | '5' -> 5
-    | '6' -> 6
-    | _ -> assert false
-  in
-  algo := List.nth algoList id;
-  minimize id;
+ id :=
+   begin
+     match t with
+     | '0' -> 0
+     | '1' -> 1
+     | '2' -> 2
+     | '3' -> 3
+     | '4' -> 4
+     | '5' -> 5
+     | '6' -> 6
+     | _ -> assert false
+   end;
+  algo := List.nth algoList !id;
+  minimize ();
   !algo.initConf ();
   pos := Array.make !miniNbA (-1,-1);
   reset_timer ();
@@ -140,6 +141,27 @@ let modif = function
        | _ -> ()
      end
   | _ -> ()
+
+let array_remove arr id =
+  let l = Array.to_list !arr in
+  let l = List.mapi (fun i v -> if i = id then [] else [v]) l in
+  arr := Array.of_list (List.flatten l)
+    
+let remove_agent () =
+  match !selected with
+  | None-> ()
+  | Some(i) ->
+     if !miniNbA > 2 && (!id <> 6 || i <> 0) then begin
+       Printf.printf "%d | %d\n" !id i;
+       decr miniNbA;
+       selected := None;
+       array_remove conf i;
+       selected := Some(0);
+       init_render ();
+       print_nbA();
+       display_conf ()
+     end
+  
      
 let rec action () =
   let e = wait_next_event [Key_pressed; Button_down] in
@@ -159,6 +181,7 @@ let rec action () =
       | '+' -> speed_up()  ;maju (); print_ups()
       | '-' -> speed_down();maju (); print_ups()
       | 'u' -> unlimited := not !unlimited; print_ups()
+      | 'l' -> remove_agent ()	
       | 'r' ->
 	 !algo.initConf ();
 	pos := Array.make !miniNbA (-1,-1); 

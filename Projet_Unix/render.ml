@@ -33,12 +33,12 @@ let init_stats () =
   let ts =
     Printf.sprintf "   Nb com/sec : %d" (if ts <> 0.0 then truncate ((float_of_int !countCalc)/.ts) else 0)
   in
-  moveto 10 (bot-60);
+  moveto 10 (bot-70);
   draw_string time;
-  moveto 10 (bot-80);
-  draw_string nbC;
   moveto 10 (bot-100);
-  draw_string ts
+  draw_string nbC
+  (*moveto 10 (bot-100);
+    draw_string ts*)
     
 let display_stats () =
   set_color white;
@@ -47,15 +47,15 @@ let display_stats () =
   let ts = get_time() in
   let time = Printf.sprintf "                %.3fs"  ts  in
   let nbC =  Printf.sprintf "                %d"  !countCalc in
-  let ts =
+  (*let ts =
     Printf.sprintf "                %d" (if ts <> 0.0 then truncate ((float_of_int !countCalc)/.ts) else 0)
-  in
-  moveto 10 (bot-60);
+    in*)
+  moveto 10 (bot-70);
   draw_string time;
-  moveto 10 (bot-80);
-  draw_string nbC;
   moveto 10 (bot-100);
-  draw_string ts
+  draw_string nbC
+(*moveto 10 (bot-100);
+  draw_string ts*)
   
   
 let display_leg () =
@@ -284,7 +284,7 @@ let draw_unselect i =
 let display_conf () =
   begin
     set_color white;
-    fill_rect (262 + margeW) (margeH) (win_w - 2 * margeW - 262) (win_h - margeOffset - 2 * margeH);
+    fill_rect (262 + margeW) (margeH) (win_w - 2 * margeW - 200) (win_h - margeOffset - 2 * margeH);
     set_color black;
     if !algo.render = Ring then begin
       let x = truncate(float_of_int (win_w-(win_h/2))) in
@@ -314,9 +314,9 @@ let print_ups () =
   moveto (win_w - 235) 720;
   set_color black;
   if not !unlimited then
-    draw_string ("Transitions/sec : " ^ (string_of_int !ups))
+    draw_string ("Communications/sec : " ^ (string_of_int !ups))
   else
-    draw_string "Transitions/sec : nolimit"
+    draw_string "Communications/sec : nolimit"
 
 let print_nbA () =
   set_color white;

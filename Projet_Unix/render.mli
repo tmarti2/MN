@@ -4,11 +4,11 @@ val display_conf : unit -> unit
 val display_init : unit -> unit
 val display_stats : unit -> unit
 val display_text : unit -> unit
-
+val init_render : unit -> unit
   
 val print_ups : unit -> unit
 val print_pause : unit -> unit
-
+val print_nbA : unit -> unit
 val sizeAR : int ref
 val draw_select : int -> unit
 val draw_unselect : int -> unit

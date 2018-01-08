@@ -1,12 +1,12 @@
 open Graphics
 
-let usage = "usage: ./simu [-nbA x][-algo y]"
+let usage = "usage: ./simu [-nbA x]"
   
 let tPause = ref (Unix.gettimeofday())
 let win_w = 1050
 let win_h = 768
   
-let frametime = 1000. /. 60.
+let frametime = 1000. /. 30.
 let ups = ref 100
 let utime = ref (1000. /. (float_of_int !ups))
 let offset = ref 5.0
@@ -26,7 +26,6 @@ let last_tick_speeddown = ref 0.
   
 let specs = 
   [
-    "-algo", Arg.Set_int id, " choix de l'algo";
     "-nbA", Arg.Set_int nbA, " nombre d'agents pour la simulation"
   ]
 
@@ -39,7 +38,6 @@ let () =
   Random.self_init();
   ups := if !ups < 1 then 5 else !ups;
   ups := if !ups > 200 then 200 else !ups;
-  id  := if !id < 0 then 0 else !id;
   nbA := if !nbA <= 2 then 16 else !nbA
 
 let nbA = !nbA
@@ -94,8 +92,8 @@ let maju () =
     | 250 -> 7.0
     | 300 -> 7.0
     | 350 -> 7.0
-    | 400 -> 5.0
-    | 800 -> 20.0
+    | 400 -> 15.0
+    | 800 -> 25.0
     | _ -> 5.0
       
 let arrondi_float f =

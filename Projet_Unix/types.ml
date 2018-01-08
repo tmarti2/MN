@@ -263,17 +263,17 @@ let tokenConv = function
   | s1, s2 -> s1,s2
 
 
-let tokenStateColor = [(Token(true,true,true),rgb 0 204 0,"L Token");
-		       (Token(false,true,true),rgb 153 255 153,"NL Token");
-		       (Token(true,false,true),rgb 204 0 0,"L Empty");
-		       (Token(false,false,true),rgb 255 153 153,"NL Empty")]
+let tokenStateColor = [(Token(false,true,false),rgb 255 0 0,"Token");
+		       (Token(true,false,false),rgb 0 204 0,"L");
+		       (Token(false,false,false),rgb 215 215 215,"NL")]
 		       
 let tokenObj () =
   "Token ring"
 
 let compToken s1 s2 =
   match s1,s2 with
-  | Token(s1,t1,_), Token(s2,t2,_) -> s1 = s2 && t1 = t2
+  | Token(s1,t1,_), Token(s2,t2,_) ->
+     t1 && t2 || (not t1 && not t2 && s1 = s2)
   | _ -> assert false
     
 let testToken = {
@@ -339,12 +339,12 @@ let electionConv = function
 
 let electionStateColor =
   [(Election(false ,true, false, false, false),rgb 0 204 0,"L");
+   (Election(true, false, false, false, false),rgb 255 255 0,"NL Bullet");
    (Election(false, false, false, true, false),rgb 0 102 204,"NL Probe");
-   (Election(true, false, false, false, false),rgb 204 0 0,"NL Bullet");
    (Election(false, false, false, false, false),rgb 215 215 215,"NL Empty")]
 		       
 let electionObj () =
-  "Leader election in a ring of odd size"
+  "Leader Election in a odd size Ring"
 
 let compElection s1 s2 =
   match s1, s2 with
@@ -447,7 +447,7 @@ let etStateColor =
     (ET(false, false, false, false, false, false, false) , rgb 215 215 215,"NL")]
 		       
 let etObj () =
-  "Token Ring avec Election"
+  "Token Ring + Election Leader in a odd size Ring"
 
 let compET s1 s2 =
   match s1, s2 with
@@ -487,23 +487,21 @@ let testET = {
 (**************Init**************)
 (********************************)
   
-let minimize id =
+let minimize () =
   miniNbA :=
     match !algo.render with
     | Classic -> min nbA 4096
     | Ring ->
        let tmp = min nbA 64 in
-       if id = 5 || id = 6 then begin
+       if !id = 1 || !id = 2 then begin
 	 if tmp mod 2 = 0 then tmp - 1 else tmp
        end
        else
 	 tmp
 	   
-let algoList : algo list = [testLeader; testCount4; testOr; testBST; testToken; testElection; testET]
-
+let algoList : algo list = [testToken; testElection; testET; testLeader; testCount4; testOr; testBST]
 let () =
-  id := if !id >= List.length algoList then 0 else !id;
   algo :=  List.nth algoList !id;
-  minimize !id;
+  minimize ();
   !algo.initConf ();
   pos := Array.make !miniNbA (-1,-1); 
