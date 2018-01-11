@@ -30,3 +30,4 @@ val comp : genStates -> genStates -> bool
 val algoList : algo list
 val miniNbA : int ref
 val minimize : unit -> unit
+val majObj : int -> unit

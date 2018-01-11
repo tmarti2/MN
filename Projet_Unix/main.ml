@@ -152,7 +152,7 @@ let remove_agent () =
   | None-> ()
   | Some(i) ->
      if !miniNbA > 2 && (!id <> 6 || i <> 0) then begin
-       Printf.printf "%d | %d\n" !id i;
+       majObj i;
        decr miniNbA;
        selected := None;
        array_remove conf i;
@@ -170,10 +170,12 @@ let rec action () =
     begin
       let echap = Char.chr 27 in
       match key with
-      | 'p' | 'P' ->
+      | 'p' | 'P' | ' ' ->
 	 begin
-	   if not !pause then
-	     startPause ()
+	   if not !pause then begin
+	     startPause ();
+             display_conf()
+           end
 	   else
 	     endPause ()
 	 end;
@@ -181,7 +183,8 @@ let rec action () =
       | '+' -> speed_up()  ;maju (); print_ups()
       | '-' -> speed_down();maju (); print_ups()
       | 'u' -> unlimited := not !unlimited; print_ups()
-      | 'l' -> remove_agent ()	
+      | 'l' -> remove_agent ()
+      | 'n' -> display_conf ()
       | 'r' ->
 	 !algo.initConf ();
 	pos := Array.make !miniNbA (-1,-1); 

@@ -504,4 +504,22 @@ let () =
   algo :=  List.nth algoList !id;
   minimize ();
   !algo.initConf ();
-  pos := Array.make !miniNbA (-1,-1); 
+  pos := Array.make !miniNbA (-1,-1)
+
+
+let majObj i =
+  match !id with
+  | 0 -> ()
+  | 1 -> ()
+  | 2 -> ()
+  | 3 ->
+     if !conf.(i) = L then
+       accL := !accL -1
+     else if !conf.(i) = F then
+       accF := !accF - 1
+  | 4 -> ()
+  | 5 ->
+     if !conf.(i) = Q(1) then
+       nbT := !nbT - 1
+  | 6 -> ()
+  | _ -> ()

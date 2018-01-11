@@ -31,14 +31,14 @@ let init_stats () =
   let time = Printf.sprintf "   Temps      : %.3fs"  ts  in
   let nbC =  Printf.sprintf "   Nb com'    : %d"  !countCalc in
   let ts =
-    Printf.sprintf "   Nb com/sec : %d" (if ts <> 0.0 then truncate ((float_of_int !countCalc)/.ts) else 0)
+    Printf.sprintf "   Nb com'/sec: %d" (if ts <> 0.0 then truncate ((float_of_int !countCalc)/.ts) else 0)
   in
-  moveto 10 (bot-70);
+  moveto 10 (bot-60);
   draw_string time;
+  moveto 10 (bot-80);
+  draw_string nbC;
   moveto 10 (bot-100);
-  draw_string nbC
-  (*moveto 10 (bot-100);
-    draw_string ts*)
+  draw_string ts
     
 let display_stats () =
   set_color white;
@@ -47,15 +47,15 @@ let display_stats () =
   let ts = get_time() in
   let time = Printf.sprintf "                %.3fs"  ts  in
   let nbC =  Printf.sprintf "                %d"  !countCalc in
-  (*let ts =
+  let ts =
     Printf.sprintf "                %d" (if ts <> 0.0 then truncate ((float_of_int !countCalc)/.ts) else 0)
-    in*)
-  moveto 10 (bot-70);
+  in
+  moveto 10 (bot-60);
   draw_string time;
-  moveto 10 (bot-100);
-  draw_string nbC
-(*moveto 10 (bot-100);
-  draw_string ts*)
+  moveto 10 (bot-80);
+  draw_string nbC;
+    moveto 10 (bot-100);
+  draw_string ts
   
   
 let display_leg () =
@@ -310,8 +310,8 @@ let print_pause () =
 
 let print_ups () =
   set_color white;
-  fill_rect (win_w - 235) 720 235 15;
-  moveto (win_w - 235) 720;
+  fill_rect (win_w - 262) 720 250 15;
+  moveto (win_w - 262) 720;
   set_color black;
   if not !unlimited then
     draw_string ("Communications/sec : " ^ (string_of_int !ups))
